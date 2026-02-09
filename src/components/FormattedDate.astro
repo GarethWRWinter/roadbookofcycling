@@ -1,17 +1,19 @@
 ---
-interface Props {
-	date: Date;
-}
-
 const { date } = Astro.props;
+
+// Accept Date | string | number. Fail gracefully if missing/invalid.
+let d: Date | null = null;
+
+if (date instanceof Date) {
+  d = date;
+} else if (typeof date === "string" || typeof date === "number") {
+  const parsed = new Date(date);
+  if (!Number.isNaN(parsed.getTime())) d = parsed;
+}
 ---
 
-<time datetime={date.toISOString()}>
-	{
-		date.toLocaleDateString('en-us', {
-			year: 'numeric',
-			month: 'short',
-			day: 'numeric',
-		})
-	}
-</time>
+{d ? (
+  <time datetime={d.toISOString()}>
+    {d.toLocaleDateString("en-GB", { year: "numeric", month: "short", day: "numeric" })}
+  </time>
+) : null}
