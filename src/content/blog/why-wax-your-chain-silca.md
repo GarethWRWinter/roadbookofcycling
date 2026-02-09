@@ -1,152 +1,54 @@
 ---
-title: "Why You Should Wax Your Chain (and Which Wax I’d Actually Use)"
-description: "Chain waxing is the easiest 'free watts' upgrade: cleaner drivetrain, longer component life, and less maintenance. Here’s the no-BS guide and the setup I recommend."
-pubDate: 2026-02-09
-tags: ["Drivetrain", "Maintenance", "Performance", "Silca", "Chain Wax"]
+title: "Why You Should Wax Your Chain With Silca"
+description: "A practical, experience-led case for chain waxing, grounded in long-distance riding, durability, and modern Silca hot melt systems."
+pubDate: 2023-03-31
+updatedDate: 2026-02-09
+author: "Gareth Winter"
+tags: ["Drivetrain", "Chain Waxing", "Silca", "Maintenance", "Performance"]
 ---
 
-If you want a faster bike **and** less bike cleaning, chain waxing is the rare upgrade that genuinely delivers both.
+Silca is a brand I have always respected. That probably starts with my grandad.
 
-This isn’t marginal-gains cosplay. Done properly, waxing gives you:
-- **Lower drivetrain friction** (aka “free watts”)
-- A **clean chain** you can touch without ruining your day
-- **Longer drivetrain life** (chain + cassette + chainrings)
-- Less time “maintaining” and more time riding
+When I think about Silca, I do not think about marketing or marginal gains. I think about his garage. The smell of old oil and cold concrete. The faint metallic tang that never really left your clothes once you had been in there. Bikes hanging from hooks in the ceiling, tyres half inflated, frames layered with decades of dust and care. Nothing was pristine, but everything worked.
 
-Below is the practical guide I wish most cyclists had before they wasted money on ten different lubes.
+In the corner was his Silca pump. Rusted in places. The gauge cloudy. The handle polished smooth from fifty years of hands doing the same job over and over. That pump inflated thousands of tyres. Road bikes, club bikes, winter bikes. It never complained. It never failed. It just did its job quietly and reliably.
 
----
+When I use Silca kit now, that feeling comes back. Not nostalgia for nostalgia’s sake, but respect for things that last and earn their place.
 
-## The simple truth: what waxing changes (and why it matters)
+That is why I am writing this. Not because waxing a chain is fashionable or clever, but because it sits in the same space as that pump did. Practical. Thoughtful. Earned.
 
-A normal wet lube works by staying… wet. Which means it also stays sticky. Sticky means it collects grit. Grit turns your drivetrain into a grinding paste.
+At first, chain waxing sounds extreme. It sounds like tool shed mythology. Something only riders with too much time, too many chains, and a spreadsheet for everything would bother with. But there is a point where the mechanical reality of riding meets how much you actually care about your bike. Waxing a chain sits right there.
 
-Wax works differently:
-- It **coats** the chain
-- It **dries** to a solid film
-- Dirt doesn’t embed the same way, and it’s far easier to shed
+If you have invested years into your training, your nutrition, your recovery, your sleep, and your equipment, it feels odd to ignore the one thing that quietly suffers the most. Your chain. Waxing it is not about perfection. It is about not wasting effort.
 
-Result: a drivetrain that runs smoother and stays dramatically cleaner.
+A properly waxed chain stays clean. It stays quiet. It sheds water and grit instead of collecting it. That alone changes how a bike feels underneath you. The drivetrain stops feeling like a consumable and starts feeling like a system that works with you.
 
----
+Consistent friction reduction is not something you notice in isolation, but over hours and days it adds up. Riders have measured it, but more importantly, you feel it.
 
-## Who should wax (and who shouldn’t)
+My own experience with wax goes back further than most people think. I first dipped my toe into waxing back in 2016. A friend offered to wax my chain ahead of a long ride. I was curious but sceptical.
 
-Wax is ideal if you:
-- Ride in **mostly dry** conditions
-- Care about **performance** or **cleanliness**
-- Hate drivetrain gunk
-- Don’t want to relube constantly
+That ride was Manchester to London. Around 220 miles. Wet. Proper northern rain that never quite stops. Roads shiny with water, grit thrown up by traffic, everything slowly grinding away.
 
-Wax is *not* ideal if you:
-- Ride lots of **muddy/wet winter roads** and can’t be bothered with the extra steps
-- Need a “spray something and forget it” approach
+What stood out was not speed. It was how calm my bike felt. The wax repelled water. It did not turn into that grey paste you see building up on oil-lubed chains in the rain. While other riders were dealing with noise and drag, my drivetrain stayed quiet. Smooth. Optimised.
 
-If you’re UK-based and ride year-round: you can still wax — you’ll just want a sensible wet-weather strategy (I’ll cover that below).
+When you ride that far, small inefficiencies stop being small. Quiet becomes confidence. Smooth becomes energy saved.
 
----
+The real advantage of wax is simple. It does not attract contamination in the way oil does. It lubricates inside the chain rather than coating the outside. Dirt has nothing to cling to. That means less wear on the chain, cassette, and chainrings.
 
-## The two waxing options (pick one)
+It also means less time spent degreasing your bike after every grim ride. You are maintaining less because there is less damage being done in the first place.
 
-### Option A — Hot melt waxing (best performance + cleanest)
-This is the “do it properly” method:
-1) Fully clean/degrease chain (once)
-2) Melt wax
-3) Drop chain in
-4) Hang to cool
-5) Ride
-6) Re-wax periodically
+Silca’s modern Hot Melt Wax system takes this further. The introduction of their dedicated wax heater, combined with SpeedChip and EnduranceChip additives, removes the guesswork and inconsistency that used to put riders off hot waxing.
 
-**Pros:** cleanest, fastest, longest-lasting  
-**Cons:** initial setup is more involved
+You are no longer melting mystery blocks in old pans or guessing ratios. The system is controlled, repeatable, and designed for real-world use, not just lab conditions.
 
-### Option B — Drip wax (easiest, still excellent)
-This is the “normal-person” method:
-1) Fully clean/degrease chain (once)
-2) Apply drip wax
-3) Let it cure fully
-4) Ride
-5) Top up when needed
+I have tried a lot of lubricants over the years. Some are good. Some are forgettable. I always come back to wax.
 
-**Pros:** far easier, still very clean  
-**Cons:** slightly less durable vs hot melt
+Nothing else gives me the same feeling as fitting a freshly waxed chain. The bike feels calm. Quiet. Efficient. Quiet is not marketing. It is feedback.
 
----
+The initial setup takes time. There is no point pretending otherwise. But once it is done, it pays you back every time you ride. The tools last. The process becomes familiar. The results are consistent.
 
-## My recommended setup (the one I’d start with)
+You can start with a single chain. Ride it in proper conditions. Rain, grit, long days. That is where wax shows its worth.
 
-### The wax
-- **Hot melt:** Silca Hot Melt (add your affiliate link)
-- **Drip wax:** Silca Super Secret (add your affiliate link)
+Quiet. Efficient. Durable.
 
-> Affiliate note: If you buy via my links, you support Road Book of Cycling at no extra cost to you.
-
-### The “don’t overcomplicate it” tools
-- A cheap **slow cooker** (dedicated to wax — do not cook chilli in it afterwards)
-- A **master link plier**
-- Nitrile gloves + shop towels
-- A basic degreaser strategy (details next)
-
----
-
-## The only hard part: stripping factory grease (do this once)
-
-If you skip this, waxing will be mediocre. If you do it right once, everything becomes easy.
-
-**Goal:** chain must be completely oil-free.
-
-A practical method:
-1) Put new chain in a jar with degreaser, shake hard
-2) Repeat until fluid stays mostly clear
-3) Final rinse with something that leaves no residue
-4) Dry fully (bone dry)
-
-If you want, I’ll give you a “UK-available product list” for the exact solvents that work without drama.
-
----
-
-## How often should you re-wax?
-
-This depends on conditions and mileage, but a good rule:
-- **Hot melt:** every 250–400 km (dry), sooner if wet
-- **Drip wax top-up:** every 150–300 km (dry)
-
-Your chain will tell you:
-- It sounds **dry** or slightly “sandpapery”
-- Shifting feels slightly less crisp
-- You see wax flaking and the chain looks under-coated
-
----
-
-## Wet weather: the UK reality
-
-Wax can handle “normal wet roads”, but:
-- Long, filthy winter rides will shorten interval
-- You may need more frequent top-ups
-
-Two sensible approaches:
-1) Stay waxed, just reapply more often in winter  
-2) Have a **winter chain** you treat differently, and keep your “fast chain” waxed
-
----
-
-## The payoff (why I still do it)
-
-Waxing is one of the few bike upgrades that hits:
-- **Performance**
-- **Maintenance time**
-- **Cleanliness**
-- **Component lifespan**
-
-If you care about any two of those, you should at least try drip wax. If you care about all four, go hot melt.
-
----
-
-## Next: I’ll turn this into a repeatable “system”
-
-On the blog, we’ll build:
-- A dedicated **Drivetrain** category
-- A short “Start Here” guide
-- A product page for **Waxing Kit** (affiliate-ready)
-- A winter strategy post (UK-specific)
-
+That is why you should wax your chain.
