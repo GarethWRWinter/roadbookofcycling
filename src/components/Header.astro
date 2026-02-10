@@ -1,48 +1,87 @@
 ---
 import { SITE_TITLE } from '../consts';
 import HeaderLink from './HeaderLink.astro';
+
+const INSTAGRAM_URL = 'https://www.instagram.com/garethwinter/';
 ---
 
-<header>
-	<nav>
-		<h2><a href="/">{SITE_TITLE}</a></h2>
-		<div class="internal-links">
+<header class="rb-header">
+	<nav class="rb-nav" aria-label="Primary">
+		<a class="rb-brand" href="/">{SITE_TITLE}</a>
+
+		<div class="rb-nav__links">
 			<HeaderLink href="/">Home</HeaderLink>
 			<HeaderLink href="/blog">Blog</HeaderLink>
 			<HeaderLink href="/about">About</HeaderLink>
 		</div>
-		<!-- Social links intentionally omitted until Gareth provides official profiles. -->
+
+		<div class="rb-nav__social" aria-label="Social">
+			<a class="rb-icon" href={INSTAGRAM_URL} target="_blank" rel="me noopener noreferrer">
+				<span class="sr-only">Instagram</span>
+				<svg viewBox="0 0 24 24" aria-hidden="true">
+					<path
+						fill="currentColor"
+						d="M7.8 2h8.4A5.8 5.8 0 0 1 22 7.8v8.4A5.8 5.8 0 0 1 16.2 22H7.8A5.8 5.8 0 0 1 2 16.2V7.8A5.8 5.8 0 0 1 7.8 2Zm0 2A3.8 3.8 0 0 0 4 7.8v8.4A3.8 3.8 0 0 0 7.8 20h8.4a3.8 3.8 0 0 0 3.8-3.8V7.8A3.8 3.8 0 0 0 16.2 4H7.8Zm10.65 1.5a.85.85 0 1 1 0 1.7.85.85 0 0 1 0-1.7ZM12 7a5 5 0 1 1 0 10 5 5 0 0 1 0-10Zm0 2a3 3 0 1 0 0 6 3 3 0 0 0 0-6Z"
+					/>
+				</svg>
+			</a>
+		</div>
 	</nav>
 </header>
-<style>
-	header {
-		margin: 0;
-		padding: 0 1em;
-		background: white;
-		box-shadow: 0 2px 8px rgba(var(--black), 5%);
-	}
-	h2 {
-		margin: 0;
-		font-size: 1em;
-	}
 
-	h2 a,
-	h2 a.active {
-		text-decoration: none;
+<style>
+	.rb-header {
+		position: sticky;
+		top: 0;
+		z-index: 20;
+		background: rgba(252, 252, 251, 0.92);
+		backdrop-filter: blur(10px);
+		border-bottom: 1px solid var(--hairline);
 	}
-	nav {
+	.rb-nav {
+		max-width: var(--container);
+		margin: 0 auto;
+		padding: 0 var(--s-5);
+		height: 64px;
 		display: flex;
 		align-items: center;
 		justify-content: space-between;
+		gap: var(--s-4);
 	}
-	nav a {
-		padding: 1em 0.5em;
-		color: var(--black);
-		border-bottom: 4px solid transparent;
+	.rb-brand {
+		font-weight: 700;
+		letter-spacing: -0.02em;
+		text-decoration: none;
+		color: var(--ink);
+		white-space: nowrap;
+	}
+	.rb-nav__links {
+		display: flex;
+		gap: var(--s-4);
+		align-items: center;
+	}
+	.rb-nav__social {
+		display: flex;
+		align-items: center;
+		gap: var(--s-3);
+	}
+	.rb-icon {
+		display: inline-flex;
+		align-items: center;
+		justify-content: center;
+		width: 40px;
+		height: 40px;
+		border: 1px solid var(--border);
+		background: var(--surface);
+		border-radius: 999px;
+		color: var(--ink);
 		text-decoration: none;
 	}
-	nav a.active {
-		text-decoration: none;
-		border-bottom-color: var(--accent);
+	.rb-icon svg { width: 18px; height: 18px; }
+	.rb-icon:hover { border-color: rgba(11, 13, 16, 0.18); }
+
+	@media (max-width: 720px) {
+		.rb-nav { padding: 0 var(--s-4); }
+		.rb-nav__links { gap: var(--s-3); }
 	}
 </style>

@@ -1,227 +1,125 @@
 ---
 import { Image } from "astro:assets";
+import BaseHead from "../components/BaseHead.astro";
+import Header from "../components/Header.astro";
+import Footer from "../components/Footer.astro";
 import heroImage from "../assets/home/gareth-winter-home-1.JPG";
+import { SITE_TITLE, SITE_DESCRIPTION } from "../consts";
 ---
 
 <!doctype html>
 <html lang="en">
-<head>
-	<meta charset="utf-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1" />
-	<title>Roadbook of Cycling</title>
-	<meta name="description" content="Performance, craft, and the quiet obsession of getting better." />
-</head>
+	<head>
+		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+	</head>
 
-<body>
-	<header class="site-header">
-		<nav>
-			<a href="/" class="active">Home</a>
-			<a href="/blog">Blog</a>
-			<a href="/about">About</a>
-		</nav>
-	</header>
+	<body>
+		<Header />
+		<main>
+			<section class="rb-hero">
+				<div class="rb-hero__inner">
+					<div class="rb-hero__copy">
+						<p class="rb-eyebrow">Roadbook of Cycling</p>
+						<h1>Performance, craft, and the quiet obsession of getting better.</h1>
+						<p class="rb-lede">
+							I write from inside the sport. Where training meets equipment. Where detail becomes confidence.
+							Where progress is earned, not claimed.
+						</p>
 
-	<main class="home">
-		<section class="home-inner">
-			<div class="home-text">
-				<span class="eyebrow">Roadbook of Cycling</span>
+						<ul class="rb-pillars">
+							<li>Inside the sport.</li>
+							<li>Training × equipment.</li>
+							<li>Detail as confidence.</li>
+							<li>Progress, earned.</li>
+						</ul>
 
-				<h1>Performance, craft, and the quiet obsession of getting better.</h1>
+						<div class="btn-row">
+							<a class="btn btn-primary" href="/blog">Read the writing</a>
+							<a class="btn btn-secondary" href="/about">About</a>
+						</div>
 
-				<p class="lede">
-					I write from inside the sport. Where training meets equipment.
-					Where detail becomes confidence. Where progress is earned, not claimed.
-				</p>
+						<div class="rb-cred">
+							<p class="rb-cred__lead">
+								I’ve spent over a decade inside elite performance environments.
+							</p>
+							<p>
+								Former Creative Director at Team Sky, working alongside Olympic champions and Grand Tour winners.
+								Contributor to systems that delivered Olympic gold medals, Tour de France and Giro d’Italia victories.
+							</p>
+							<p>
+								Now leading creative strategy and performance systems at Mindvalley, focused on human optimisation and
+								transformation at global scale.
+							</p>
+							<p class="muted">Cyclist. Creative leader. Student of marginal gains.</p>
+						</div>
+					</div>
 
-				<ul class="pillars">
-					<li>I write from inside the sport.</li>
-					<li>Where training meets equipment.</li>
-					<li>Where detail becomes confidence.</li>
-					<li>Where progress is earned, not claimed.</li>
-				</ul>
-
-				<p class="signal">Minimal hype. Maximum signal.</p>
-
-				<div class="actions">
-					<a href="/blog" class="btn-primary">Read the writing</a>
-					<a href="/about" class="btn-secondary">About</a>
+					<div class="rb-hero__media">
+						<Image
+							src={heroImage}
+							alt="Gareth Winter at a time trial event"
+							width={900}
+							height={1200}
+							loading="eager"
+						/>
+						<p class="rb-caption">Real-world training. Real-world constraints. Real-world obsession.</p>
+					</div>
 				</div>
+			</section>
+		</main>
+		<Footer />
 
-				<div class="credibility">
-					<p class="credibility-lead">
-						I’ve spent over a decade inside elite performance environments.
-					</p>
-
-					<p>
-						Former Creative Director at Team Sky, working alongside Olympic champions
-						and Grand Tour winners. Contributor to systems that delivered Olympic gold
-						medals, Tour de France and Giro d’Italia victories.
-					</p>
-
-					<p>
-						Now leading creative strategy and performance systems at Mindvalley,
-						focused on human optimisation and transformation at global scale.
-					</p>
-
-					<p class="credibility-signoff">
-						Cyclist. Creative leader. Student of marginal gains.
-					</p>
-				</div>
-			</div>
-
-			<div class="home-image">
-				<Image
-					src={heroImage}
-					alt="Gareth Winter at a time trial event"
-					width={900}
-					height={1200}
-					loading="eager"
-				/>
-				<span class="caption">
-					Real-world training. Real-world constraints. Real-world obsession.
-				</span>
-			</div>
-		</section>
-	</main>
-
-	<style>
-		body {
-			margin: 0;
-			font-family: system-ui, -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, sans-serif;
-			color: #111;
-			background: #fff;
-		}
-
-		.site-header {
-			border-bottom: 1px solid #eee;
-			padding: 1rem 2rem;
-		}
-
-		nav {
-			max-width: 1200px;
-			margin: 0 auto;
-			display: flex;
-			gap: 1.5rem;
-		}
-
-		nav a {
-			text-decoration: none;
-			color: #555;
-			font-weight: 500;
-		}
-
-		nav a.active {
-			color: #000;
-			border-bottom: 2px solid #000;
-			padding-bottom: 0.25rem;
-		}
-
-		.home {
-			padding: 4rem 2rem;
-		}
-
-		.home-inner {
-			max-width: 1200px;
-			margin: 0 auto;
-			display: grid;
-			grid-template-columns: 1.1fr 0.9fr;
-			gap: 4rem;
-			align-items: start;
-		}
-
-		.eyebrow {
-			text-transform: uppercase;
-			letter-spacing: 0.08em;
-			font-size: 0.7rem;
-			color: #666;
-		}
-
-		h1 {
-			font-size: 2.5rem;
-			line-height: 1.15;
-			margin: 0.75rem 0 1.5rem;
-		}
-
-		.lede {
-			font-size: 1.05rem;
-			line-height: 1.5;
-			color: #333;
-			max-width: 36rem;
-		}
-
-		.pillars {
-			margin: 1.5rem 0;
-			padding-left: 1.2rem;
-		}
-
-		.pillars li {
-			margin-bottom: 0.5rem;
-		}
-
-		.signal {
-			font-weight: 500;
-			margin: 1.25rem 0;
-		}
-
-		.actions {
-			display: flex;
-			gap: 1rem;
-			margin: 2rem 0;
-		}
-
-		.btn-primary {
-			background: #000;
-			color: #fff;
-			padding: 0.6rem 1.2rem;
-			border-radius: 999px;
-			text-decoration: none;
-			font-weight: 500;
-		}
-
-		.btn-secondary {
-			border: 1px solid #ccc;
-			color: #000;
-			padding: 0.6rem 1.2rem;
-			border-radius: 999px;
-			text-decoration: none;
-			font-weight: 500;
-		}
-
-		.credibility {
-			margin-top: 2rem;
-			max-width: 36rem;
-			font-size: 0.95rem;
-			color: #333;
-		}
-
-		.credibility-lead {
-			font-weight: 600;
-			margin-bottom: 0.75rem;
-		}
-
-		.credibility-signoff {
-			color: #666;
-			margin-top: 0.75rem;
-		}
-
-		.home-image img {
-			width: 100%;
-			height: auto;
-			display: block;
-		}
-
-		.caption {
-			display: block;
-			margin-top: 0.5rem;
-			font-size: 0.75rem;
-			color: #666;
-		}
-
-		@media (max-width: 900px) {
-			.home-inner {
-				grid-template-columns: 1fr;
+		<style>
+			.rb-hero {
+				padding: var(--s-8) 0;
 			}
-		}
-	</style>
-</body>
+			.rb-hero__inner {
+				max-width: var(--container);
+				margin: 0 auto;
+				padding: 0 var(--s-5);
+				display: grid;
+				grid-template-columns: 1.05fr 0.95fr;
+				gap: var(--s-8);
+				align-items: start;
+			}
+			.rb-eyebrow {
+				margin: 0 0 var(--s-3);
+				font-size: var(--text-xs);
+				letter-spacing: 0.1em;
+				text-transform: uppercase;
+				color: var(--muted);
+			}
+			.rb-lede {
+				font-size: 1.1rem;
+				max-width: 56ch;
+				color: rgba(11, 13, 16, 0.86);
+			}
+			.rb-pillars {
+				margin: var(--s-6) 0;
+				padding-left: 1.25rem;
+			}
+			.rb-pillars li { margin-bottom: 0.4rem; }
+			.rb-cred {
+				margin-top: var(--s-7);
+				max-width: 62ch;
+			}
+			.rb-cred__lead { font-weight: 650; }
+			.rb-hero__media img {
+				border-radius: 0;
+			}
+			.rb-caption {
+				margin: var(--s-3) 0 0;
+				font-size: var(--text-xs);
+				color: var(--muted);
+			}
+
+			@media (max-width: 980px) {
+				.rb-hero__inner {
+					grid-template-columns: 1fr;
+					gap: var(--s-7);
+					padding: 0 var(--s-4);
+				}
+			}
+		</style>
+	</body>
 </html>
