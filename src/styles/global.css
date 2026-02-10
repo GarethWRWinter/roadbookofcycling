@@ -200,6 +200,17 @@ blockquote figcaption {
 	color: var(--muted);
 }
 
+/* Figures */
+figure.rb-figure {
+	margin: var(--s-6) 0;
+}
+figure.rb-figure figcaption {
+	margin-top: var(--s-3);
+	font-size: var(--text-sm);
+	color: var(--muted);
+	line-height: 1.4;
+}
+
 /* Accessibility */
 .sr-only {
 	border: 0;
