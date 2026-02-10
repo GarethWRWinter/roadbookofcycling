@@ -1,72 +1,227 @@
 ---
-import { Image } from 'astro:assets';
-import { getCollection } from 'astro:content';
-import BaseHead from '../../components/BaseHead.astro';
-import Footer from '../../components/Footer.astro';
-import FormattedDate from '../../components/FormattedDate.astro';
-import Header from '../../components/Header.astro';
-import { SITE_DESCRIPTION, SITE_TITLE } from '../../consts';
-
-const posts = (await getCollection('blog')).sort(
-	(a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()
-);
-
-const [featured, ...rest] = posts;
+import { Image } from "astro:assets";
+import heroImage from "../assets/home/gareth-winter-home-1.JPG";
 ---
 
 <!doctype html>
 <html lang="en">
-	<head>
-		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
-	</head>
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<title>Roadbook of Cycling</title>
+	<meta name="description" content="Performance, craft, and the quiet obsession of getting better." />
+</head>
 
-	<body>
-		<Header />
+<body>
+	<header class="site-header">
+		<nav>
+			<a href="/" class="active">Home</a>
+			<a href="/blog">Blog</a>
+			<a href="/about">About</a>
+		</nav>
+	</header>
 
-		<main>
-			<section class="blog-index">
-				<!-- Featured post -->
-				<article class="featured-post">
-					<a href={`/blog/${featured.id}/`}>
-						{featured.data.heroImage && (
-							<Image
-								src={featured.data.heroImage}
-								alt=""
-								width={1600}
-								height={900}
-							/>
-						)}
-						<h1>{featured.data.title}</h1>
-						<p class="date">
-							<FormattedDate date={featured.data.pubDate} />
-						</p>
-					</a>
-				</article>
+	<main class="home">
+		<section class="home-inner">
+			<div class="home-text">
+				<span class="eyebrow">Roadbook of Cycling</span>
 
-				<!-- Remaining posts -->
-				<div class="post-list">
-					{rest.map((post) => (
-						<article class="post-card">
-							<a href={`/blog/${post.id}/`}>
-								{post.data.heroImage && (
-									<Image
-										src={post.data.heroImage}
-										alt=""
-										width={1200}
-										height={675}
-									/>
-								)}
-								<h2>{post.data.title}</h2>
-								<p class="date">
-									<FormattedDate date={post.data.pubDate} />
-								</p>
-							</a>
-						</article>
-					))}
+				<h1>Performance, craft, and the quiet obsession of getting better.</h1>
+
+				<p class="lede">
+					I write from inside the sport. Where training meets equipment.
+					Where detail becomes confidence. Where progress is earned, not claimed.
+				</p>
+
+				<ul class="pillars">
+					<li>I write from inside the sport.</li>
+					<li>Where training meets equipment.</li>
+					<li>Where detail becomes confidence.</li>
+					<li>Where progress is earned, not claimed.</li>
+				</ul>
+
+				<p class="signal">Minimal hype. Maximum signal.</p>
+
+				<div class="actions">
+					<a href="/blog" class="btn-primary">Read the writing</a>
+					<a href="/about" class="btn-secondary">About</a>
 				</div>
-			</section>
-		</main>
 
-		<Footer />
-	</body>
+				<div class="credibility">
+					<p class="credibility-lead">
+						I’ve spent over a decade inside elite performance environments.
+					</p>
+
+					<p>
+						Former Creative Director at Team Sky, working alongside Olympic champions
+						and Grand Tour winners. Contributor to systems that delivered Olympic gold
+						medals, Tour de France and Giro d’Italia victories.
+					</p>
+
+					<p>
+						Now leading creative strategy and performance systems at Mindvalley,
+						focused on human optimisation and transformation at global scale.
+					</p>
+
+					<p class="credibility-signoff">
+						Cyclist. Creative leader. Student of marginal gains.
+					</p>
+				</div>
+			</div>
+
+			<div class="home-image">
+				<Image
+					src={heroImage}
+					alt="Gareth Winter at a time trial event"
+					width={900}
+					height={1200}
+					loading="eager"
+				/>
+				<span class="caption">
+					Real-world training. Real-world constraints. Real-world obsession.
+				</span>
+			</div>
+		</section>
+	</main>
+
+	<style>
+		body {
+			margin: 0;
+			font-family: system-ui, -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, sans-serif;
+			color: #111;
+			background: #fff;
+		}
+
+		.site-header {
+			border-bottom: 1px solid #eee;
+			padding: 1rem 2rem;
+		}
+
+		nav {
+			max-width: 1200px;
+			margin: 0 auto;
+			display: flex;
+			gap: 1.5rem;
+		}
+
+		nav a {
+			text-decoration: none;
+			color: #555;
+			font-weight: 500;
+		}
+
+		nav a.active {
+			color: #000;
+			border-bottom: 2px solid #000;
+			padding-bottom: 0.25rem;
+		}
+
+		.home {
+			padding: 4rem 2rem;
+		}
+
+		.home-inner {
+			max-width: 1200px;
+			margin: 0 auto;
+			display: grid;
+			grid-template-columns: 1.1fr 0.9fr;
+			gap: 4rem;
+			align-items: start;
+		}
+
+		.eyebrow {
+			text-transform: uppercase;
+			letter-spacing: 0.08em;
+			font-size: 0.7rem;
+			color: #666;
+		}
+
+		h1 {
+			font-size: 2.5rem;
+			line-height: 1.15;
+			margin: 0.75rem 0 1.5rem;
+		}
+
+		.lede {
+			font-size: 1.05rem;
+			line-height: 1.5;
+			color: #333;
+			max-width: 36rem;
+		}
+
+		.pillars {
+			margin: 1.5rem 0;
+			padding-left: 1.2rem;
+		}
+
+		.pillars li {
+			margin-bottom: 0.5rem;
+		}
+
+		.signal {
+			font-weight: 500;
+			margin: 1.25rem 0;
+		}
+
+		.actions {
+			display: flex;
+			gap: 1rem;
+			margin: 2rem 0;
+		}
+
+		.btn-primary {
+			background: #000;
+			color: #fff;
+			padding: 0.6rem 1.2rem;
+			border-radius: 999px;
+			text-decoration: none;
+			font-weight: 500;
+		}
+
+		.btn-secondary {
+			border: 1px solid #ccc;
+			color: #000;
+			padding: 0.6rem 1.2rem;
+			border-radius: 999px;
+			text-decoration: none;
+			font-weight: 500;
+		}
+
+		.credibility {
+			margin-top: 2rem;
+			max-width: 36rem;
+			font-size: 0.95rem;
+			color: #333;
+		}
+
+		.credibility-lead {
+			font-weight: 600;
+			margin-bottom: 0.75rem;
+		}
+
+		.credibility-signoff {
+			color: #666;
+			margin-top: 0.75rem;
+		}
+
+		.home-image img {
+			width: 100%;
+			height: auto;
+			display: block;
+		}
+
+		.caption {
+			display: block;
+			margin-top: 0.5rem;
+			font-size: 0.75rem;
+			color: #666;
+		}
+
+		@media (max-width: 900px) {
+			.home-inner {
+				grid-template-columns: 1fr;
+			}
+		}
+	</style>
+</body>
 </html>

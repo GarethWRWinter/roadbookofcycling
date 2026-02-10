@@ -1,162 +1,67 @@
 ---
-import BlogPost from "../layouts/BlogPost.astro";
-
-const title = "About Gareth";
-const description =
-  "Cyclist, creative leader, and systems thinker shaped by elite performance, craft, and curiosity.";
+import BaseHead from "../components/BaseHead.astro";
+import Header from "../components/Header.astro";
+import Footer from "../components/Footer.astro";
+import { SITE_TITLE, SITE_DESCRIPTION } from "../consts";
 ---
 
-<BlogPost title={title} description={description}>
-  <article class="prose prose-lg max-w-3xl mx-auto py-16">
+<!doctype html>
+<html lang="en">
+	<head>
+		<BaseHead title={`About • ${SITE_TITLE}`} description={SITE_DESCRIPTION} />
+	</head>
 
-    <blockquote>
-      <p>
-        “Live your life while you have it. Life is a splendid gift — there is
-        nothing small about it.”
-      </p>
-      <footer>— Branda Winter</footer>
-    </blockquote>
+	<body>
+		<Header />
+		<main>
+			<article class="prose">
+				<h1>About Gareth</h1>
+				<hr />
 
-    <p>
-      I grew up with stories like that. Stories about grit, service, pride in
-      craft, and doing things properly, even when no one is watching. Cycling was
-      never just a sport in my family. It was culture. It was character. It was a
-      way of measuring yourself honestly.
-    </p>
+				<figure class="pull-quote">
+					<blockquote>
+						<p>
+							“Live your life while you have it. Life is a splendid gift —
+							there is nothing small about it.”
+						</p>
+						<figcaption>— Branda Winter</figcaption>
+					</blockquote>
+				</figure>
 
-    <p>
-      That belief still shapes everything I do.
-    </p>
+				<p>
+					I grew up with stories like that. Stories about grit, service, pride in
+					craft, and doing things properly, even when no one is watching. Cycling
+					was never just a sport in my family. It was culture. It was character. It
+					was a way of measuring yourself honestly.
+				</p>
 
-    <h2>Cycling Was the Classroom</h2>
+				<p>That belief still shapes everything I do.</p>
 
-    <p>
-      I came into professional cycling in 2012 as a creative, joining Team Sky at
-      the very beginning of its journey. What followed was a decade inside one of
-      the most successful high-performance environments modern sport has ever
-      seen.
-    </p>
+				<h2>Cycling Was the Classroom</h2>
+				<p>
+					The bike is an honest mirror. It rewards patience, exposes ego, and
+					punishes sloppy details. Do the work, get the result. Skip the work, pay
+					for it.
+				</p>
 
-    <p>
-      I worked alongside athletes and leaders who redefined what preparation,
-      discipline, and belief really look like.
-    </p>
+				<h2>Work, at the Highest Level</h2>
+				<p>
+					I’ve spent over a decade inside elite performance environments. Former
+					Creative Director at Team Sky, working alongside Olympic champions and
+					Grand Tour winners. Contributor to systems that delivered Olympic gold
+					medals, Tour de France and Giro d’Italia victories.
+				</p>
 
-    <ul>
-      <li>Sir Bradley Wiggins</li>
-      <li>Sir Chris Hoy</li>
-      <li>Geraint Thomas</li>
-    </ul>
+				<p>
+					Now leading creative strategy and performance systems at Mindvalley,
+					focused on human optimisation and transformation at global scale.
+				</p>
 
-    <p>
-      Under the guidance of Sir Dave Brailsford, I saw first-hand how marginal
-      gains are not a slogan, but a way of life.
-    </p>
-
-    <p>
-      Olympic gold medals. Tour de France victories. Giro d’Italia triumphs.
-    </p>
-
-    <p>
-      More importantly, I witnessed how elite systems are built. How small
-      details compound. How culture beats motivation. How preparation creates
-      confidence.
-    </p>
-
-    <p>
-      Those years shaped me far beyond cycling.
-    </p>
-
-    <h2>The Creative Role Inside Performance</h2>
-
-    <p>
-      My role sat at the intersection of creativity, communication, and
-      performance. Translating complex ideas into clarity. Turning process into
-      belief. Making excellence visible without cheapening it.
-    </p>
-
-    <p>
-      Cycling taught me that storytelling is not decoration. It is leverage.
-      If people understand the why, they commit to the how.
-    </p>
-
-    <h2>Life Beyond the Team Bus</h2>
-
-    <p>
-      After Team Sky, I took on creative leadership roles that allowed me to apply
-      elite performance thinking beyond the peloton.
-    </p>
-
-    <p>
-      I served as Creative Director at Veloforte, helping shape the creative
-      direction of a fast-growing performance nutrition brand rooted in real food
-      and real athletes.
-    </p>
-
-    <p>
-      Today, I work at Mindvalley, leading creative and operational systems
-      focused on human optimisation and transformation at scale.
-    </p>
-
-    <p>
-      Different arena. Same mindset.
-    </p>
-
-    <h2>Why Cycling Still Matters</h2>
-
-    <p>
-      I still ride because cycling remains the most honest mirror I know. It
-      rewards patience. It exposes ego. It does not care about your excuses.
-    </p>
-
-    <p>
-      Chasing a personal best up Sa Calobra at sunrise teaches the same lesson as
-      leading a creative team under pressure. Show up. Do the work. Learn fast.
-      Stay humble.
-    </p>
-
-    <h2>A Voice Within the Cycling Kingdom</h2>
-
-    <p>
-      I write and share not to posture, but to contribute. To pass on lessons
-      earned the hard way. To connect the dots between performance, creativity,
-      and life.
-    </p>
-
-    <p>
-      Deep respect for heritage. Relentless curiosity for progress.
-    </p>
-
-    <p>
-      An elder of the tribe, still riding. Still learning. Still obsessed.
-    </p>
-
-    <h2>Partnerships and Collaboration</h2>
-
-    <p>
-      I work with brands who value craft, credibility, and long-term thinking.
-      Brands who understand that influence is earned through consistency, not
-      volume.
-    </p>
-
-    <p>
-      If you are building something meaningful in cycling, performance, or human
-      optimisation, and you value depth over hype, we will likely get along.
-    </p>
-
-    <h2>Final Word</h2>
-
-    <p>
-      I am a cyclist shaped by systems. A creative leader shaped by sport. A
-      father shaped by perspective.
-    </p>
-
-    <p>
-      Still chasing improvement. Still honouring where it all came from.
-    </p>
-
-    <p><strong>Thanks for being here.</strong></p>
-
-    <p>— Gareth</p>
-  </article>
-</BlogPost>
+				<p class="muted">
+					Cyclist. Creative leader. Student of marginal gains.
+				</p>
+			</article>
+		</main>
+		<Footer />
+	</body>
+</html>
