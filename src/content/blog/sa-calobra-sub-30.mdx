@@ -38,7 +38,9 @@ import d3971 from "../../assets/blog/sa-calobra-sub-30/sq/21-DSCF3971.jpg";
 import d4290 from "../../assets/blog/sa-calobra-sub-30/sq/15-DSCF4290.jpg";
 import img8536 from "../../assets/blog/sa-calobra-sub-30/sq/02-IMG_8536-copy.jpg";
 
-*Disclosure: Some links in this post are affiliate links. If you buy through them, I may earn a commission — at no extra cost to you.*
+<Fragment slot="disclosure">
+	Disclosure: Some links in this post are affiliate links. If you buy through them, I may earn a commission — at no extra cost to you.
+</Fragment>
 
 I have ridden Mallorca’s most iconic climb, Sa Calobra, countless times — getting dangerously close to 30:00. So I decided that it was time to stop being a “nearly man” and get it done in sub-30.
 
@@ -56,11 +58,9 @@ I underestimated what it takes to scale the serpent in sub-30.
 
 It took three attempts, two failures and many learnings to achieve my goal.
 
-## Monday: DNF ✖️
+import AttemptSummary from "../../components/AttemptSummary.astro";
 
-## Tuesday: 30:47 ✖️
-
-## Friday: 29:53 ✅
+<AttemptSummary monday="DNF ✖️" tuesday="30:47 ✖️" friday="29:53 ✅" />
 
 <figure class="rb-figure">
   <Image src={sc23} alt="Sa Calobra" width={2500} height={1667} />

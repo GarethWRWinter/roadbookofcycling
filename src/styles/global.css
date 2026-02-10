@@ -74,6 +74,25 @@ h2 { font-size: var(--text-xl); margin-top: var(--s-7); }
 h3 { font-size: var(--text-lg); margin-top: var(--s-6); }
 
 p { margin: 0 0 var(--s-5); }
+
+/* Prose rhythm */
+.prose {
+	font-size: 1.05rem;
+	line-height: 1.65;
+}
+.prose p {
+	margin: 0 0 var(--s-5);
+}
+.prose ul,
+.prose ol {
+	margin: 0 0 var(--s-6);
+	padding-left: 1.25rem;
+}
+.prose li { margin-bottom: 0.5rem; }
+.prose hr {
+	margin: var(--s-6) 0;
+}
+
 small, .muted { color: var(--muted); font-size: var(--text-sm); }
 
 hr {
@@ -204,11 +223,15 @@ blockquote figcaption {
 figure.rb-figure {
 	margin: var(--s-6) 0;
 }
+figure.rb-figure img {
+	box-shadow: none;
+}
 figure.rb-figure figcaption {
 	margin-top: var(--s-3);
 	font-size: var(--text-sm);
 	color: var(--muted);
 	line-height: 1.4;
+	max-width: 62ch;
 }
 
 /* Accessibility */

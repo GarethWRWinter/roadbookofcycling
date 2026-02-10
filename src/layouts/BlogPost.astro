@@ -55,6 +55,12 @@ const { title, description, pubDate, updatedDate, heroImage, youtubeId, youtubeT
 			.last-updated-on {
 				font-style: italic;
 			}
+			.rb-disclosure:empty { display: none; }
+			.rb-disclosure {
+				margin: var(--s-4) 0 var(--s-6);
+				font-size: var(--text-sm);
+				color: var(--muted);
+			}
 		</style>
 	</head>
 
@@ -91,6 +97,7 @@ const { title, description, pubDate, updatedDate, heroImage, youtubeId, youtubeT
 					</div>
 
 					{youtubeId && <YouTube id={youtubeId} title={youtubeTitle ?? title} />}
+					<p class="rb-disclosure"><slot name="disclosure" /></p>
 
 					<slot />
 				</div>
