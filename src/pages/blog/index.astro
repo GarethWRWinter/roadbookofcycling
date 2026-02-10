@@ -1,114 +1,172 @@
 ---
-import { Image } from 'astro:assets';
-import { getCollection } from 'astro:content';
-import BaseHead from '../../components/BaseHead.astro';
-import Footer from '../../components/Footer.astro';
-import FormattedDate from '../../components/FormattedDate.astro';
-import Header from '../../components/Header.astro';
-import { SITE_DESCRIPTION, SITE_TITLE } from '../../consts';
+import { Image } from "astro:assets";
+import { getCollection } from "astro:content";
+import BaseHead from "../../components/BaseHead.astro";
+import Footer from "../../components/Footer.astro";
+import FormattedDate from "../../components/FormattedDate.astro";
+import Header from "../../components/Header.astro";
+import { SITE_DESCRIPTION, SITE_TITLE } from "../../consts";
 
-const posts = (await getCollection('blog')).sort(
-	(a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf(),
+const posts = (await getCollection("blog")).sort(
+  (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf(),
 );
 ---
 
 <!doctype html>
 <html lang="en">
-	<head>
-		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
-		<style>
-			main {
-				width: 960px;
-			}
-			ul {
-				display: flex;
-				flex-wrap: wrap;
-				gap: 2rem;
-				list-style-type: none;
-				margin: 0;
-				padding: 0;
-			}
-			ul li {
-				width: calc(50% - 1rem);
-			}
-			ul li * {
-				text-decoration: none;
-				transition: 0.2s ease;
-			}
-			ul li:first-child {
-				width: 100%;
-				margin-bottom: 1rem;
-				text-align: center;
-			}
-			ul li:first-child img {
-				width: 100%;
-			}
-			ul li:first-child .title {
-				font-size: 2.369rem;
-			}
-			ul li img {
-				margin-bottom: 0.5rem;
-				border-radius: 12px;
-			}
-			ul li a {
-				display: block;
-			}
-			.title {
-				margin: 0;
-				color: rgb(var(--black));
-				line-height: 1;
-			}
-			.date {
-				margin: 0;
-				color: rgb(var(--gray));
-			}
-			ul li a:hover h4,
-			ul li a:hover .date {
-				color: rgb(var(--accent));
-			}
-			ul a:hover img {
-				box-shadow: var(--box-shadow);
-			}
-			@media (max-width: 720px) {
-				ul {
-					gap: 0.5em;
-				}
-				ul li {
-					width: 100%;
-					text-align: center;
-				}
-				ul li:first-child {
-					margin-bottom: 0;
-				}
-				ul li:first-child .title {
-					font-size: 1.563em;
-				}
-			}
-		</style>
-	</head>
-	<body>
-		<Header />
-		<main>
-			<section>
-				<ul>
-					{
-						posts.map((post) => (
-							<li>
-								<a href={`/blog/${post.id}/`}>
-									{post.data.heroImage && (
-										<Image width={720} height={360} src={post.data.heroImage} alt="" />
-									)}
-									<h4 class="title">{post.data.title}</h4>
-									<p class="date">
-										<FormattedDate date={post.data.pubDate} />
-									</p>
-								</a>
-							</li>
-						))
-					}
-				</ul>
-			</section>
-		</main>
-		<Footer />
-	</body>
+  <head>
+    <BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+    <style>
+      /* Page layout */
+      main {
+        max-width: var(--container, 980px);
+        margin: 0 auto;
+        padding: var(--s-7, 3rem) var(--s-5, 1.5rem);
+      }
+
+      /* Editorial list container (centered, content left-aligned) */
+      .rb-wrap {
+        max-width: var(--measure, 72ch);
+        margin: 0 auto;
+      }
+
+      .rb-head {
+        margin-bottom: var(--s-7, 3rem);
+      }
+
+      .rb-title {
+        margin: 0 0 var(--s-2, 0.5rem);
+        letter-spacing: -0.03em;
+        line-height: 1.05;
+      }
+
+      .rb-sub {
+        margin: 0;
+        color: var(--muted, #4c5563);
+        font-size: var(--text-sm, 0.95rem);
+      }
+
+      /* List */
+      ul.rb-list {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: var(--s-7, 3rem);
+      }
+
+      /* Card */
+      a.rb-card {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: var(--s-4, 1rem);
+        text-decoration: none;
+        color: inherit;
+      }
+
+      /* Image */
+      .rb-media {
+        width: 100%;
+        aspect-ratio: 16 / 9;
+        overflow: hidden;
+        background: rgba(11, 13, 16, 0.03);
+        border: 1px solid rgba(11, 13, 16, 0.10);
+        border-radius: 0; /* square corners */
+      }
+
+      .rb-media :global(img) {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        display: block;
+        border-radius: 0; /* square corners */
+        box-shadow: none;
+      }
+
+      /* Text */
+      .rb-meta {
+        display: grid;
+        gap: 0.25rem;
+      }
+
+      .rb-post-title {
+        margin: 0;
+        color: var(--ink, #0b0d10);
+        letter-spacing: -0.02em;
+        line-height: 1.1;
+        font-size: var(--text-lg, 1.25rem);
+      }
+
+      .rb-date {
+        margin: 0;
+        color: var(--muted, #4c5563);
+        font-size: var(--text-sm, 0.95rem);
+      }
+
+      /* Hover: subtle, premium */
+      a.rb-card:hover .rb-post-title {
+        text-decoration: underline;
+        text-decoration-thickness: 1px;
+        text-underline-offset: 4px;
+        text-decoration-color: rgba(11, 13, 16, 0.35);
+      }
+
+      a.rb-card:hover .rb-media {
+        border-color: rgba(11, 13, 16, 0.18);
+      }
+
+      /* Responsive */
+      @media (max-width: 520px) {
+        main {
+          padding: var(--s-5, 1.5rem) var(--s-4, 1rem);
+        }
+        ul.rb-list {
+          gap: var(--s-6, 2rem);
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <Header />
+    <main>
+      <div class="rb-wrap">
+        <header class="rb-head">
+          <h1 class="rb-title">Blog</h1>
+          <p class="rb-sub">Stories, systems, and the honest work of riding.</p>
+        </header>
+
+        <section>
+          <ul class="rb-list">
+            {
+              posts.map((post) => (
+                <li>
+                  <a class="rb-card" href={`/blog/${post.id}/`}>
+                    {post.data.heroImage && (
+                      <div class="rb-media">
+                        <Image
+                          src={post.data.heroImage}
+                          alt=""
+                          width={1600}
+                          height={900}
+                        />
+                      </div>
+                    )}
+                    <div class="rb-meta">
+                      <h2 class="rb-post-title">{post.data.title}</h2>
+                      <p class="rb-date">
+                        <FormattedDate date={post.data.pubDate} />
+                      </p>
+                    </div>
+                  </a>
+                </li>
+              ))
+            }
+          </ul>
+        </section>
+      </div>
+    </main>
+    <Footer />
+  </body>
 </html>
