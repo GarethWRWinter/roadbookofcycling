@@ -2,9 +2,13 @@
 import BaseHead from "../components/BaseHead.astro";
 import Header from "../components/Header.astro";
 import Footer from "../components/Footer.astro";
+import { Image } from "astro:assets";
 import Callout from "../components/Callout.astro";
 import SectionDivider from "../components/SectionDivider.astro";
 import { SITE_TITLE, SITE_DESCRIPTION } from "../consts";
+
+import aboutPortrait from "../assets/about/sq/01-_DSC1458.jpg";
+import aboutRide from "../assets/about/sq/02-DSCF4163.jpg";
 
 const INSTAGRAM_URL = "https://www.instagram.com/garethwinter/";
 ---
@@ -36,6 +40,10 @@ const INSTAGRAM_URL = "https://www.instagram.com/garethwinter/";
 					Roadbook of Cycling is where I write from inside the sport — where training meets equipment,
 					where details become confidence, and where progress is earned rather than claimed.
 				</p>
+
+				<figure class="rb-figure">
+					<Image src={aboutPortrait} alt="Gareth Winter" width={1920} height={2400} />
+				</figure>
 
 				<p>
 					Cycling was never just a hobby in my family. It was culture. It was character. It was a way of
@@ -90,6 +98,10 @@ const INSTAGRAM_URL = "https://www.instagram.com/garethwinter/";
 					Those lessons shaped my approach to training and to work: prepare to succeed, iterate relentlessly, and never pretend
 					that outcomes are luck.
 				</p>
+
+				<figure class="rb-figure">
+					<Image src={aboutRide} alt="Riding" width={2500} height={1667} />
+				</figure>
 
 				<h2>Nutrition: the “food first” shift</h2>
 				<p>

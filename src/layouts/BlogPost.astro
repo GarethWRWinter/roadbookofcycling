@@ -1,5 +1,4 @@
 ---
-import { Image } from 'astro:assets';
 import type { CollectionEntry } from 'astro:content';
 import BaseHead from '../components/BaseHead.astro';
 import Footer from '../components/Footer.astro';
@@ -9,7 +8,7 @@ import YouTube from '../components/YouTube.astro';
 
 type Props = CollectionEntry<'blog'>['data'];
 
-const { title, description, pubDate, updatedDate, heroImage, youtubeId, youtubeTitle } = Astro.props;
+const { title, description, pubDate, updatedDate, youtubeId, youtubeTitle } = Astro.props;
 ---
 
 <html lang="en">
@@ -20,17 +19,6 @@ const { title, description, pubDate, updatedDate, heroImage, youtubeId, youtubeT
 				width: calc(100% - 2em);
 				max-width: 100%;
 				margin: 0;
-			}
-			.hero-image {
-				width: 100%;
-			}
-			.hero-image img {
-				display: block;
-				margin: 0 auto;
-				width: 100%;
-				height: auto;
-				border-radius: 12px;
-				box-shadow: var(--box-shadow);
 			}
 			.prose {
 				width: 720px;
@@ -68,18 +56,6 @@ const { title, description, pubDate, updatedDate, heroImage, youtubeId, youtubeT
 		<Header />
 		<main>
 			<article>
-				<div class="hero-image">
-					{
-						heroImage && (
-							<Image
-								width={1500}
-								height={1000}
-								src={heroImage}
-								alt=""
-							/>
-						)
-					}
-				</div>
 				<div class="prose">
 					<div class="title">
 						<div class="date">
