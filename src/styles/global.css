@@ -167,6 +167,8 @@ a:hover {
 /* Images — square, premium */
 img {
 	max-width: 100%;
+	width: 100%;
+	height: auto;
 	display: block;
 	border-radius: 0;
 	border: 1px solid var(--border);
