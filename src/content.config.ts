@@ -16,6 +16,8 @@ const blog = defineCollection({
 			author: z.string().optional(),
 			tags: z.array(z.string()).optional(),
 			slug: z.string().optional(),
+			youtubeId: z.string().optional(),
+			youtubeTitle: z.string().optional(),
 		}),
 });
 
