@@ -3,7 +3,10 @@ import BaseHead from "../components/BaseHead.astro";
 import Header from "../components/Header.astro";
 import Footer from "../components/Footer.astro";
 import Callout from "../components/Callout.astro";
+import SectionDivider from "../components/SectionDivider.astro";
 import { SITE_TITLE, SITE_DESCRIPTION } from "../consts";
+
+const INSTAGRAM_URL = "https://www.instagram.com/garethwinter/";
 ---
 
 <!doctype html>
@@ -16,8 +19,8 @@ import { SITE_TITLE, SITE_DESCRIPTION } from "../consts";
 		<Header />
 		<main>
 			<article class="prose">
-				<h1>About Gareth</h1>
-				<p class="muted">Cyclist. Creative leader. Student of marginal gains.</p>
+				<h1>About</h1>
+				<p class="muted">Cyclist. Creative leader. Performance obsessive.</p>
 
 				<Callout title="A family standard">
 					<blockquote>
@@ -30,35 +33,103 @@ import { SITE_TITLE, SITE_DESCRIPTION } from "../consts";
 				</Callout>
 
 				<p>
-					I grew up with stories like that — stories about grit, service, pride in craft,
-					and doing things properly, even when no one is watching. Cycling was never just a sport in my family.
-					It was culture. It was character. It was a way of measuring yourself honestly.
+					Roadbook of Cycling is where I write from inside the sport — where training meets equipment,
+					where details become confidence, and where progress is earned rather than claimed.
 				</p>
 
-				<p>That belief still shapes everything I do.</p>
-
-				<h2>Cycling was the classroom</h2>
 				<p>
-					The bike is an honest mirror. It rewards patience, exposes ego, and punishes sloppy details.
-					Do the work, get the result. Skip the work, pay for it.
+					Cycling was never just a hobby in my family. It was culture. It was character. It was a way of
+					measuring yourself honestly.
 				</p>
 
-				<h2>Work, at the highest level</h2>
+				<SectionDivider label="My story" />
+
 				<p>
-					I’ve spent over a decade inside elite performance environments. Former Creative Director at Team Sky,
-					working alongside Olympic champions and Grand Tour winners. Contributor to systems that delivered Olympic
-					gold medals, Tour de France and Giro d’Italia victories.
-				</p>
-				<p>
-					Now leading creative strategy and performance systems at Mindvalley, focused on human optimisation and
-					transformation at global scale.
+					I can still hear my grandmother’s voice: her accent flipping from queen’s finest (when I was in her good books)
+					to cockney (when I wasn’t). She was a working-class hero who saw the best in people — and travelled the world
+					on two wheels.
 				</p>
 
-				<h2>The editorial promise</h2>
 				<p>
-					This site is where I write about performance, equipment, and the quiet discipline of getting better —
-					with minimal hype and maximum signal.
+					Nan bought her first bike in 1949 from Algurn Cycles in Wandsworth, London. It’s still hanging in my dad’s garage.
+					In post-war Britain, cycling gave young people freedom when cars and money were scarce.
 				</p>
+
+				<p>
+					My grandparents met through cycling clubs and racing. I still wear my grandad’s first gold medal on a pendant —
+					from the year they met — to take him riding with me.
+				</p>
+
+				<Callout title="A truth (delivered with love)">
+					<p>
+						“You look good on a bike. Just as good as your dad. Nearly as good as your grandad.”
+					</p>
+					<p class="muted" style="margin-top: var(--s-3);">— Martyn Winter</p>
+				</Callout>
+
+				<p>
+					My parents met at a roller-racing event in Peckham. My schoolmates did Disneyland — I did UK cyclo-tours:
+					camping in the rain, drinking river water, living on flapjacks. Cycling taught me hard work and persistence.
+					It also taught me what matters: craftsmanship, preparation, and the ability to suffer well.
+				</p>
+
+				<SectionDivider label="Cycling × career" />
+
+				<p>
+					In 2010 I began my career in the creative industry at Sky News &amp; Sports. Broadcasting Sir Brad Wiggins’s Tour de France
+					victory and Team GB’s dominance at London 2012 evolved into a full-time role in Sky’s cycling sponsorship team,
+					where I grew to lead creative outputs.
+				</p>
+
+				<p>
+					Working alongside performance teams — coaches, chefs, nutritionists, physios, psychologists — rewired my understanding
+					of high performance. Environment matters. Systems matter. The unglamorous details matter.
+				</p>
+
+				<p>
+					Those lessons shaped my approach to training and to work: prepare to succeed, iterate relentlessly, and never pretend
+					that outcomes are luck.
+				</p>
+
+				<h2>Nutrition: the “food first” shift</h2>
+				<p>
+					Team environments taught me something simple and easily missed: real food isn’t just healthier — it performs.
+					I stopped chasing “space-food” shortcuts and built a food-first approach that improved sleep, recovery, immunity,
+					and power-to-weight.
+				</p>
+				<p>
+					I also learned the hard way that it’s possible to chase a pro-level power-to-weight ratio by losing weight… and lose the power
+					that made you fast in the first place. The rule I now live by: <strong>fuel and train</strong> — never <strong>diet and exercise</strong>.
+				</p>
+
+				<h2>Today</h2>
+				<p>
+					I’ve spent over a decade inside elite performance environments — including as Former Creative Director at Team Sky —
+					contributing to systems that delivered Olympic gold medals, Tour de France and Giro d’Italia victories.
+				</p>
+				<p>
+					I now lead creative strategy and performance systems at Mindvalley, focused on human optimisation and transformation
+					at global scale.
+				</p>
+
+				<SectionDivider label="Partnership" />
+
+				<p>
+					I work with brands and teams who care about quality — the kind of partners who value craft, evidence, and long-term trust.
+					If that’s you, we’ll get on.
+				</p>
+
+				<ul>
+					<li><strong>Brand partnerships</strong> (content, product storytelling, and performance-led campaigns)</li>
+					<li><strong>Consulting</strong> (creative strategy, positioning, and high-performance systems)</li>
+					<li><strong>Speaking</strong> (marginal gains, discipline, and building environments that produce winners)</li>
+				</ul>
+
+				<Callout title="Get in touch">
+					<p>
+						The fastest route right now: <a href={INSTAGRAM_URL} target="_blank" rel="me noopener noreferrer">@garethwinter</a>.
+					</p>
+				</Callout>
 			</article>
 		</main>
 		<Footer />
