@@ -1,0 +1,33 @@
+---
+interface Props {
+	label?: string;
+}
+const { label } = Astro.props;
+---
+
+<div class="rb-divider" aria-hidden="true">
+	<span class="rb-divider__line"></span>
+	{label && <span class="rb-divider__label">{label}</span>}
+	<span class="rb-divider__line"></span>
+</div>
+
+<style>
+	.rb-divider {
+		display: flex;
+		align-items: center;
+		gap: var(--s-3);
+		margin: var(--s-7) 0;
+	}
+	.rb-divider__line {
+		flex: 1;
+		height: 1px;
+		background: var(--hairline);
+	}
+	.rb-divider__label {
+		font-size: var(--text-xs);
+		letter-spacing: 0.1em;
+		text-transform: uppercase;
+		color: var(--muted);
+		white-space: nowrap;
+	}
+</style>

@@ -69,7 +69,7 @@ h1, h2, h3 {
 	margin: 0 0 var(--s-4);
 }
 
-h1 { font-size: var(--text-2xl); }
+h1 { font-size: clamp(2rem, 4vw, var(--text-2xl)); }
 h2 { font-size: var(--text-xl); margin-top: var(--s-7); }
 h3 { font-size: var(--text-lg); margin-top: var(--s-6); }
 
@@ -77,9 +77,16 @@ p { margin: 0 0 var(--s-5); }
 
 /* Prose rhythm */
 .prose {
-	font-size: 1.05rem;
-	line-height: 1.65;
+	font-size: 1.06rem;
+	line-height: 1.68;
 }
+.prose > :first-child { margin-top: 0; }
+.prose h2 { scroll-margin-top: 6rem; }
+.prose h2 {
+	padding-top: var(--s-6);
+	border-top: 1px solid var(--hairline);
+}
+.prose h2:first-of-type { border-top: none; padding-top: 0; }
 .prose p {
 	margin: 0 0 var(--s-5);
 }
@@ -222,6 +229,9 @@ blockquote figcaption {
 /* Figures */
 figure.rb-figure {
 	margin: var(--s-6) 0;
+}
+figure.rb-figure img {
+	background: rgba(11, 13, 16, 0.02);
 }
 figure.rb-figure img {
 	box-shadow: none;
