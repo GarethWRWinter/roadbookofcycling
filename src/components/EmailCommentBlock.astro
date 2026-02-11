@@ -1,66 +1,108 @@
 ---
 interface Props {
-	email: string;
+	action: string;
 	title: string;
 	url?: string;
 }
 
-const { email, title, url } = Astro.props;
-
-const subject = `Comment on: ${title}`;
-const bodyLines = [
-	"Hi Gareth,",
-	"",
-	`Re: ${title}`,
-	url ? `Post: ${url}` : null,
-	"",
-	"My comment:",
-	"",
-].filter(Boolean);
-
-const mailto = `mailto:${encodeURIComponent(email)}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(bodyLines.join("\n"))}`;
+const { action, title, url } = Astro.props;
 ---
 
-<section class="rb-email-comment" aria-label="Reply by email">
+<section class="rb-comment" aria-label="Send a comment">
 	<hr />
-	<h2 class="rb-email-comment__title">Reply by email</h2>
-	<p class="rb-email-comment__copy">
-		Got a question, correction, or thought? Email it over and I’ll reply.
+	<h2 class="rb-comment__title">Send a comment</h2>
+	<p class="rb-comment__copy">
+		Got a question, correction, or thought? Send it here — it goes straight to my inbox.
 	</p>
-	<p>
-		<a class="rb-email-comment__button" href={mailto}>Email Gareth</a>
-	</p>
-	<p class="rb-email-comment__fineprint">
-		This opens your email app. Your message will go to <strong>{email}</strong>.
+
+	<form class="rb-comment__form" action={action} method="POST">
+		<input type="hidden" name="postTitle" value={title} />
+		{url && <input type="hidden" name="postUrl" value={url} />}
+
+		{/* Honeypot field (spam trap). Keep hidden from humans. */}
+		<p class="rb-comment__honeypot" aria-hidden="true">
+			<label>
+				Don’t fill this out
+				<input name="_gotcha" tabindex="-1" autocomplete="off" />
+			</label>
+		</p>
+
+		<label class="rb-comment__label">
+			Your name (optional)
+			<input class="rb-comment__input" type="text" name="name" autocomplete="name" />
+		</label>
+
+		<label class="rb-comment__label">
+			Your email (optional)
+			<input class="rb-comment__input" type="email" name="email" autocomplete="email" />
+		</label>
+
+		<label class="rb-comment__label">
+			Message
+			<textarea class="rb-comment__textarea" name="message" rows={6} required></textarea>
+		</label>
+
+		<button class="rb-comment__button" type="submit">Send</button>
+	</form>
+
+	<p class="rb-comment__fineprint">
+		No account required. (If you don’t hear back, check your spam folder for my reply.)
 	</p>
 </section>
 
 <style>
-	.rb-email-comment {
+	.rb-comment {
 		margin-top: var(--s-10);
 	}
-	.rb-email-comment__title {
+	.rb-comment__title {
 		margin: var(--s-6) 0 var(--s-3);
 		font-size: var(--text-lg);
 	}
-	.rb-email-comment__copy {
-		margin: 0 0 var(--s-4);
+	.rb-comment__copy {
+		margin: 0 0 var(--s-5);
 		color: var(--muted);
 	}
-	.rb-email-comment__button {
-		display: inline-block;
+	.rb-comment__form {
+		display: grid;
+		gap: var(--s-4);
+		margin: 0;
+	}
+	.rb-comment__label {
+		display: grid;
+		gap: 0.35rem;
+		font-size: var(--text-sm);
+		color: rgb(var(--gray-dark));
+	}
+	.rb-comment__input,
+	.rb-comment__textarea {
+		font: inherit;
+		padding: 0.6rem 0.7rem;
+		border-radius: 0.6rem;
+		border: 1px solid rgba(0, 0, 0, 0.15);
+		background: white;
+	}
+	.rb-comment__textarea {
+		resize: vertical;
+		min-height: 8rem;
+	}
+	.rb-comment__button {
+		justify-self: start;
 		padding: 0.65rem 0.9rem;
 		border-radius: 0.6rem;
 		border: 1px solid rgba(0, 0, 0, 0.12);
-		text-decoration: none;
-		font-weight: 600;
+		background: rgb(var(--accent));
+		color: white;
+		font-weight: 700;
 	}
-	.rb-email-comment__button:hover {
-		border-color: rgba(0, 0, 0, 0.25);
+	.rb-comment__button:hover {
+		filter: brightness(0.95);
 	}
-	.rb-email-comment__fineprint {
-		margin: var(--s-3) 0 0;
+	.rb-comment__fineprint {
+		margin: var(--s-4) 0 0;
 		font-size: var(--text-sm);
 		color: var(--muted);
+	}
+	.rb-comment__honeypot {
+		display: none;
 	}
 </style>
