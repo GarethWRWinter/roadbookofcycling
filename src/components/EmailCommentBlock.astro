@@ -1,0 +1,66 @@
+---
+interface Props {
+	email: string;
+	title: string;
+	url?: string;
+}
+
+const { email, title, url } = Astro.props;
+
+const subject = `Comment on: ${title}`;
+const bodyLines = [
+	"Hi Gareth,",
+	"",
+	`Re: ${title}`,
+	url ? `Post: ${url}` : null,
+	"",
+	"My comment:",
+	"",
+].filter(Boolean);
+
+const mailto = `mailto:${encodeURIComponent(email)}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(bodyLines.join("\n"))}`;
+---
+
+<section class="rb-email-comment" aria-label="Reply by email">
+	<hr />
+	<h2 class="rb-email-comment__title">Reply by email</h2>
+	<p class="rb-email-comment__copy">
+		Got a question, correction, or thought? Email it over and I’ll reply.
+	</p>
+	<p>
+		<a class="rb-email-comment__button" href={mailto}>Email Gareth</a>
+	</p>
+	<p class="rb-email-comment__fineprint">
+		This opens your email app. Your message will go to <strong>{email}</strong>.
+	</p>
+</section>
+
+<style>
+	.rb-email-comment {
+		margin-top: var(--s-10);
+	}
+	.rb-email-comment__title {
+		margin: var(--s-6) 0 var(--s-3);
+		font-size: var(--text-lg);
+	}
+	.rb-email-comment__copy {
+		margin: 0 0 var(--s-4);
+		color: var(--muted);
+	}
+	.rb-email-comment__button {
+		display: inline-block;
+		padding: 0.65rem 0.9rem;
+		border-radius: 0.6rem;
+		border: 1px solid rgba(0, 0, 0, 0.12);
+		text-decoration: none;
+		font-weight: 600;
+	}
+	.rb-email-comment__button:hover {
+		border-color: rgba(0, 0, 0, 0.25);
+	}
+	.rb-email-comment__fineprint {
+		margin: var(--s-3) 0 0;
+		font-size: var(--text-sm);
+		color: var(--muted);
+	}
+</style>

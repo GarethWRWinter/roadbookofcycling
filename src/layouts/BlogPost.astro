@@ -5,6 +5,7 @@ import Footer from '../components/Footer.astro';
 import FormattedDate from '../components/FormattedDate.astro';
 import Header from '../components/Header.astro';
 import YouTube from '../components/YouTube.astro';
+import EmailCommentBlock from '../components/EmailCommentBlock.astro';
 
 type Props = CollectionEntry<'blog'>['data'];
 
@@ -76,6 +77,8 @@ const { title, description, pubDate, updatedDate, heroImage, youtubeId, youtubeT
 					<p class="rb-disclosure"><slot name="disclosure" /></p>
 
 					<slot />
+
+					<EmailCommentBlock email="gareth-winter@hotmail.co.uk" title={title} url={Astro.url.toString()} />
 				</div>
 			</article>
 		</main>
