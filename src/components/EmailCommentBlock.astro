@@ -87,15 +87,21 @@ const { action, title, url } = Astro.props;
 	}
 	.rb-comment__button {
 		justify-self: start;
-		padding: 0.65rem 0.9rem;
-		border-radius: 0.6rem;
-		border: 1px solid rgba(0, 0, 0, 0.12);
-		background: rgb(var(--accent));
-		color: white;
+		padding: 0.75rem 1rem;
+		border-radius: 999px;
+		border: 1px solid rgba(11, 13, 16, 0.9);
+		background: var(--ink);
+		color: var(--bg);
 		font-weight: 700;
+		line-height: 1;
+		cursor: pointer;
 	}
 	.rb-comment__button:hover {
-		filter: brightness(0.95);
+		filter: brightness(1.05);
+	}
+	.rb-comment__button:focus-visible {
+		outline: 3px solid rgba(11, 13, 16, 0.35);
+		outline-offset: 3px;
 	}
 	.rb-comment__fineprint {
 		margin: var(--s-4) 0 0;
