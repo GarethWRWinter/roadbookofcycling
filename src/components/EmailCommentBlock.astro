@@ -3,17 +3,23 @@ interface Props {
 	action: string;
 	title: string;
 	url?: string;
+	heading?: string;
+	copy?: string;
 }
 
-const { action, title, url } = Astro.props;
+const {
+	action,
+	title,
+	url,
+	heading = "Send a comment",
+	copy = "Got a question, correction, or thought? Send it here — it goes straight to my inbox.",
+} = Astro.props;
 ---
 
 <section class="rb-comment" aria-label="Send a comment">
 	<hr />
-	<h2 class="rb-comment__title">Send a comment</h2>
-	<p class="rb-comment__copy">
-		Got a question, correction, or thought? Send it here — it goes straight to my inbox.
-	</p>
+	<h2 class="rb-comment__title">{heading}</h2>
+	<p class="rb-comment__copy">{copy}</p>
 
 	<form class="rb-comment__form" action={action} method="POST">
 		<input type="hidden" name="postTitle" value={title} />
