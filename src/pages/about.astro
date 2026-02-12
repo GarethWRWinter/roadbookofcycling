@@ -5,6 +5,7 @@ import Footer from "../components/Footer.astro";
 import { Image } from "astro:assets";
 import Callout from "../components/Callout.astro";
 import SectionDivider from "../components/SectionDivider.astro";
+import EmailCommentBlock from "../components/EmailCommentBlock.astro";
 import { SITE_TITLE, SITE_DESCRIPTION } from "../consts";
 
 import aboutPortrait from "../assets/about/sq/01-_DSC1458.jpg";
@@ -144,6 +145,12 @@ const INSTAGRAM_URL = "https://www.instagram.com/garethwinter/";
 						Instagram: <a href={INSTAGRAM_URL} target="_blank" rel="me noopener noreferrer">@garethwinter</a>
 					</p>
 				</Callout>
+
+				<EmailCommentBlock
+					action="https://formspree.io/f/xdalabzw"
+					title="About"
+					url={Astro.url.toString()}
+				/>
 			</article>
 		</main>
 		<Footer />

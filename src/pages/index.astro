@@ -3,6 +3,7 @@ import { Image } from "astro:assets";
 import BaseHead from "../components/BaseHead.astro";
 import Header from "../components/Header.astro";
 import Footer from "../components/Footer.astro";
+import EmailCommentBlock from "../components/EmailCommentBlock.astro";
 import heroImage from "../assets/home/gareth-winter-home-1.JPG";
 import { SITE_TITLE, SITE_DESCRIPTION } from "../consts";
 ---
@@ -66,6 +67,16 @@ import { SITE_TITLE, SITE_DESCRIPTION } from "../consts";
 					</div>
 				</div>
 			</section>
+
+			<section class="rb-home-contact" aria-label="Contact">
+				<div class="rb-home-contact__inner">
+					<EmailCommentBlock
+						action="https://formspree.io/f/xdalabzw"
+						title="Home"
+						url={Astro.url.toString()}
+					/>
+				</div>
+			</section>
 		</main>
 		<Footer />
 
@@ -73,6 +84,15 @@ import { SITE_TITLE, SITE_DESCRIPTION } from "../consts";
 			.rb-hero {
 				padding: var(--s-8) 0;
 			}
+			.rb-home-contact {
+				padding: var(--s-4) 0 var(--s-10);
+			}
+			.rb-home-contact__inner {
+				max-width: var(--container);
+				margin: 0 auto;
+				padding: 0 var(--s-5);
+			}
+
 			.rb-hero__inner {
 				max-width: var(--container);
 				margin: 0 auto;
