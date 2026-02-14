@@ -6,6 +6,7 @@ import Footer from "../components/Footer.astro";
 import EmailCommentBlock from "../components/EmailCommentBlock.astro";
 import heroImage from "../assets/home/gareth-winter-home-1.JPG";
 import bradHourRecordImage from "../assets/home/gareth-winter-sir-bradley-wiggins-hour-record.jpg";
+import geraintTeamSkyImage from "../assets/home/gareth-winter-geraint-thomas-team-sky.jpg";
 import { SITE_TITLE, SITE_DESCRIPTION } from "../consts";
 ---
 
@@ -55,13 +56,22 @@ import { SITE_TITLE, SITE_DESCRIPTION } from "../consts";
 							</p>
 							<p class="muted">Cyclist. Creative leader. Student of marginal gains.</p>
 
-							<Image
-								src={bradHourRecordImage}
-								alt="Gareth Winter with Sir Bradley Wiggins during the Hour Record project"
-								width={1600}
-								height={1067}
-								loading="lazy"
-							/>
+							<div class="rb-cred__gallery" aria-label="Homepage gallery">
+								<Image
+									src={bradHourRecordImage}
+									alt="Gareth Winter with Sir Bradley Wiggins during the Hour Record project"
+									width={1600}
+									height={1067}
+									loading="lazy"
+								/>
+								<Image
+									src={geraintTeamSkyImage}
+									alt="Gareth Winter with Geraint Thomas during the Team Sky era"
+									width={1600}
+									height={1067}
+									loading="lazy"
+								/>
+							</div>
 						</div>
 					</div>
 
@@ -136,6 +146,23 @@ import { SITE_TITLE, SITE_DESCRIPTION } from "../consts";
 				max-width: 62ch;
 			}
 			.rb-cred__lead { font-weight: 650; }
+			.rb-cred__gallery {
+				margin-top: var(--s-5);
+				display: grid;
+				grid-template-columns: repeat(2, minmax(0, 1fr));
+				gap: var(--s-4);
+			}
+			.rb-cred__gallery :global(img) {
+				width: 100%;
+				height: auto;
+				border-radius: 0;
+				display: block;
+			}
+			@media (max-width: 640px) {
+				.rb-cred__gallery {
+					grid-template-columns: 1fr;
+				}
+			}
 			.rb-hero__media img {
 				border-radius: 0;
 			}
