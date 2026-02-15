@@ -24,39 +24,76 @@ import { SITE_TITLE, SITE_DESCRIPTION } from "../consts";
 					<div class="rb-hero__copy">
 						<p class="rb-eyebrow">Roadbook of Cycling</p>
 						<h1>Performance, craft, and the quiet obsession of getting better.</h1>
-						<p class="rb-lede">
-							I write from inside the sport. Where training meets equipment. Where detail becomes confidence.
-							Where progress is earned, not claimed.
-						</p>
+
+						<div class="rb-hero__body">
+							<p>If you care about the details.</p>
+							<p>If you believe progress is earned, not announced.</p>
+							<p>If you’ve ever replayed a ride in your head hours later.</p>
+							<p>You’re in the right place.</p>
+
+							<p>I write from inside the sport.</p>
+							<p>Where training meets equipment.</p>
+							<p>Where small changes compound.</p>
+							<p>Where confidence is built through repetition.</p>
+						</div>
 
 						<ul class="rb-pillars">
-							<li>Inside the sport.</li>
-							<li>Training × equipment.</li>
-							<li>Detail as confidence.</li>
-							<li>Progress, earned.</li>
-							<li>168,726.8 km logged on Strava.</li>
+							<li>Inside the sport</li>
+							<li>Training x equipment</li>
+							<li>Detail as confidence</li>
+							<li>Progress, earned</li>
+							<li>168,726.8 km logged on Strava and counting</li>
 						</ul>
 
 						<div class="btn-row">
 							<a class="btn btn-primary" href="/blog">Read the writing</a>
-							<a class="btn btn-secondary" href="/about">About</a>
+							<a class="btn btn-secondary" href="#contact">Work together</a>
 						</div>
 
-						<div class="rb-cred">
-							<p class="rb-cred__lead">
-								I’ve spent over a decade inside elite performance environments.
-							</p>
-							<p>
-								Former Creative Director at Team Sky, working alongside Olympic champions and Grand Tour winners.
-								Contributor to systems that delivered Olympic gold medals, Tour de France and Giro d’Italia victories.
-							</p>
-							<p>
-								Now leading creative strategy and performance systems at Mindvalley, focused on human optimisation and
-								transformation at global scale.
-							</p>
-							<p class="muted">Cyclist. Creative leader. Student of marginal gains.</p>
+						<div class="rb-sep" aria-hidden="true">⸻</div>
 
+						<div class="rb-positioning" aria-label="Positioning">
+							<p>I’ve spent over a decade inside elite performance environments.</p>
+							<p>Not observing them.</p>
+							<p>Inside them.</p>
+
+							<p>Working alongside Olympic champions and Grand Tour winners.</p>
+							<p>
+								Contributing to systems that delivered gold medals, Tour de France and Giro victories, and inspired millions to take up cycling..
+							</p>
+
+							<p>What I learned wasn’t about hype.</p>
+							<p>It was about process.</p>
+							<p>Standards.</p>
+							<p>Marginal gains that compound into growth.</p>
+
+							<p>Today I bring that same lens to brands, founders, and creative teams.</p>
+							<p>Clarity over noise.</p>
+							<p>Substance over slogans.</p>
+							<p>Work that holds up under pressure.</p>
 						</div>
+
+						<div class="rb-sep" aria-hidden="true">⸻</div>
+
+						<div class="rb-offer" aria-label="What you actually do for people">
+							<p>If you’re building something in cycling, performance, or human optimisation, I can help you:</p>
+							<ul class="rb-bullets">
+								<li>Clarify your positioning</li>
+								<li>Translate technical depth into clear communication</li>
+								<li>Shape high-trust storytelling</li>
+								<li>Develop performance-led creative strategy</li>
+								<li>Show up in front of the right audience with credibility</li>
+							</ul>
+
+							<p>Podcast host looking for depth, not clichés?</p>
+							<p>Brand looking for substance, not surface?</p>
+							<p>Founder who wants someone who understands performance from the inside?</p>
+							<p>Let’s talk.</p>
+						</div>
+
+						<div class="rb-sep" aria-hidden="true">⸻</div>
+
+						<p class="rb-identity">Cyclist. Creative strategist. Student of marginal gains. Still riding. Still learning. Still refining.</p>
 					</div>
 
 					<div class="rb-hero__media">
@@ -70,6 +107,7 @@ import { SITE_TITLE, SITE_DESCRIPTION } from "../consts";
 						<p class="rb-caption">Real-world training. Real-world constraints. Real-world obsession.</p>
 					</div>
 				</div>
+
 				<div class="rb-home-gallery" aria-label="Homepage gallery">
 					<div class="rb-home-gallery__inner">
 						<Image
@@ -88,11 +126,10 @@ import { SITE_TITLE, SITE_DESCRIPTION } from "../consts";
 						/>
 					</div>
 				</div>
-
 			</section>
 
 			<section class="rb-home-contact" aria-label="Contact">
-				<div class="rb-home-contact__inner">
+				<div class="rb-home-contact__inner" id="contact">
 					<EmailCommentBlock
 						action="https://formspree.io/f/xdalabzw"
 						title="Home"
@@ -134,7 +171,8 @@ import { SITE_TITLE, SITE_DESCRIPTION } from "../consts";
 				text-transform: uppercase;
 				color: var(--muted);
 			}
-			.rb-lede {
+			.rb-hero__body p {
+				margin: 0 0 var(--s-2);
 				font-size: 1.1rem;
 				max-width: 56ch;
 				color: rgba(11, 13, 16, 0.86);
@@ -143,15 +181,32 @@ import { SITE_TITLE, SITE_DESCRIPTION } from "../consts";
 				margin: var(--s-6) 0;
 				padding-left: 1.25rem;
 			}
-			.rb-pillars li { margin-bottom: 0.4rem; }
-			.rb-cred {
-				margin-top: var(--s-7);
-				max-width: none;
+			.rb-pillars li {
+				margin-bottom: 0.4rem;
 			}
-			.rb-cred p {
+
+			.rb-sep {
+				margin: var(--s-7) 0;
+				color: var(--muted);
+			}
+			.rb-positioning p,
+			.rb-offer p {
+				margin: 0 0 var(--s-2);
 				max-width: 62ch;
 			}
-			.rb-cred__lead { font-weight: 650; }
+			.rb-bullets {
+				margin: var(--s-4) 0 var(--s-5);
+				padding-left: 1.25rem;
+			}
+			.rb-bullets li {
+				margin-bottom: 0.4rem;
+			}
+			.rb-identity {
+				margin: 0;
+				max-width: 62ch;
+				color: rgba(11, 13, 16, 0.86);
+			}
+
 			.rb-home-gallery {
 				padding: var(--s-6) 0 0;
 			}
