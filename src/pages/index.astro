@@ -170,25 +170,37 @@ import { SITE_TITLE, SITE_DESCRIPTION } from "../consts";
 				margin-bottom: var(--s-7);
 			}
 
-			.rb-sep {
-				margin: var(--s-7) 0;
-				color: var(--muted);
+			/* Section pacing / breaks */
+			.rb-positioning,
+			.rb-offer,
+			.rb-identity {
+				max-width: 62ch;
+			}
+			.rb-positioning {
+				margin-top: var(--s-7);
+				padding-top: var(--s-7);
+				border-top: 1px solid var(--border);
+			}
+			.rb-offer {
+				margin-top: var(--s-7);
+				padding-top: var(--s-7);
+				border-top: 1px solid var(--border);
 			}
 			.rb-positioning p,
 			.rb-offer p {
-				margin: 0 0 var(--s-2);
-				max-width: 62ch;
+				margin: 0 0 var(--s-3);
 			}
 			.rb-bullets {
-				margin: var(--s-4) 0 var(--s-5);
+				margin: var(--s-4) 0 var(--s-6);
 				padding-left: 1.25rem;
 			}
 			.rb-bullets li {
 				margin-bottom: 0.4rem;
 			}
 			.rb-identity {
-				margin: 0;
-				max-width: 62ch;
+				margin: var(--s-7) 0 0;
+				padding-top: var(--s-7);
+				border-top: 1px solid var(--border);
 				color: rgba(11, 13, 16, 0.86);
 			}
 
