@@ -74,7 +74,6 @@ import { SITE_TITLE, SITE_DESCRIPTION } from "../consts";
 							</p>
 						</div>
 
-						<p class="rb-identity">Cyclist. Creative strategist. Student of marginal gains. Still riding. Still learning. Still refining.</p>
 					</div>
 
 					<div class="rb-hero__media">
@@ -106,6 +105,9 @@ import { SITE_TITLE, SITE_DESCRIPTION } from "../consts";
 							loading="lazy"
 						/>
 					</div>
+					<p class="rb-caption rb-gallery-caption">
+						Cyclist. Creative strategist. Student of marginal gains. Still riding. Still learning. Still refining.
+					</p>
 				</div>
 			</section>
 
@@ -172,8 +174,7 @@ import { SITE_TITLE, SITE_DESCRIPTION } from "../consts";
 
 			/* Section pacing / breaks */
 			.rb-positioning,
-			.rb-offer,
-			.rb-identity {
+			.rb-offer {
 				max-width: 62ch;
 			}
 			.rb-positioning {
@@ -197,11 +198,10 @@ import { SITE_TITLE, SITE_DESCRIPTION } from "../consts";
 			.rb-bullets li {
 				margin-bottom: 0.4rem;
 			}
-			.rb-identity {
-				margin: var(--s-7) 0 0;
-				padding-top: var(--s-7);
-				border-top: 1px solid var(--border);
-				color: rgba(11, 13, 16, 0.86);
+			.rb-gallery-caption {
+				max-width: var(--container);
+				margin: var(--s-4) auto 0;
+				padding: 0 var(--s-5);
 			}
 
 			.rb-home-gallery {
