@@ -5,7 +5,7 @@ backend:
 
   # External OAuth provider (served by Vercel serverless functions in /api/auth)
   base_url: https://roadbookofcycling-git-main-gareths-projects-a83bc018.vercel.app
-  auth_endpoint: api/auth
+  auth_endpoint: api/auth/begin
 
 media_folder: "src/assets/blog/uploads"
 public_folder: "../../assets/blog/uploads"
