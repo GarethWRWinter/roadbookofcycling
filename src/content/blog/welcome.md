@@ -62,9 +62,9 @@ Not the watts.
 
 The noise.
 
-Silence.
+Silence...
 
-Standard drip lube vs Hot Melt Wax is like comparing a chain smoker with a rattly cough and lungs like raisins, versus Wim Hof’s perfectly pure lungs that could seat a tubeless tyre with one exhale.
+Standard drip lube vs Hot Melt Wax is like comparing a chain smoker with a rattly cough and lungs like raisins, versus Wim Hof’s wind pipes that could seat a tubeless tyre with one exhale.
 
 ## The First Thing You Notice Is Not Speed
 
@@ -160,11 +160,17 @@ My drivetrain was not.
 
 ## Chain Number Two: 2017
 
-I returned in 2017 and took the fastest time, despite a headwind for most of the 360 kilometres.
+I returned in 2017 and took the fastest time, and the course record, despite a headwind for most of the 360 kilometres.
 
-That year, I used Muc Off’s Nanochain, developed for Brad Wiggins’ Hour Record.
+That year, I used Muc Off’s Nanochain, developed for Sir Brad Wiggins’ Hour Record; a project that I worked on, leading the creative and advertising for the event that was broadcast on Sky Sports, and globally on YouTube. Tickets sold out in under 5 minutes. 
+
+![](../../assets/blog/uploads/gareth-winter-sir-bradley-wiggins-hour-record.jpg)
 
 It worked.
+
+Sir Brad rode the event too. His respect was a greater achievement than my result:
+
+![](../../assets/blog/uploads/img_7776_bw.webp)
 
 But it was essentially single-use. A lot of money for one ride.
 
@@ -180,7 +186,7 @@ You control the friction.
 
 And as Zero Friction Cycling summarised in their long block testing:
 
-“Immersive wax lubricants consistently demonstrate significantly lower wear rates than wet lubricants across contamination blocks.”
+> “Immersive wax lubricants consistently demonstrate significantly lower wear rates than wet lubricants across contamination blocks.”
 
 That matters in a 360km race.
 
