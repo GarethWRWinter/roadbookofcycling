@@ -38,13 +38,13 @@ Before waxing, I would finish rides like that with a chain like a cement mixer.�
 
 A cassette that looked like a plasterer’s radio. Leave it overnight, and you wake up to surface rust by morning.
 
-A drivetrain that required a full degreasing session. The “get your hazmat suit on” kind. The “cover the floor with old bedsheets” kind. The kind that wilts nearby plant life and makes you question your life choices.
+A drivetrain that required a full degreasing session. The “get your hazmat suit on and cover the ground with tarp” kind. The kind that wilts nearby plant life and makes you question your life choices.
 
 And the quiet suspicion I had just spent £50 worth of component life.
 
 Then I switched to chain wax.
 
-Specifically, SILCA Secret Chain Blend, Hot Melt Wax.
+Specifically, [SILCA Secret Chain Blend, Hot Melt Wax.](https://silca.cc/en-gb/collections/chain-waxing-system)
 
 What changed?
 
@@ -192,7 +192,7 @@ The next day, it went back into the wax pot and came out as good as new.
 
 Unlike my legs.
 
-# **Sa Calobra. Why 18 Seconds Matters.**
+# Sa Calobra: Why 18 Seconds Matters
 
 Manchester to London proved durability.
 
@@ -270,7 +270,7 @@ Marginal gains stack.
 
 And tungsten disulfide is not marginal.
 
-## **The Economics**
+## The Economics
 
 Wax looks expensive at first.
 
@@ -286,13 +286,13 @@ Expensive up front.
 
 Cheaper over distance.
 
-## **What Does It Actually Cost?**
+## What Does It Actually Cost?
 
 Let’s address the obvious objection.
 
 Yes, hot waxing has an upfront cost.
 
-### **Initial Setup**
+## Initial Setup
 
 Approximate pricing:
 
@@ -311,7 +311,7 @@ That sounds like a lot.
 
 Now let’s break it down properly.
 
-### **Cost Per Wax**
+## Cost Per Wax
 
 A 500g bag of wax costs about £40 / $40.
 
@@ -343,7 +343,7 @@ That’s less than a coffee.
 
 And significantly less than prematurely replacing a £300 cassette. 
 
-## **Want To Lighten The Load?**
+## Want To Lighten The Load?
 
 If you’re ready to try the system, you can use my code:
 
@@ -357,7 +357,7 @@ Silence is speed.
 
 And now it’s cheaper too.
 
-## **Final Thought**
+## Final Thought
 
 Hot wax is not candle science.
 
