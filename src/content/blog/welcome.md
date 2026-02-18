@@ -3,12 +3,12 @@ title: Why you should wax your chain
 slug: /why-wax-your-bike-chain-silca-hot-melt-vs-oil
 description: A first post to confirm the new CMS workflow is live.
 pubDate: 2026-02-15
-updatedDate: 2026-02-15
+updatedDate: ""
 author: Gareth Winter
 tags:
   - Roadbook
 ---
-# Why I Wax My Chain, And Why You Probably Should Too
+## Why I Wax My Chain, And Why You Probably Should Too
 
 There are two types of cyclists.
 
