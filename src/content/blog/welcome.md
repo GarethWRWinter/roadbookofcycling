@@ -38,13 +38,15 @@ Before waxing, I would finish rides like that with a chain like a cement mixer.�
 
 A cassette that looked like a plasterer’s radio. Leave it overnight, and you wake up to surface rust by morning.
 
-A drivetrain that required a full degreasing session. The “get your hazmat suit on and cover the ground with tarp” kind. The kind that wilts nearby plant life and makes you question your life choices.
+A drivetrain that required a full degreasing session. The “get your hazmat suit on and cover the ground with tarp.” kind. The kind that wilts nearby plant life and makes you question your life choices.
 
 And the quiet suspicion I had just spent £50 worth of component life.
 
 Then I switched to chain wax.
 
-Specifically, [SILCA Secret Chain Blend, Hot Melt Wax.](https://silca.cc/en-gb/collections/chain-waxing-system)
+Specifically, <a href="https://silca.cc/en-gb/collections/chain-waxing-system" target="_blank" rel="noopener noreferrer">
+SILCA Secret Chain Blend, Hot Melt Wax.
+</a>
 
 What changed?
 
