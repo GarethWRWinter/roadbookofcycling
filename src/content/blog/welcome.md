@@ -50,6 +50,8 @@ Specifically, <a href="https://silca.cc/en-gb/collections/chain-waxing-system" t
 SILCA Secret Chain Blend, Hot Melt Wax.
 </a>
 
+![SILCA chain waxing system with bike chain suspended above hot melt wax pot](../../assets/blog/uploads/silca-hot-melt-wax-system-gareth-winter.jpg)
+
 What changed?
 
 Not the weather.
