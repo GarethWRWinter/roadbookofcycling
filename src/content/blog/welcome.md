@@ -78,7 +78,7 @@ Not witchcraft. Watt-craft.
 
 Zero Friction Cycling, widely regarded as the most exhaustive independent drivetrain testing authority in the world, has stated:
 
-“Hot melt wax remains the benchmark for efficiency and wear performance in real-world testing.”
+> “Hot melt wax remains the benchmark for efficiency and wear performance in real-world testing.”
 
 Their full 6000-kilometre block testing, which includes clean, dry contamination, wet contamination, and extreme contamination blocks, consistently shows immersive wax systems outperforming wet lubricants for both friction and wear.
 
