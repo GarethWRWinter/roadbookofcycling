@@ -22,6 +22,8 @@ It starts, as most good things do, in Manchester.
 
 ## Manchester to London: 360km of Reality
 
+![](../../assets/blog/uploads/gareth-winter-manchester-to-london-harry-dowdney.jpg)
+
 Manchester to London *(founded by Rapha’s Simon Mottram)* is not a lab test.
 
 It’s rain.
