@@ -2,8 +2,8 @@
 title: Why you should wax your chain
 slug: /why-wax-your-bike-chain-silca-hot-melt-vs-oil
 description: A first post to confirm the new CMS workflow is live.
-pubDate: 2026-02-15
-updatedDate: ""
+pubDate: 2026-02-18
+updatedDate: 2026-02-18
 author: Gareth Winter
 tags:
   - Roadbook
