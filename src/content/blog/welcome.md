@@ -100,9 +100,7 @@ They say “wax” and imagine candles.
 
 <a href="https://silca.cc/en-gb/collections/chain-waxing-system/products/secret-chain-wax-blend" target="_blank" rel="noopener noreferrer">
 SILCA’s Secret Chain Blend
-</a>
-
-is not just refined paraffin.
+</a> is not just refined paraffin.
 
 It contains nano-scale tungsten disulfide, WS2.
 
