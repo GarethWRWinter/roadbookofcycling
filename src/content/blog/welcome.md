@@ -80,11 +80,11 @@ Zero Friction Cycling, widely regarded as the most exhaustive independent drivet
 
 > “Hot melt wax remains the benchmark for efficiency and wear performance in real-world testing.”
 
-Their full 6000-kilometre block testing, which includes clean, dry contamination, wet contamination, and extreme contamination blocks, consistently shows immersive wax systems outperforming wet lubricants for both friction and wear.
+Their full 6000km block testing, which includes clean, dry contamination, wet contamination, and extreme contamination blocks, consistently shows immersive wax systems outperforming wet lubricants for both friction and wear.
 
 Adam Kerin of Zero Friction Cycling also notes:
 
-“A poor lubricant choice or contaminated chain can cost upwards of 5 watts at 250 watts. That number increases as power increases.”
+> “A poor lubricant choice or contaminated chain can cost upwards of 5 watts at 250 watts. That number increases as power increases.”
 
 Friction Facts testing, reported through VeloNews, showed wax-based systems running nearly 6 watts faster than the worst oil lubricants after one hour in dirt and water.
 
@@ -100,7 +100,13 @@ This is where people oversimplify it.
 
 They say “wax” and imagine candles.
 
-SILCA’s Secret Chain Blend is not just refined paraffin.
+<a href="https://silca.cc/en-gb/collections/chain-waxing-system/products/secret-chain-wax-blend"_blank" rel="noopener noreferrer">
+
+SILCA’s Secret Chain Blend.
+
+</a> is not just refined paraffin.
+
+SILCA’s Secret Chain Blend
 
 It contains nano-scale tungsten disulfide, WS2.
 
