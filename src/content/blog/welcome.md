@@ -110,7 +110,7 @@ Tungsten disulfide has a significantly lower dynamic coefficient of friction tha
 
 SILCA describes it clearly:
 
-> “Secret Chain Blend utilises nano-scale Tungsten Di-Sulfide to fill surface imperfections and create an ultra-low friction, wear-resistant interface.”
+> “Secret Chain Blend utilises nano-scale tungsten disulfide to fill surface imperfections and create an ultra-low friction, wear-resistant interface.”
 
 Zero Friction Cycling’s efficiency testing of SILCA Hot Melt places it among the fastest lubricants tested at approximately 3.8 watts loss at 250 watts.
 
