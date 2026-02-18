@@ -1,6 +1,6 @@
 ---
 title: Why you should wax your chain
-slug: welcome
+slug: /why-wax-your-bike-chain-silca-hot-melt-vs-oil
 description: A first post to confirm the new CMS workflow is live.
 pubDate: 2026-02-15
 updatedDate: 2026-02-15
@@ -8,7 +8,7 @@ author: Gareth Winter
 tags:
   - Roadbook
 ---
-# **Why I Wax My Chain, And Why You Probably Should Too**
+# Why I Wax My Chain, And Why You Probably Should Too
 
 There are two types of cyclists.
 
@@ -20,13 +20,9 @@ This is the story of how I became the second type.
 
 It starts, as most good things do, in Manchester.
 
+## Manchester to London: 360km of Reality
 
-
-
-
-## **Manchester to London: 360km of Reality**
-
-Manchester to London (founded by Rapha’s Simon Mottram) is not a lab test.
+Manchester to London *(founded by Rapha’s Simon Mottram)* is not a lab test.
 
 It’s rain.
 
@@ -64,11 +60,7 @@ Silence.
 
 Standard drip lube vs Hot Melt Wax is like comparing a chain smoker with a rattly cough and lungs like raisins, versus Wim Hof’s perfectly pure lungs that could seat a tubeless tyre with one exhale.
 
-
-
-
-
-## **The First Thing You Notice Is Not Speed**
+## The First Thing You Notice Is Not Speed
 
 It’s silence.
 
@@ -98,11 +90,7 @@ Six watts is a bike length at 50 kilometres per hour.
 
 And over 360 kilometres, that compounds.
 
-
-
-
-
-## **But This Is Not Just Paraffin**
+## But This Is Not Just Paraffin
 
 This is where people oversimplify it.
 
@@ -132,13 +120,9 @@ You are reducing boundary friction at the metal interface.
 
 That is a different conversation entirely.
 
+## Manchester to London: Three Chains, One Winner
 
-
-
-
-## **Manchester to London: Three Chains, One Winner**
-
-### **Chain Number One: 2016**
+### Chain Number One: 2016
 
 Manchester to London 2016. Back then, immersive waxing was fringe.
 
@@ -166,11 +150,7 @@ When I reached London, my legs were ruined.
 
 My drivetrain was not.
 
-
-
-
-
-### **Chain Number Two: 2017**
+## Chain Number Two: 2017
 
 I returned in 2017 and took the fastest time, despite a headwind for most of the 360 kilometres.
 
@@ -196,11 +176,7 @@ And as Zero Friction Cycling summarised in their long block testing:
 
 That matters in a 360km race.
 
-
-
-
-
-### **Chain Number Three. 2022.**
+### **Chain Number Three: 2022**
 
 By 2022, I was fully committed.
 
@@ -215,10 +191,6 @@ The chain was weatherproof, durable, silent.
 The next day, it went back into the wax pot and came out as good as new.
 
 Unlike my legs.
-
-
-
-
 
 # **Sa Calobra. Why 18 Seconds Matters.**
 
@@ -298,10 +270,6 @@ Marginal gains stack.
 
 And tungsten disulfide is not marginal.
 
-
-
-
-
 ## **The Economics**
 
 Wax looks expensive at first.
@@ -329,17 +297,9 @@ Yes, hot waxing has an upfront cost.
 Approximate pricing:
 
 * Secret Chain Blend 500g: **£40 / $40**
-
-
 * Super Secret Drip: **£25 / $25**
-
-
 * StripChip (6 chains): **£24 / $24**
-
-
 * Chain Waxing System: **£100 / $100**
-
-
 
 Total upfront:
 
@@ -350,10 +310,6 @@ Total upfront:
 That sounds like a lot.
 
 Now let’s break it down properly.
-
-
-
-
 
 ### **Cost Per Wax**
 
@@ -387,10 +343,6 @@ That’s less than a coffee.
 
 And significantly less than prematurely replacing a £300 cassette. 
 
-
-
-
-
 ## **Want To Lighten The Load?**
 
 If you’re ready to try the system, you can use my code:
@@ -404,10 +356,6 @@ That takes the upfront cost down immediately.
 Silence is speed.
 
 And now it’s cheaper too.
-
-
-
-
 
 ## **Final Thought**
 
