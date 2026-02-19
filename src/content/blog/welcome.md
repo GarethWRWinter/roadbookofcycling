@@ -140,7 +140,7 @@ That is a different conversation entirely.
 
 ![Crossing the finish line at Rapha Manchester to London 2016](../../assets/blog/uploads/28895328483_0cd4bdd42f_o.jpg)
 
-Manchester to London 2016. Back then, immersive waxing was fringe.
+Manchester to London 2016: ten years ago, immersive waxing was fringe.
 
 When I told my friend Liam Maybank *(founder of Aerevolution and a proper UK timetrial engine)* that I was riding M2L, he offered to wax my chain for mates’ rates: £20. He promised durability and a few watts.
 
