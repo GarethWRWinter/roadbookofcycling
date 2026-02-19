@@ -392,6 +392,8 @@ Marginal gains stack.
 
 And tungsten disulfide is not marginal.
 
+
+
 ## The Economics
 
 Wax looks expensive at first.
@@ -404,9 +406,13 @@ Longer chainring life.
 
 Zero Friction Cycling’s modelling shows drivetrain savings over 10,000 kilometres can reach four-figure sums on high-end groupsets when low-wear lubrication systems are used.
 
-Expensive up front.
+This was music to my ears. I ride Campagnolo Super Record... 
+
+Wax is costly up front.
 
 Cheaper over distance.
+
+
 
 ## What Does It Actually Cost?
 
@@ -466,6 +472,8 @@ That’s less than a coffee.
 And significantly less than prematurely replacing a £300 cassette. 
 
 # **Who Is This Actually For?**
+
+![Gareth Wintera road cyclist racing a time trial with a skinsuit and aerodynamic helmet](../../assets/blog/uploads/gareth-winter-time-trial.webp)
 
 ## **The Speed-First Racer**
 
