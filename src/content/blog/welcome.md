@@ -38,7 +38,7 @@ It is 12 hours of drivetrain exposure to everything the British road network can
 
 Before waxing, I would finish rides like that with a chain like a cement mixer. 
 
-A cassette that looked like a plasterer’s radio. Leave it overnight, and you wake up to surface rust by morning.
+A cassette that looked like a plasterer’s radio. Leave it overnight, and you wake up to rust by morning.
 
 A drivetrain that required a full degreasing session. The “get your hazmat suit on and cover the ground with tarp.” kind. The kind that wilts nearby plant life and makes you question your life choices.
 
@@ -66,6 +66,8 @@ Silence...
 
 Standard drip lube vs Hot Melt Wax is like comparing a chain smoker with a rattly cough and lungs like raisins, versus Wim Hof’s wind pipes that could seat a tubeless tyre with one exhale.
 
+![Factor O2 VAM road bike photographed side-on with carbon wheels and tan-wall tyres](../../assets/blog/uploads/dscf4953.jpg)
+
 ## The First Thing You Notice Is Not Speed
 
 It’s silence.
@@ -82,13 +84,15 @@ Zero Friction Cycling, widely regarded as the most exhaustive independent drivet
 
 > “Hot melt wax remains the benchmark for efficiency and wear performance in real-world testing.”
 
+![CeramicSpeed OSPW derailleur with waxed Shimano Dura-Ace chain close-up](../../assets/blog/uploads/dscf4960.jpg)
+
 Their full 6000km block testing, which includes clean, dry contamination, wet contamination, and extreme contamination blocks, consistently shows immersive wax systems outperforming wet lubricants for both friction and wear.
 
 Adam Kerin of Zero Friction Cycling also notes:
 
 > “A poor lubricant choice or contaminated chain can cost upwards of 5 watts at 250 watts. That number increases as power increases.”
 
-Friction Facts testing, reported through VeloNews, showed wax-based systems running nearly 6 watts faster than the worst oil lubricants after one hour in dirt and water.
+Friction Facts testing, reported through VeloNews, showed wax-based systems running nearly 6 watts faster than standard oil lubricants after one hour in dirt and water.
 
 Six watts is not marketing.
 
@@ -119,6 +123,8 @@ SILCA describes it clearly:
 Zero Friction Cycling’s efficiency testing of SILCA Hot Melt places it among the fastest lubricants tested at approximately 3.8 watts loss at 250 watts.
 
 This is not generic wax.
+
+![Close-up of Shimano Dura-Ace chain inside SILCA hot melt waxing system with tungsten disulfide coating](../../assets/blog/uploads/silca-chain-waxing-close-up-tungsten-disulphide.jpg)
 
 It is a wax matrix carrying one of the most lubricious solid additives used in high-performance engineering applications.
 
