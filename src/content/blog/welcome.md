@@ -7,6 +7,7 @@ updatedDate: 2026-02-18
 author: Gareth Winter
 tags:
   - Roadbook
+heroImage: ../../assets/blog/uploads/hero-chain-wax.jpg
 ---
 ## Why I Wax My Chain, And Why You Probably Should Too
 
