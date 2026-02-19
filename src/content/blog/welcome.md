@@ -200,8 +200,6 @@ And as Zero Friction Cycling summarised in their long block testing:
 
 That matters in a 360km race.
 
-
-
 ## Chain Number Three: 2022
 
 ![Gareth Winter standing with Rapha founder Simon Mottram at the start line of Manchester to London](../../assets/blog/uploads/52182721712_31fc53df40_b.jpg)
@@ -309,8 +307,6 @@ Ride.
 It bridges hot melt intervals without re-stripping.
 
 That’s the ecosystem.
-
-<br><br>
 
 # Sa Calobra: Why 18 Seconds Matters
 
@@ -469,8 +465,6 @@ That’s less than a coffee.
 
 And significantly less than prematurely replacing a £300 cassette. 
 
-<br><br>
-
 # **Who Is This Actually For?**
 
 ![Gareth Wintera road cyclist racing a time trial with a skinsuit and aerodynamic helmet](../../assets/blog/uploads/gareth-winter-time-trial.webp)
@@ -497,9 +491,7 @@ Dry wax doesn’t turn into grinding paste.
 
 ![Campagnolo super record drivetrain silca waxed chain ](../../assets/blog/uploads/dscf8912.jpg)
 
-<br><br>
-
-# **What Nobody Tells You**
+## What Nobody Tells You
 
 Waxing isn’t about speed.
 
@@ -517,9 +509,7 @@ That psychological shift alone is powerful.
 
 Your drivetrain stops feeling disposable.
 
-<br><br>
-
-# **The Simple Way To Start**
+## **The Simple Way To Start**
 
 1. <a href="https://silca.cc/en-gb/collections/chain-waxing-system" target="_blank" rel="noopener noreferrer">Buy the Hot Melt system
    </a>
