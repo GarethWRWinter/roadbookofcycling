@@ -138,6 +138,8 @@ That is a different conversation entirely.
 
 ### Chain Number One: 2016
 
+![Crossing the finish line at Rapha Manchester to London 2016](../../assets/blog/uploads/28895328483_0cd4bdd42f_o.jpg)
+
 Manchester to London 2016. Back then, immersive waxing was fringe.
 
 When I told my friend Liam Maybank, founder of Aerevolution and a proper UK time trial engine, that I was riding M2L, he offered to wax my chain for mates’ rates. £20. He promised durability and a few watts.
@@ -150,7 +152,7 @@ The moment I clipped in, it felt different.
 
 Not faster. Quieter.
 
-I rode off the front with two riders in the first quarter. After a few hours in the rain, their drivetrains sounded like gravel grinders. Mine stayed silent.
+I rode off the front with two riders in the first quarter, Jake and Tom. After a few hours in the rain, their drivetrains sounded like gravel grinders. Mine stayed silent.
 
 That silence became fuel.
 
@@ -168,7 +170,9 @@ My drivetrain was not.
 
 I returned in 2017 and took the fastest time, and the course record, despite a headwind for most of the 360 kilometres.
 
-That year, I used Muc Off’s Nanochain, developed for Sir Brad Wiggins’ Hour Record; a project that I worked on, leading the creative and advertising for the event that was broadcast on Sky Sports, and globally on YouTube. Tickets sold out in under 5 minutes. 
+![Riding Manchester to London 2017 in Pas Normal Studios kit on a Colnago C40](../../assets/blog/uploads/37061172565_7d265cd25c_o.webp)
+
+That year, I used Muc Off’s Nanochain, developed for Sir Brad Wiggins’ Hour Record; a project that I worked on, leading the creative and advertising for the event broadcast on Sky Sports, and globally on YouTube. Tickets sold out in under 5 minutes...
 
 ![](../../assets/blog/uploads/gareth-winter-sir-bradley-wiggins-hour-record.jpg)
 
@@ -177,6 +181,8 @@ It worked.
 Sir Brad rode the event too. His respect was a greater achievement than my result:
 
 ![](../../assets/blog/uploads/img_7776_bw.webp)
+
+![Sir Bradley Wiggins at the finish line of Rapha Manchester to London with Pinarello Dogma](../../assets/blog/uploads/37040481055_59876eb33e_b.jpg)
 
 But it was essentially single-use. A lot of money for one ride.
 
