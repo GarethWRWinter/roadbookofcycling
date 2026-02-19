@@ -36,11 +36,13 @@ Fatigue.
 
 It is 12 hours of drivetrain exposure to everything the British road network can throw at you.
 
-Before waxing, I would finish rides like that with a chain like a cement mixer. 
+Before waxing, I would finish 8+ hour rides with a chain like a cement mixer. 
 
 A cassette that looked like a plasterer’s radio. Leave it overnight, and you wake up to rust by morning.
 
-A drivetrain that required a full degreasing session. The “get your hazmat suit on and cover the ground with tarp.” kind. The kind that wilts nearby plant life and makes you question your life choices.
+A drivetrain that required a full degreasing session. The “get your hazmat suit on and cover the ground with tarpaulin” kind. 
+
+The kind that wilts nearby plant life and makes you question your life choices.
 
 And the quiet suspicion I had just spent £50 worth of component life.
 
@@ -58,8 +60,6 @@ Not the weather.
 
 Not the distance.
 
-Not the watts.
-
 The noise.
 
 Silence...
@@ -76,7 +76,7 @@ A properly waxed chain does not sound lubricated.
 
 It sounds absent.
 
-That is not magic. That is friction reduction. 
+It's not magic. It's friction reduction. 
 
 Not witchcraft. Watt-craft.
 
@@ -110,11 +110,11 @@ They say “wax” and imagine candles.
 SILCA’s Secret Chain Blend
 </a> is not just refined paraffin.
 
-It contains nano-scale tungsten disulfide, WS2.
+It contains nano-scale tungsten disulfide.
 
 That matters.
 
-Tungsten disulfide has a significantly lower dynamic coefficient of friction than PTFE and molybdenum disulfide. It plates into the microscopic asperities of the chain surface. It does not just sit between metal surfaces; it modifies them.
+Tungsten disulfide plates into the microscopic asperities of the chain surface. It does not just sit between metal surfaces; it modifies them.
 
 SILCA describes it clearly:
 
