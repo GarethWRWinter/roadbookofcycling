@@ -202,7 +202,9 @@ And as Zero Friction Cycling summarised in their long block testing:
 
 That matters in a 360km race.
 
-### **Chain Number Three: 2022**
+## Chain Number Three: 2022
+
+![Gareth Winter standing with Rapha founder Simon Mottram at the start line of Manchester to London](../../assets/blog/uploads/52182721712_31fc53df40_b.jpg)
 
 By 2022, I was fully committed.
 
@@ -217,6 +219,8 @@ The chain was weatherproof, durable, silent.
 The next day, it went back into the wax pot and came out as good as new.
 
 Unlike my legs.
+
+![Gareth Winter standing with Rapha founder Simon Mottram at the start line of Manchester to London](../../assets/blog/uploads/mcrfinal._28.webp)
 
 # Sa Calobra: Why 18 Seconds Matters
 
