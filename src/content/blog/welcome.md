@@ -237,13 +237,13 @@ SILCA changed that ecosystem.
 
 Here’s how it actually works now.
 
-
-
 ## The SILCA Chain Waxing Ecosystem (The Grown-Up Version)
 
 This isn’t just a pot of wax.
 
 It’s a system.
+
+![Silca stripchip chain wax system](../../assets/blog/uploads/dscf7159.jpg)
 
 ### 1. StripChip: No-Solvent Start
 
@@ -392,8 +392,6 @@ Marginal gains stack.
 
 And tungsten disulfide is not marginal.
 
-
-
 ## The Economics
 
 Wax looks expensive at first.
@@ -411,8 +409,6 @@ This was music to my ears. I ride Campagnolo Super Record...
 Wax is costly up front.
 
 Cheaper over distance.
-
-
 
 ## What Does It Actually Cost?
 
@@ -471,6 +467,8 @@ That’s less than a coffee.
 
 And significantly less than prematurely replacing a £300 cassette. 
 
+<br><br>
+
 # **Who Is This Actually For?**
 
 ![Gareth Wintera road cyclist racing a time trial with a skinsuit and aerodynamic helmet](../../assets/blog/uploads/gareth-winter-time-trial.webp)
@@ -515,20 +513,18 @@ That psychological shift alone is powerful.
 
 Your drivetrain stops feeling disposable.
 
-
-
 # **The Simple Way To Start**
 
 1. <a href="https://silca.cc/en-gb/collections/chain-waxing-system" target="_blank" rel="noopener noreferrer">Buy the Hot Melt system
-</a>
+   </a>
 2. <a href="https://silca.cc/en-gb/collections/chain-waxing-system/products/strip-chip" target="_blank" rel="noopener noreferrer">Use StripChip for your first chain
-</a> 
+   </a> 
 3. <a href="https://silca.cc/en-gb/collections/chain-waxing-system/products/performance-chips" target="_blank" rel="noopener noreferrer">Add EnduranceChip for UK (non-perfect) conditions
-</a>
+   </a>
 4. <a href="https://silca.cc/en-gb/collections/chain-waxing-system/products/performance-chips" target="_blank" rel="noopener noreferrer">Or SpeedChip when time is the enemy
-</a>
+   </a>
 5. <a href="https://silca.cc/en-gb/collections/chain-waxing-system/products/silca-super-secret-chain-lube" target="_blank" rel="noopener noreferrer">Top up with Super Secret between rewaxes
-</a> 
+   </a> 
 
 One pot.
 
