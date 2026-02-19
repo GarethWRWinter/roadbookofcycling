@@ -180,7 +180,7 @@ That year, I used Muc Off’s Nanochain, developed for Sir Brad Wiggins’ Hour 
 
 It worked.
 
-Sir Brad rode M2L too. His respect was a greater achievement than my result:
+Sir Brad rode M2L, too. His respect was a greater achievement than my result:
 
 ![](../../assets/blog/uploads/img_7776_bw.webp)
 
