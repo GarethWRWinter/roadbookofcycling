@@ -222,15 +222,128 @@ Unlike my legs.
 
 ![Gareth Winter standing with Rapha founder Simon Mottram at the start line of Manchester to London](../../assets/blog/uploads/mcrfinal._28.webp)
 
-# Sa Calobra: Why 18 Seconds Matters
+## The Problem With Oil (That No One Tells You)
+
+Oil is sticky by design.
+
+Sticky attracts contamination.
+
+Contamination + load = wear.
+
+ZFC’s long-duration testing (thousands of kilometres, alternating clean and contamination blocks) consistently shows immersive wax systems dramatically reduce wear compared to wet lubes 
+
+In some extended dust testing, wax systems showed **5–10× lower chain wear** versus traditional lubricants 
+
+Let that sink in.
+
+5–10× less wear.
+
+That’s not marginal.
+
+That’s structural.
+
+
+
+## “But Isn’t Waxing a Faﬀ?”
+
+It can be.
+
+If you do it wrong.
+
+The old-school method required:
+
+* Multiple solvent baths
+  Degreasing rituals
+* A sacrificial slow cooker
+* And a level of mechanical commitment bordering on monkhood
+
+
+SILCA changed that ecosystem.
+
+Here’s how it actually works now.
+
+
+
+## The SILCA Chain Waxing Ecosystem (The Grown-Up Version)
+
+This isn’t just a pot of wax.
+
+It’s a system.
+
+### 1. StripChip – No-Solvent Start
+
+Factory grease is the enemy of wax adhesion.
+
+StripChip chemically converts factory grease inside the wax bath at 125°C — no pre-solvent stripping required 
+
+One chip per factory chain.
+
+That’s it.
+
+No mason jars.
+
+No petrol baths in the garden.
+
+### 2. Secret Chain Blend – The Base Layer
+
+Four refined waxes.
+
+Nano-scale tungsten disulfide (WS₂).
+
+Tunable via SpeedChip or EnduranceChip. 
+
+Hot immersion ensures full penetration into rollers — the actual friction interface.
+
+Official friction testing places Hot Melt around **~3.8W loss @ 250W load** — among the fastest lubricants tested (ZFC) 
+
+That’s race-grade.
+
+### 3. SpeedChip vs EnduranceChip
+
+This is where it gets interesting.
+
+SpeedChip:
+
+Optimised for outright friction reduction.
+
+EnduranceChip:
+
+Optimised for extended contamination resistance and interval length (ZFC extended interval data) 
+
+Translation:
+
+* Time Trial? SpeedChip.
+* Manchester to London in British weather? EnduranceChip.
+
+Marginal gains aren’t one-size-fits-all.
+
+### 4. Super Secret Drip – Field Maintenance
+
+You don’t re-hot-wax every week.
+
+You top up.
+
+Super Secret Drip is essentially hot-melt performance in a drip format, using the same WS₂ nano-platelet additive 
+
+Let dry 45 minutes.
+
+Ride.
+
+It bridges hot melt intervals without re-stripping.
+
+That’s the ecosystem.
+
+### Sa Calobra: Why 18 Seconds Matters
 
 Manchester to London proved durability.
 
-Sa Calobra proved obsession.
+Sa Calobra, Mallorca's most iconic climb, proved obsession.
 
 9.4 kilometres at 7%.
 
-Sub-30 became a number that would not leave.
+![Sa Calobra mountain road in Mallorca, iconic cycling climb with dramatic switchbacks](../../assets/blog/uploads/image-2-landscape-sa-calobra-gareth-winter-sub-30.webp)
+
+Climbing it in under 30 minutes became a number that would not leave.
 
 I had tried before.
 
@@ -245,6 +358,8 @@ Each time, close enough to taste. Each time, far enough to hurt.
 When you miss by 12 seconds, 18 seconds is not theory.
 
 It is personal.
+
+![Climbing Sa Calobra in Mallorca during sub-30 minute hill climb effort](../../assets/blog/uploads/image-1-hero-sa-calobra-gareth-winter-sub-30.webp)
 
 At roughly 300 watts sustained climbing, a 3-watt saving is around 1%.
 
@@ -372,6 +487,67 @@ Often around:
 That’s less than a coffee.
 
 And significantly less than prematurely replacing a £300 cassette. 
+
+# **Who Is This Actually For?**
+
+## **The Speed-First Racer**
+
+You care about watts.
+
+~3–5W @ 250W matters 
+
+Silence under load matters.
+
+## **The Endurance Rider**
+
+You care about cost per kilometre.
+
+Extended interval data supports durability gains 
+
+## **The Clean Freak**
+
+You care about white gloves and quiet bikes.
+
+Dry wax doesn’t turn into grinding paste.
+
+
+
+# **What Nobody Tells You**
+
+Pattern 45 – “What nobody tells you…”
+
+Waxing isn’t about speed.
+
+It’s about control.
+
+Oil is reactive.
+
+You clean because it got dirty.
+
+Wax is proactive.
+
+You prevent contamination from sticking.
+
+That psychological shift alone is powerful.
+
+Your drivetrain stops feeling disposable.
+
+
+
+
+
+# **The Simple Way To Start**
+
+1. Buy the Hot Melt system
+2. Use StripChip for your first chain 
+3. Add EnduranceChip for UK (non-perfect) conditions
+4. Top up with Super Secret between rewaxes 
+
+One pot.
+
+Two minutes active time.
+
+Ride.
 
 ## Want To Lighten The Load?
 
