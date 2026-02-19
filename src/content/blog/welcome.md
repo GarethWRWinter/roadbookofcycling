@@ -222,28 +222,6 @@ Unlike my legs.
 
 ![Gareth Winter standing with Rapha founder Simon Mottram at the start line of Manchester to London](../../assets/blog/uploads/mcrfinal._28.webp)
 
-## The Problem With Oil (That No One Tells You)
-
-Oil is sticky by design.
-
-Sticky attracts contamination.
-
-Contamination + load = wear.
-
-ZFC’s long-duration testing (thousands of kilometres, alternating clean and contamination blocks) consistently shows immersive wax systems dramatically reduce wear compared to wet lubes 
-
-In some extended dust testing, wax systems showed **5–10× lower chain wear** versus traditional lubricants 
-
-Let that sink in.
-
-5–10× less wear.
-
-That’s not marginal.
-
-That’s structural.
-
-
-
 ## “But Isn’t Waxing a Faﬀ?”
 
 It can be.
@@ -257,7 +235,6 @@ The old-school method required:
 * A sacrificial slow cooker
 * And a level of mechanical commitment bordering on monkhood
 
-
 SILCA changed that ecosystem.
 
 Here’s how it actually works now.
@@ -270,7 +247,7 @@ This isn’t just a pot of wax.
 
 It’s a system.
 
-### 1. StripChip – No-Solvent Start
+### 1. StripChip: No-Solvent Start
 
 Factory grease is the enemy of wax adhesion.
 
@@ -284,7 +261,7 @@ No mason jars.
 
 No petrol baths in the garden.
 
-### 2. Secret Chain Blend – The Base Layer
+### 2. Secret Chain Blend: The Base Layer
 
 Four refined waxes.
 
@@ -317,7 +294,7 @@ Translation:
 
 Marginal gains aren’t one-size-fits-all.
 
-### 4. Super Secret Drip – Field Maintenance
+### 4. Super Secret Drip: Field Maintenance
 
 You don’t re-hot-wax every week.
 
@@ -333,7 +310,7 @@ It bridges hot melt intervals without re-stripping.
 
 That’s the ecosystem.
 
-### Sa Calobra: Why 18 Seconds Matters
+# Sa Calobra: Why 18 Seconds Matters
 
 Manchester to London proved durability.
 
@@ -531,10 +508,6 @@ You prevent contamination from sticking.
 That psychological shift alone is powerful.
 
 Your drivetrain stops feeling disposable.
-
-
-
-
 
 # **The Simple Way To Start**
 
