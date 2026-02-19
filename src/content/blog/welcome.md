@@ -497,6 +497,8 @@ Dry wax doesn’t turn into grinding paste.
 
 ![Campagnolo super record drivetrain silca waxed chain ](../../assets/blog/uploads/dscf8912.jpg)
 
+<br><br>
+
 # **What Nobody Tells You**
 
 Waxing isn’t about speed.
@@ -514,6 +516,8 @@ You prevent contamination from sticking.
 That psychological shift alone is powerful.
 
 Your drivetrain stops feeling disposable.
+
+<br><br>
 
 # **The Simple Way To Start**
 
