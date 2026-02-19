@@ -257,7 +257,7 @@ That’s it.
 
 No mason jars.
 
-No petrol baths in the garden.
+No chemical warfare in the garden.
 
 ### 2. Secret Chain Blend: The Base Layer
 
@@ -277,11 +277,11 @@ That’s race-grade.
 
 This is where it gets interesting.
 
-SpeedChip:
+**SpeedChip:**
 
 Optimised for outright friction reduction.
 
-EnduranceChip:
+**EnduranceChip:**
 
 Optimised for extended contamination resistance and interval length (ZFC extended interval data) 
 
@@ -300,7 +300,7 @@ You top up.
 
 Super Secret Drip is essentially hot-melt performance in a drip format, using the same WS₂ nano-platelet additive 
 
-Let dry 45 minutes.
+Let it dry overnight.
 
 Ride.
 
