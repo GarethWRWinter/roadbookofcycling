@@ -308,7 +308,7 @@ It bridges hot melt intervals without re-stripping.
 
 That’s the ecosystem.
 
-
+<br><br>
 
 # Sa Calobra: Why 18 Seconds Matters
 
@@ -532,7 +532,7 @@ Your drivetrain stops feeling disposable.
 
 One pot.
 
-Two minutes active time.
+A few minutes of active time.
 
 Ride.
 
