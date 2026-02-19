@@ -489,17 +489,15 @@ You care about cost per kilometre.
 
 Extended interval data supports durability gains 
 
-## **The Clean Freak**
+## **The Clean Freak (me)**
 
 You care about white gloves and quiet bikes.
 
 Dry wax doesn’t turn into grinding paste.
 
-
+![Campagnolo super record drivetrain silca waxed chain ](../../assets/blog/uploads/dscf8912.jpg)
 
 # **What Nobody Tells You**
-
-Pattern 45 – “What nobody tells you…”
 
 Waxing isn’t about speed.
 
@@ -517,12 +515,20 @@ That psychological shift alone is powerful.
 
 Your drivetrain stops feeling disposable.
 
+
+
 # **The Simple Way To Start**
 
-1. Buy the Hot Melt system
-2. Use StripChip for your first chain 
-3. Add EnduranceChip for UK (non-perfect) conditions
-4. Top up with Super Secret between rewaxes 
+1. <a href="https://silca.cc/en-gb/collections/chain-waxing-system" target="_blank" rel="noopener noreferrer">Buy the Hot Melt system
+</a>
+2. <a href="https://silca.cc/en-gb/collections/chain-waxing-system/products/strip-chip" target="_blank" rel="noopener noreferrer">Use StripChip for your first chain
+</a> 
+3. <a href="https://silca.cc/en-gb/collections/chain-waxing-system/products/performance-chips" target="_blank" rel="noopener noreferrer">Add EnduranceChip for UK (non-perfect) conditions
+</a>
+4. <a href="https://silca.cc/en-gb/collections/chain-waxing-system/products/performance-chips" target="_blank" rel="noopener noreferrer">Or SpeedChip when time is the enemy
+</a>
+5. <a href="https://silca.cc/en-gb/collections/chain-waxing-system/products/silca-super-secret-chain-lube" target="_blank" rel="noopener noreferrer">Top up with Super Secret between rewaxes
+</a> 
 
 One pot.
 
