@@ -142,11 +142,13 @@ That is a different conversation entirely.
 
 Manchester to London 2016. Back then, immersive waxing was fringe.
 
-When I told my friend Liam Maybank, founder of Aerevolution and a proper UK time trial engine, that I was riding M2L, he offered to wax my chain for mates’ rates. £20. He promised durability and a few watts.
+When I told my friend Liam Maybank *(founder of Aerevolution and a proper UK timetrial engine)* that I was riding M2L, he offered to wax my chain for mates’ rates: £20. He promised durability and a few watts.
 
-The process looked like Breaking Bad. Solvents. Home oven. Serious kitchen chemistry.
+I wasn't convinced, but I trust and respect Liam, so I gave it a go. 
 
-The forecast flipped. 2016 became a washout. I panic-bought Rapha’s Shadow jersey and bib shorts the day before. If I was going waterproof, so was my drivetrain.
+The process looked like Breaking Bad. Picture Walter White. Solvents. Home oven. Serious kitchen chemistry.
+
+**Race day:** The forecast flipped. 2016 became a washout. I panic-bought Rapha’s Shadow jersey and bib shorts the day before. If my drivetrain was going waterproof, so was I.
 
 The moment I clipped in, it felt different.
 
@@ -156,7 +158,7 @@ I rode off the front with two riders in the first quarter, Jake and Tom. After a
 
 That silence became fuel.
 
-While their chains collected every grain of the North of England, mine kept shedding contamination.
+While their chains collected every grain of the North of England, mine kept shedding contamination and running silently.
 
 I rode them off my wheel and spent the next six hours solo.
 
@@ -168,7 +170,7 @@ My drivetrain was not.
 
 ## Chain Number Two: 2017
 
-I returned in 2017 and took the fastest time, and the course record, despite a headwind for most of the 360 kilometres.
+I returned in 2017 and took the fastest time and the course record, despite a headwind for most of the 360 kilometres.
 
 ![Riding Manchester to London 2017 in Pas Normal Studios kit on a Colnago C40](../../assets/blog/uploads/37061172565_7d265cd25c_o.webp)
 
@@ -178,23 +180,19 @@ That year, I used Muc Off’s Nanochain, developed for Sir Brad Wiggins’ Hour 
 
 It worked.
 
-Sir Brad rode the event too. His respect was a greater achievement than my result:
+Sir Brad rode M2L too. His respect was a greater achievement than my result:
 
 ![](../../assets/blog/uploads/img_7776_bw.webp)
 
 ![Sir Bradley Wiggins at the finish line of Rapha Manchester to London with Pinarello Dogma](../../assets/blog/uploads/37040481055_59876eb33e_b.jpg)
 
-But it was essentially single-use. A lot of money for one ride.
+But the Nanochain was essentially single-use. A lot of money for one ride.
 
 You could not repeat the treatment yourself.
 
 With a hot melt system at home, you can.
 
-You control the prep.
-
-You control the interval.
-
-You control the friction.
+And it's faster. 
 
 And as Zero Friction Cycling summarised in their long block testing:
 
@@ -214,7 +212,7 @@ Fastest time again.
 
 Same British weather lottery.
 
-The chain was weatherproof, durable, silent.
+The chain was weatherproof, durable, and silent.
 
 The next day, it went back into the wax pot and came out as good as new.
 
