@@ -170,7 +170,7 @@ My drivetrain was not.
 
 ## Chain Number Two: 2017
 
-I returned in 2017 and took the fastest time and the course record, despite a headwind for most of the 360 kilometres.
+I returned in 2017 and took the fastest time and the course record: 11:43:10, despite a headwind for most of the 360 kilometres.
 
 ![Riding Manchester to London 2017 in Pas Normal Studios kit on a Colnago C40](../../assets/blog/uploads/37061172565_7d265cd25c_o.webp)
 
@@ -199,6 +199,8 @@ And as Zero Friction Cycling summarised in their long block testing:
 > “Immersive wax lubricants consistently demonstrate significantly lower wear rates than wet lubricants across contamination blocks.”
 
 That matters in a 360km race.
+
+
 
 ## Chain Number Three: 2022
 
