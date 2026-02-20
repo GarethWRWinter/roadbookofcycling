@@ -16,18 +16,24 @@ const { title, description, pubDate, updatedDate, heroImage, youtubeId, youtubeT
 	<head>
 		<BaseHead title={title} description={description} image={heroImage} />
 		<style>
-			main {
-				width: calc(100% - 2em);
-				max-width: 100%;
-				margin: 0;
-			}
+			/*
+				This layout used to double-apply mobile “side gutters” by:
+				- shrinking <main> with calc(100% - 2em)
+				- then shrinking .prose again with max-width: calc(100% - 2em) + padding
+
+				Result: blog images felt small on mobile.
+				We now lean on global.css for the page container padding, and keep prose
+				width rules simple so images can use the available space.
+			*/
+			/* main padding is controlled globally (src/styles/global.css) */
+
 			.prose {
-				width: 720px;
-				max-width: calc(100% - 2em);
-				margin: auto;
-				padding: 1em;
-				color: rgb(var(--gray-dark));
+				width: 100%;
+				max-width: var(--measure);
+				margin: 0 auto;
+				padding: 0;
 			}
+
 			.title {
 				margin-bottom: 1em;
 				padding: 1em 0;
@@ -39,7 +45,7 @@ const { title, description, pubDate, updatedDate, heroImage, youtubeId, youtubeT
 			}
 			.date {
 				margin-bottom: 0.5em;
-				color: rgb(var(--gray));
+				color: var(--muted);
 			}
 			.last-updated-on {
 				font-style: italic;
