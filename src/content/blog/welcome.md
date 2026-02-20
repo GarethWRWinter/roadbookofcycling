@@ -309,6 +309,8 @@ It bridges hot melt intervals without re-stripping.
 
 That’s the ecosystem.
 
+![Silca Super Secret Drip Wax Lubricant being applied to a bike chain](../../assets/blog/uploads/dscf1770-2.jpg)
+
 # Sa Calobra: Why 18 Seconds Matters
 
 Manchester to London proved durability.
@@ -390,6 +392,8 @@ But it removed resistance at the metal interface.
 Marginal gains stack.
 
 And tungsten disulfide is not marginal.
+
+![Road cyclist in a skinsuit holding a high end race bike](../../assets/blog/uploads/dscf3576.jpg)
 
 ## The Economics
 
