@@ -533,9 +533,10 @@ Ride.
 
 If you’re ready to try the system, you can use my code:
 
-**ROADBOOK15**
+**RoadBookofCycling15**
 
-For 15% off at SILCA.
+For 15% off at <a href="https://silca.cc" target="_blank" rel="noopener noreferrer">SILCA
+</a> 
 
 That takes the upfront cost down immediately.
 
