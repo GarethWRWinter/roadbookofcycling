@@ -273,23 +273,28 @@ figure.rb-figure figcaption {
 	h1 { letter-spacing: -0.03em; }
 
 	/*
-		Mobile image “breakout”:
-		Keep copy inset, but let images/figures bleed into the side gutters.
-		This makes visuals feel larger without making text run edge-to-edge.
+		Mobile image full-bleed:
+		Keep copy inset, but let images/figures extend to the viewport edges.
+		This gives a modern editorial feel without sacrificing readability.
 	*/
-	.prose {
-		--rb-bleed: var(--s-5);
-	}
 	.prose :is(img, figure.rb-figure) {
 		max-width: none;
-		width: calc(100% + (2 * var(--rb-bleed)));
-		margin-left: calc(-1 * var(--rb-bleed));
-		margin-right: calc(-1 * var(--rb-bleed));
+		width: 100vw;
+		position: relative;
+		left: 50%;
+		right: 50%;
+		margin-left: -50vw;
+		margin-right: -50vw;
 	}
 	/* captions should stay aligned with the text column */
 	figure.rb-figure figcaption {
 		max-width: 62ch;
-		margin-left: var(--rb-bleed);
-		margin-right: var(--rb-bleed);
+		/* cancel the full-bleed positioning on the caption */
+		position: static;
+		width: auto;
+		margin-left: 0;
+		margin-right: 0;
+		padding-left: 0;
+		padding-right: 0;
 	}
 }
