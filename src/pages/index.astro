@@ -5,8 +5,12 @@ import BaseHead from '../components/BaseHead.astro';
 import Footer from '../components/Footer.astro';
 import FormattedDate from '../components/FormattedDate.astro';
 import Header from '../components/Header.astro';
+import EmailCommentBlock from '../components/EmailCommentBlock.astro';
 import { SITE_DESCRIPTION, SITE_TITLE } from '../consts';
+
 import heroPortrait from '../assets/home/gareth-winter-home-1.JPG';
+import bradImage from '../assets/home/gareth-winter-sir-bradley-wiggins-hour-record.jpg';
+import geraintImage from '../assets/home/gareth-winter-geraint-thomas-team-sky.jpg';
 
 const posts = (await getCollection('blog'))
 	.sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
@@ -23,23 +27,100 @@ const remaining = posts.slice(1);
 	<body>
 		<Header />
 
-		<!-- Masthead -->
-		<section class="masthead">
+		<!-- ─── Hero ──────────────────────────────────────────────────────── -->
+		<section class="hero">
 			<div class="container">
-				<p class="label masthead-kicker">Road cycling — stories, craft &amp; performance</p>
-				<h1 class="masthead-headline">
-					Performance,<br />craft, and the<br />quiet obsession<br />of getting better.
-				</h1>
+				<div class="hero-inner">
+					<div class="hero-copy">
+						<p class="label hero-kicker">Roadbook of Cycling</p>
+
+						<h1 class="hero-headline">
+							Performance, craft, and the quiet obsession of getting better.
+						</h1>
+
+						<div class="hero-body">
+							<p>
+								If you care about the details. If you believe progress is earned, not announced.
+								If you've ever replayed a ride in your head hours later — you're in the right place.
+							</p>
+							<p>
+								I write from inside the sport. Where training meets equipment.
+								Where small changes compound. Where confidence is built through repetition.
+							</p>
+						</div>
+
+						<div class="hero-actions">
+							<a href="/blog" class="btn-primary">Read the writing</a>
+							<a href="#contact" class="btn-secondary">Work together</a>
+						</div>
+
+						<div class="hero-credentials">
+							<p>
+								I've spent over a decade inside elite performance environments —
+								not observing them, inside them. Former Creative Director at Team Sky,
+								working alongside Olympic champions and Grand Tour winners. Contributor to
+								systems that delivered gold medals, Tour de France and Giro d'Italia victories.
+							</p>
+							<p>
+								What I learned wasn't about hype. It was about process. Standards.
+								Marginal gains that compound into growth.
+							</p>
+							<p>
+								Today I bring that same lens to brands, founders, and creative teams.
+								Clarity over noise. Substance over slogans. Work that holds up under pressure.
+							</p>
+							<p class="hero-signoff">
+								Cyclist. Creative Director. Student of marginal gains.
+							</p>
+						</div>
+					</div>
+
+					<div class="hero-portrait">
+						<Image
+							src={heroPortrait}
+							alt="Gareth Winter"
+							width={900}
+							height={1200}
+							loading="eager"
+						/>
+						<p class="hero-caption label">Real-world training. Real-world constraints. Real-world obsession.</p>
+					</div>
+				</div>
+
+				<!-- Gallery — context and authority -->
+				<div class="hero-gallery">
+					<div class="gallery-img">
+						<Image
+							src={bradImage}
+							alt="Gareth Winter with Sir Bradley Wiggins during the Hour Record project"
+							width={1200}
+							height={800}
+							loading="lazy"
+						/>
+					</div>
+					<div class="gallery-img">
+						<Image
+							src={geraintImage}
+							alt="Gareth Winter with Geraint Thomas during the Team Sky era"
+							width={1200}
+							height={800}
+							loading="lazy"
+						/>
+					</div>
+				</div>
+				<p class="gallery-caption label">
+					Cyclist. Creative Director. Student of marginal gains. Still riding. Still learning. Still refining.
+				</p>
 			</div>
 		</section>
 
-		<hr class="divider" />
+		<hr class="divider section-divider" />
 
-		<!-- Featured article -->
+		<!-- ─── Latest writing ────────────────────────────────────────────── -->
 		{featured && (
 			<section class="featured">
 				<div class="container">
-					<p class="label section-label">Latest</p>
+					<p class="label section-label">Latest writing</p>
 					<a href={`/blog/${featured.id}/`} class="featured-link">
 						{featured.data.heroImage && (
 							<div class="featured-image">
@@ -48,7 +129,7 @@ const remaining = posts.slice(1);
 									alt={featured.data.title}
 									width={1400}
 									height={700}
-									loading="eager"
+									loading="lazy"
 								/>
 							</div>
 						)}
@@ -67,7 +148,6 @@ const remaining = posts.slice(1);
 			</section>
 		)}
 
-		<!-- More articles -->
 		{remaining.length > 0 && (
 			<>
 				<hr class="divider section-divider" />
@@ -105,30 +185,16 @@ const remaining = posts.slice(1);
 
 		<hr class="divider section-divider" />
 
-		<!-- About -->
-		<section class="home-about">
+		<!-- ─── Contact ───────────────────────────────────────────────────── -->
+		<section class="home-contact" id="contact">
 			<div class="container">
-				<div class="about-inner">
-					<div class="about-text">
-						<p class="label about-label">About</p>
-						<h2 class="about-heading">Gareth Winter</h2>
-						<p class="about-copy">
-							Former Creative Director at Team Sky. Cyclist. Creative leader at Mindvalley.
-							This is not a product review site. It is a window into a life lived
-							through cycling. Authority comes through authenticity, not credentials.
-						</p>
-						<a href="/about" class="read-link">Read the full story &rarr;</a>
-					</div>
-					<div class="about-portrait">
-						<Image
-							src={heroPortrait}
-							alt="Gareth Winter"
-							width={600}
-							height={800}
-							loading="lazy"
-						/>
-					</div>
-				</div>
+				<EmailCommentBlock
+					action="https://formspree.io/f/xdalabzw"
+					title="Home"
+					url={Astro.url.toString()}
+					heading="Get in touch"
+					copy="For questions, partnerships, podcast appearances, or speaking requests, drop me a note and I'll get back to you."
+				/>
 			</div>
 		</section>
 
@@ -137,35 +203,140 @@ const remaining = posts.slice(1);
 </html>
 
 <style>
-	/* ─── Masthead ─────────────────────────────────────────────────────────── */
-	.masthead {
-		padding: var(--s-10) 0 var(--s-9);
+	/* ─── Hero ───────────────────────────────────────────────────────────── */
+	.hero {
+		padding: var(--s-9) 0 var(--s-8);
 	}
 
-	.masthead-kicker {
-		margin-bottom: var(--s-5);
+	.hero-inner {
+		display: grid;
+		grid-template-columns: 1.1fr 0.9fr;
+		gap: var(--s-9);
+		align-items: start;
+		margin-bottom: var(--s-8);
 	}
 
-	.masthead-headline {
+	.hero-kicker {
+		margin-bottom: var(--s-4);
+	}
+
+	.hero-headline {
 		font-family: var(--font-serif);
-		font-size: clamp(2.75rem, 6.5vw, var(--text-5xl));
+		font-size: clamp(2rem, 4.5vw, 3.5rem);
 		font-weight: 300;
-		line-height: 1.05;
+		line-height: 1.1;
 		letter-spacing: -0.02em;
+		margin: 0 0 var(--s-6);
+	}
+
+	.hero-body p {
+		font-size: var(--text-lg);
+		color: var(--muted);
+		line-height: 1.7;
+		margin-bottom: var(--s-4);
+		max-width: 52ch;
+	}
+
+	.hero-actions {
+		display: flex;
+		gap: var(--s-3);
+		align-items: center;
+		margin: var(--s-6) 0 var(--s-7);
+		flex-wrap: wrap;
+	}
+
+	.btn-primary {
+		display: inline-block;
+		background: var(--ink);
+		color: var(--bg);
+		font-family: var(--font-sans);
+		font-size: var(--text-xs);
+		font-weight: 600;
+		letter-spacing: 0.1em;
+		text-transform: uppercase;
+		text-decoration: none;
+		padding: 0.85rem 1.5rem;
+		transition: opacity 150ms ease;
+	}
+
+	.btn-primary:hover { opacity: 0.75; text-decoration: none; }
+
+	.btn-secondary {
+		display: inline-block;
 		color: var(--ink);
-		margin: 0;
+		font-family: var(--font-sans);
+		font-size: var(--text-xs);
+		font-weight: 600;
+		letter-spacing: 0.1em;
+		text-transform: uppercase;
+		text-decoration: none;
+		border-bottom: 1px solid var(--border);
+		padding-bottom: 2px;
+		transition: border-color 150ms ease, opacity 150ms ease;
 	}
 
-	/* ─── Section helpers ──────────────────────────────────────────────────── */
-	.section-label {
-		margin-bottom: var(--s-5);
+	.btn-secondary:hover { border-color: var(--ink); opacity: 0.7; text-decoration: none; }
+
+	.hero-credentials {
+		padding-top: var(--s-6);
+		border-top: 1px solid var(--border);
+		max-width: 52ch;
 	}
 
-	.section-divider {
-		margin-top: var(--s-9);
+	.hero-credentials p {
+		font-size: var(--text-base);
+		color: var(--muted);
+		line-height: 1.7;
+		margin-bottom: var(--s-4);
 	}
 
-	/* ─── Shared read link ─────────────────────────────────────────────────── */
+	.hero-signoff {
+		font-size: var(--text-sm) !important;
+		letter-spacing: 0.06em;
+		text-transform: uppercase;
+		color: var(--subtle) !important;
+		margin-top: var(--s-5);
+	}
+
+	/* Portrait */
+	.hero-portrait {
+		position: sticky;
+		top: calc(4rem + var(--s-5));
+	}
+
+	.hero-portrait img {
+		width: 100%;
+		height: auto;
+		display: block;
+	}
+
+	.hero-caption {
+		margin-top: var(--s-3);
+	}
+
+	/* Gallery */
+	.hero-gallery {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		gap: var(--s-4);
+		margin-bottom: var(--s-3);
+	}
+
+	.gallery-img img {
+		width: 100%;
+		height: auto;
+		display: block;
+	}
+
+	.gallery-caption {
+		margin-bottom: 0;
+	}
+
+	/* ─── Section helpers ────────────────────────────────────────────────── */
+	.section-divider { margin-top: var(--s-9); }
+	.section-label { margin-bottom: var(--s-5); }
+
+	/* ─── Shared read link ───────────────────────────────────────────────── */
 	.read-link {
 		font-family: var(--font-sans);
 		font-size: var(--text-xs);
@@ -179,15 +350,10 @@ const remaining = posts.slice(1);
 		transition: opacity 150ms ease;
 	}
 
-	.read-link:hover {
-		opacity: 0.5;
-		text-decoration: none;
-	}
+	.read-link:hover { opacity: 0.5; text-decoration: none; }
 
-	/* ─── Featured article ─────────────────────────────────────────────────── */
-	.featured {
-		padding: var(--s-8) 0;
-	}
+	/* ─── Featured article ───────────────────────────────────────────────── */
+	.featured { padding: var(--s-8) 0; }
 
 	.featured-link {
 		display: grid;
@@ -211,13 +377,9 @@ const remaining = posts.slice(1);
 		transition: transform 700ms ease;
 	}
 
-	.featured-link:hover .featured-image img {
-		transform: scale(1.02);
-	}
+	.featured-link:hover .featured-image img { transform: scale(1.02); }
 
-	.featured-body {
-		max-width: 640px;
-	}
+	.featured-body { max-width: 640px; }
 
 	.featured-title {
 		font-family: var(--font-serif);
@@ -228,13 +390,8 @@ const remaining = posts.slice(1);
 		transition: opacity 150ms ease;
 	}
 
-	.featured-link:hover .featured-title {
-		opacity: 0.65;
-	}
-
-	.featured-date {
-		margin-bottom: var(--s-4);
-	}
+	.featured-link:hover .featured-title { opacity: 0.65; }
+	.featured-date { margin-bottom: var(--s-4); }
 
 	.featured-desc {
 		font-size: var(--text-lg);
@@ -243,10 +400,8 @@ const remaining = posts.slice(1);
 		margin-bottom: var(--s-5);
 	}
 
-	/* ─── More articles grid ───────────────────────────────────────────────── */
-	.more-articles {
-		padding: var(--s-8) 0;
-	}
+	/* ─── More articles ──────────────────────────────────────────────────── */
+	.more-articles { padding: var(--s-8) 0; }
 
 	.article-grid {
 		list-style: none;
@@ -257,11 +412,7 @@ const remaining = posts.slice(1);
 		gap: var(--s-7);
 	}
 
-	.article-card {
-		display: block;
-		text-decoration: none;
-		color: inherit;
-	}
+	.article-card { display: block; text-decoration: none; color: inherit; }
 
 	.card-image {
 		width: 100%;
@@ -278,9 +429,7 @@ const remaining = posts.slice(1);
 		transition: transform 600ms ease;
 	}
 
-	.article-card:hover .card-image img {
-		transform: scale(1.03);
-	}
+	.article-card:hover .card-image img { transform: scale(1.03); }
 
 	.card-title {
 		font-family: var(--font-serif);
@@ -291,79 +440,37 @@ const remaining = posts.slice(1);
 		transition: opacity 150ms ease;
 	}
 
-	.article-card:hover .card-title {
-		opacity: 0.65;
-	}
+	.article-card:hover .card-title { opacity: 0.65; }
+	.card-date { margin: 0; }
 
-	.card-date {
-		margin: 0;
-	}
+	/* ─── Contact ────────────────────────────────────────────────────────── */
+	.home-contact { padding: var(--s-8) 0 var(--s-10); }
 
-	/* ─── About section ────────────────────────────────────────────────────── */
-	.home-about {
-		padding: var(--s-9) 0;
-	}
-
-	.about-inner {
-		display: grid;
-		grid-template-columns: 1fr 1fr;
-		gap: var(--s-9);
-		align-items: center;
-	}
-
-	.about-label {
-		margin-bottom: var(--s-4);
-	}
-
-	.about-heading {
-		font-family: var(--font-serif);
-		font-size: clamp(2rem, 4vw, var(--text-3xl));
-		font-weight: 400;
-		margin-bottom: var(--s-5);
-	}
-
-	.about-copy {
-		font-size: var(--text-lg);
-		color: var(--muted);
-		line-height: 1.7;
-		margin-bottom: var(--s-5);
-		max-width: 44ch;
-	}
-
-	.about-portrait {
-		overflow: hidden;
-	}
-
-	.about-portrait img {
-		width: 100%;
-		height: auto;
-		display: block;
-		object-fit: cover;
-	}
-
-	/* ─── Responsive ───────────────────────────────────────────────────────── */
+	/* ─── Responsive ─────────────────────────────────────────────────────── */
 	@media (max-width: 900px) {
-		.about-inner {
+		.hero-inner {
 			grid-template-columns: 1fr;
+			gap: var(--s-7);
 		}
 
-		.about-portrait {
+		.hero-portrait {
+			position: static;
 			order: -1;
-			max-height: 65vw;
-			overflow: hidden;
 		}
 
-		.about-portrait img {
-			height: 65vw;
+		.hero-portrait img {
+			max-height: 70vw;
 			object-fit: cover;
 			object-position: center top;
+		}
+
+		.hero-gallery {
+			grid-template-columns: 1fr;
 		}
 	}
 
 	@media (max-width: 600px) {
-		.masthead {
-			padding: var(--s-8) 0 var(--s-7);
-		}
+		.hero { padding: var(--s-7) 0 var(--s-6); }
 
 		.article-grid {
 			grid-template-columns: 1fr;
