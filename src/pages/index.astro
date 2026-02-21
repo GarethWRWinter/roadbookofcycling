@@ -5,12 +5,9 @@ import BaseHead from '../components/BaseHead.astro';
 import Footer from '../components/Footer.astro';
 import FormattedDate from '../components/FormattedDate.astro';
 import Header from '../components/Header.astro';
-import EmailCommentBlock from '../components/EmailCommentBlock.astro';
 import { SITE_DESCRIPTION, SITE_TITLE } from '../consts';
 
 import heroPortrait from '../assets/home/gareth-winter-home-1.JPG';
-import bradImage from '../assets/home/gareth-winter-sir-bradley-wiggins-hour-record.jpg';
-import geraintImage from '../assets/home/gareth-winter-geraint-thomas-team-sky.jpg';
 
 const posts = (await getCollection('blog'))
 	.sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
@@ -27,394 +24,318 @@ const remaining = posts.slice(1);
 	<body>
 		<Header />
 
-		<!-- ─── Hero ──────────────────────────────────────────────────────── -->
-		<section class="hero">
-			<div class="container">
-				<div class="hero-inner">
-					<div class="hero-copy">
-						<p class="label hero-kicker">Roadbook of Cycling</p>
-
-						<h1 class="hero-headline">
-							Performance, craft, and the quiet obsession of getting better.
-						</h1>
-
-						<div class="hero-body">
-							<p>
-								If you care about the details. If you believe progress is earned, not announced.
-								If you've ever replayed a ride in your head hours later — you're in the right place.
-							</p>
-							<p>
-								I write from inside the sport. Where training meets equipment.
-								Where small changes compound. Where confidence is built through repetition.
-							</p>
-						</div>
-
-						<div class="hero-actions">
-							<a href="/blog" class="btn-primary">Read the writing</a>
-							<a href="#contact" class="btn-secondary">Work together</a>
-						</div>
-
-						<div class="hero-credentials">
-							<p>
-								I've spent over a decade inside elite performance environments —
-								not observing them, inside them. Former Creative Director at Team Sky,
-								working alongside Olympic champions and Grand Tour winners. Contributor to
-								systems that delivered gold medals, Tour de France and Giro d'Italia victories.
-							</p>
-							<p>
-								What I learned wasn't about hype. It was about process. Standards.
-								Marginal gains that compound into growth.
-							</p>
-							<p>
-								Today I bring that same lens to brands, founders, and creative teams.
-								Clarity over noise. Substance over slogans. Work that holds up under pressure.
-							</p>
-							<p class="hero-signoff">
-								Cyclist. Creative Director. Student of marginal gains.
-							</p>
-						</div>
-					</div>
-
-					<div class="hero-portrait">
-						<Image
-							src={heroPortrait}
-							alt="Gareth Winter"
-							width={900}
-							height={1200}
-							loading="eager"
-						/>
-						<p class="hero-caption label">Real-world training. Real-world constraints. Real-world obsession.</p>
-					</div>
+		<!--
+			ACT 1 — WHO YOU ARE
+			Full-viewport split: dark editorial panel left, portrait right.
+			The image does the talking. Copy earns every word.
+		-->
+		<section class="hero" aria-label="Introduction">
+			<div class="hero-panel">
+				<div class="hero-panel-inner">
+					<p class="hero-eyebrow label">Road cycling — stories, craft &amp; performance</p>
+					<h1 class="hero-headline">
+						Performance,<br />craft, and the<br />quiet obsession<br />of getting better.
+					</h1>
+					<p class="hero-copy">
+						I write from inside the sport. Where training meets equipment,
+						where small details compound, and where progress is earned — not claimed.
+					</p>
+					<a href="/blog" class="hero-cta">Read the writing &rarr;</a>
 				</div>
+			</div>
 
-				<!-- Gallery — context and authority -->
-				<div class="hero-gallery">
-					<div class="gallery-img">
-						<Image
-							src={bradImage}
-							alt="Gareth Winter with Sir Bradley Wiggins during the Hour Record project"
-							width={1200}
-							height={800}
-							loading="lazy"
-						/>
-					</div>
-					<div class="gallery-img">
-						<Image
-							src={geraintImage}
-							alt="Gareth Winter with Geraint Thomas during the Team Sky era"
-							width={1200}
-							height={800}
-							loading="lazy"
-						/>
-					</div>
-				</div>
-				<p class="gallery-caption label">
-					Cyclist. Creative Director. Student of marginal gains. Still riding. Still learning. Still refining.
-				</p>
+			<div class="hero-photo">
+				<Image
+					src={heroPortrait}
+					alt="Gareth Winter"
+					width={1200}
+					height={1600}
+					loading="eager"
+					fetchpriority="high"
+				/>
 			</div>
 		</section>
 
-		<hr class="divider section-divider" />
-
-		<!-- ─── Latest writing ────────────────────────────────────────────── -->
+		<!--
+			ACT 2 — THE WRITING
+			Surface the work. Lead with the best piece, full width.
+			Let the images do the seducing.
+		-->
 		{featured && (
-			<section class="featured">
-				<div class="container">
-					<p class="label section-label">Latest writing</p>
-					<a href={`/blog/${featured.id}/`} class="featured-link">
+			<section class="writing" aria-label="Latest writing">
+				<div class="writing-inner container">
+					<header class="writing-head">
+						<p class="label">Writing</p>
+					</header>
+
+					<a href={`/blog/${featured.id}/`} class="feature-card">
 						{featured.data.heroImage && (
-							<div class="featured-image">
+							<div class="feature-img">
 								<Image
 									src={featured.data.heroImage}
 									alt={featured.data.title}
 									width={1400}
-									height={700}
+									height={900}
 									loading="lazy"
 								/>
 							</div>
 						)}
-						<div class="featured-body">
-							<h2 class="featured-title">{featured.data.title}</h2>
-							<p class="featured-date label">
+						<div class="feature-text">
+							<p class="feature-date label">
 								<FormattedDate date={featured.data.pubDate} />
 							</p>
+							<h2 class="feature-title">{featured.data.title}</h2>
 							{featured.data.description && (
-								<p class="featured-desc">{featured.data.description}</p>
+								<p class="feature-desc">{featured.data.description}</p>
 							)}
-							<span class="read-link">Read &rarr;</span>
+							<span class="inline-cta">Read &rarr;</span>
 						</div>
 					</a>
-				</div>
-			</section>
-		)}
 
-		{remaining.length > 0 && (
-			<>
-				<hr class="divider section-divider" />
-				<section class="more-articles">
-					<div class="container">
-						<p class="label section-label">More</p>
-						<ul class="article-grid">
+					{remaining.length > 0 && (
+						<ul class="article-grid" role="list">
 							{remaining.map((post) => (
 								<li>
 									<a href={`/blog/${post.id}/`} class="article-card">
 										{post.data.heroImage && (
-											<div class="card-image">
+											<div class="card-img">
 												<Image
 													src={post.data.heroImage}
 													alt={post.data.title}
 													width={800}
-													height={500}
+													height={533}
 												/>
 											</div>
 										)}
-										<div class="card-body">
-											<h3 class="card-title">{post.data.title}</h3>
-											<p class="card-date label">
+										<div class="card-text">
+											<p class="label card-date">
 												<FormattedDate date={post.data.pubDate} />
 											</p>
+											<h3 class="card-title">{post.data.title}</h3>
 										</div>
 									</a>
 								</li>
 							))}
 						</ul>
-					</div>
-				</section>
-			</>
+					)}
+				</div>
+			</section>
 		)}
 
-		<hr class="divider section-divider" />
-
-		<!-- ─── Contact ───────────────────────────────────────────────────── -->
-		<section class="home-contact" id="contact">
-			<div class="container">
-				<EmailCommentBlock
-					action="https://formspree.io/f/xdalabzw"
-					title="Home"
-					url={Astro.url.toString()}
-					heading="Get in touch"
-					copy="For questions, partnerships, podcast appearances, or speaking requests, drop me a note and I'll get back to you."
-				/>
+		<!--
+			ACT 3 — THE CLOSER
+			Dark strip. Mirrors the hero. Closes the loop.
+			Simple invitation, no friction.
+		-->
+		<div class="closer" role="complementary">
+			<div class="closer-inner container">
+				<p class="closer-copy">
+					Former Creative Director, Team Sky.<br />
+					Cyclist. Student of marginal gains.
+				</p>
+				<a
+					href="mailto:garethwrwinter@outlook.com"
+					class="closer-cta"
+					aria-label="Email Gareth Winter"
+				>
+					Get in touch &rarr;
+				</a>
 			</div>
-		</section>
+		</div>
 
 		<Footer />
 	</body>
 </html>
 
 <style>
-	/* ─── Hero ───────────────────────────────────────────────────────────── */
+	/* ─── Hero ───────────────────────────────────────────────────────────────
+	   Full-viewport split. Dark panel left, portrait right.
+	   The most editorial moment on the site.
+	──────────────────────────────────────────────────────────────────────── */
 	.hero {
-		padding: var(--s-9) 0 var(--s-8);
-	}
-
-	.hero-inner {
 		display: grid;
-		grid-template-columns: 1.1fr 0.9fr;
-		gap: var(--s-9);
-		align-items: start;
-		margin-bottom: var(--s-8);
+		grid-template-columns: 44fr 56fr;
+		min-height: 100svh;
 	}
 
-	.hero-kicker {
-		margin-bottom: var(--s-4);
+	/* Dark panel */
+	.hero-panel {
+		background: var(--ink);
+		display: flex;
+		align-items: flex-end;
+		padding: var(--s-9) var(--s-8);
+	}
+
+	.hero-panel-inner {
+		max-width: 32rem;
+	}
+
+	.hero-eyebrow {
+		color: rgba(246, 243, 236, 0.45);
+		margin-bottom: var(--s-6);
 	}
 
 	.hero-headline {
 		font-family: var(--font-serif);
-		font-size: clamp(2rem, 4.5vw, 3.5rem);
+		font-size: clamp(2rem, 3vw, 3.25rem);
 		font-weight: 300;
-		line-height: 1.1;
+		line-height: 1.08;
 		letter-spacing: -0.02em;
+		color: var(--bg);
 		margin: 0 0 var(--s-6);
 	}
 
-	.hero-body p {
+	.hero-copy {
 		font-size: var(--text-lg);
-		color: var(--muted);
-		line-height: 1.7;
-		margin-bottom: var(--s-4);
-		max-width: 52ch;
+		color: rgba(246, 243, 236, 0.6);
+		line-height: 1.65;
+		max-width: 34ch;
+		margin: 0 0 var(--s-8);
 	}
 
-	.hero-actions {
-		display: flex;
-		gap: var(--s-3);
-		align-items: center;
-		margin: var(--s-6) 0 var(--s-7);
-		flex-wrap: wrap;
-	}
-
-	.btn-primary {
+	.hero-cta {
 		display: inline-block;
-		background: var(--ink);
+		font-family: var(--font-sans);
+		font-size: var(--text-xs);
+		font-weight: 600;
+		letter-spacing: 0.12em;
+		text-transform: uppercase;
 		color: var(--bg);
-		font-family: var(--font-sans);
-		font-size: var(--text-xs);
-		font-weight: 600;
-		letter-spacing: 0.1em;
-		text-transform: uppercase;
 		text-decoration: none;
-		padding: 0.85rem 1.5rem;
-		transition: opacity 150ms ease;
+		border-bottom: 1px solid rgba(246, 243, 236, 0.3);
+		padding-bottom: 3px;
+		transition: border-color 200ms ease;
 	}
 
-	.btn-primary:hover { opacity: 0.75; text-decoration: none; }
-
-	.btn-secondary {
-		display: inline-block;
-		color: var(--ink);
-		font-family: var(--font-sans);
-		font-size: var(--text-xs);
-		font-weight: 600;
-		letter-spacing: 0.1em;
-		text-transform: uppercase;
+	.hero-cta:hover {
+		border-color: rgba(246, 243, 236, 0.8);
+		opacity: 1;
 		text-decoration: none;
-		border-bottom: 1px solid var(--border);
-		padding-bottom: 2px;
-		transition: border-color 150ms ease, opacity 150ms ease;
-	}
-
-	.btn-secondary:hover { border-color: var(--ink); opacity: 0.7; text-decoration: none; }
-
-	.hero-credentials {
-		padding-top: var(--s-6);
-		border-top: 1px solid var(--border);
-		max-width: 52ch;
-	}
-
-	.hero-credentials p {
-		font-size: var(--text-base);
-		color: var(--muted);
-		line-height: 1.7;
-		margin-bottom: var(--s-4);
-	}
-
-	.hero-signoff {
-		font-size: var(--text-sm) !important;
-		letter-spacing: 0.06em;
-		text-transform: uppercase;
-		color: var(--subtle) !important;
-		margin-top: var(--s-5);
 	}
 
 	/* Portrait */
-	.hero-portrait {
-		position: sticky;
-		top: calc(4rem + var(--s-5));
+	.hero-photo {
+		overflow: hidden;
+		background: #2a2520;
 	}
 
-	.hero-portrait img {
+	.hero-photo img {
 		width: 100%;
-		height: auto;
+		height: 100%;
+		object-fit: cover;
+		object-position: center top;
 		display: block;
 	}
 
-	.hero-caption {
-		margin-top: var(--s-3);
+	/* ─── Writing ────────────────────────────────────────────────────────────
+	   Featured article: large horizontal editorial card.
+	   Supporting articles: clean grid below.
+	──────────────────────────────────────────────────────────────────────── */
+	.writing {
+		padding: var(--s-10) 0;
 	}
 
-	/* Gallery */
-	.hero-gallery {
+	.writing-head {
+		margin-bottom: var(--s-7);
+		padding-bottom: var(--s-5);
+		border-bottom: 1px solid var(--border);
+	}
+
+	/* Featured card — horizontal, cinematic */
+	.feature-card {
 		display: grid;
-		grid-template-columns: 1fr 1fr;
-		gap: var(--s-4);
-		margin-bottom: var(--s-3);
+		grid-template-columns: 58fr 42fr;
+		text-decoration: none;
+		color: inherit;
+		margin-bottom: var(--s-10);
+		border: 1px solid var(--border);
 	}
 
-	.gallery-img img {
+	.feature-img {
+		overflow: hidden;
+		background: var(--border);
+		aspect-ratio: 3 / 2;
+	}
+
+	.feature-img img {
 		width: 100%;
-		height: auto;
-		display: block;
+		height: 100%;
+		object-fit: cover;
+		transition: transform 800ms ease;
 	}
 
-	.gallery-caption {
-		margin-bottom: 0;
+	.feature-card:hover .feature-img img {
+		transform: scale(1.03);
 	}
 
-	/* ─── Section helpers ────────────────────────────────────────────────── */
-	.section-divider { margin-top: var(--s-9); }
-	.section-label { margin-bottom: var(--s-5); }
+	.feature-text {
+		padding: var(--s-7);
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-end;
+		border-left: 1px solid var(--border);
+	}
 
-	/* ─── Shared read link ───────────────────────────────────────────────── */
-	.read-link {
+	.feature-date {
+		margin-bottom: var(--s-4);
+	}
+
+	.feature-title {
+		font-family: var(--font-serif);
+		font-size: clamp(1.5rem, 2.5vw, var(--text-3xl));
+		font-weight: 400;
+		line-height: 1.1;
+		letter-spacing: -0.01em;
+		margin-bottom: var(--s-4);
+		transition: opacity 150ms ease;
+	}
+
+	.feature-card:hover .feature-title {
+		opacity: 0.65;
+	}
+
+	.feature-desc {
+		font-size: var(--text-base);
+		color: var(--muted);
+		line-height: 1.65;
+		margin-bottom: var(--s-6);
+		flex-grow: 1;
+	}
+
+	/* Inline CTA — shared */
+	.inline-cta {
 		font-family: var(--font-sans);
 		font-size: var(--text-xs);
 		font-weight: 600;
 		letter-spacing: 0.1em;
 		text-transform: uppercase;
 		color: var(--ink);
-		text-decoration: none;
-		border-bottom: 1px solid var(--ink);
+		border-bottom: 1px solid var(--border);
 		padding-bottom: 2px;
-		transition: opacity 150ms ease;
+		align-self: flex-start;
 	}
 
-	.read-link:hover { opacity: 0.5; text-decoration: none; }
-
-	/* ─── Featured article ───────────────────────────────────────────────── */
-	.featured { padding: var(--s-8) 0; }
-
-	.featured-link {
-		display: grid;
-		grid-template-columns: 1fr;
-		gap: var(--s-6);
-		text-decoration: none;
-		color: inherit;
+	.feature-card:hover .inline-cta {
+		border-color: var(--ink);
 	}
 
-	.featured-image {
-		width: 100%;
-		aspect-ratio: 16 / 9;
-		overflow: hidden;
-		background: var(--border);
-	}
-
-	.featured-image img {
-		width: 100%;
-		height: 100%;
-		object-fit: cover;
-		transition: transform 700ms ease;
-	}
-
-	.featured-link:hover .featured-image img { transform: scale(1.02); }
-
-	.featured-body { max-width: 640px; }
-
-	.featured-title {
-		font-family: var(--font-serif);
-		font-size: clamp(1.75rem, 3.5vw, var(--text-3xl));
-		font-weight: 400;
-		line-height: 1.1;
-		margin-bottom: var(--s-3);
-		transition: opacity 150ms ease;
-	}
-
-	.featured-link:hover .featured-title { opacity: 0.65; }
-	.featured-date { margin-bottom: var(--s-4); }
-
-	.featured-desc {
-		font-size: var(--text-lg);
-		color: var(--muted);
-		line-height: 1.65;
-		margin-bottom: var(--s-5);
-	}
-
-	/* ─── More articles ──────────────────────────────────────────────────── */
-	.more-articles { padding: var(--s-8) 0; }
-
+	/* Article grid — supporting pieces */
 	.article-grid {
 		list-style: none;
 		margin: 0;
 		padding: 0;
 		display: grid;
-		grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+		grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
 		gap: var(--s-7);
 	}
 
-	.article-card { display: block; text-decoration: none; color: inherit; }
+	.article-card {
+		display: block;
+		text-decoration: none;
+		color: inherit;
+	}
 
-	.card-image {
+	.card-img {
 		width: 100%;
 		aspect-ratio: 3 / 2;
 		overflow: hidden;
@@ -422,58 +343,135 @@ const remaining = posts.slice(1);
 		margin-bottom: var(--s-4);
 	}
 
-	.card-image img {
+	.card-img img {
 		width: 100%;
 		height: 100%;
 		object-fit: cover;
 		transition: transform 600ms ease;
 	}
 
-	.article-card:hover .card-image img { transform: scale(1.03); }
+	.article-card:hover .card-img img {
+		transform: scale(1.03);
+	}
+
+	.card-date {
+		margin-bottom: var(--s-2);
+	}
 
 	.card-title {
 		font-family: var(--font-serif);
 		font-size: var(--text-2xl);
 		font-weight: 400;
 		line-height: 1.15;
-		margin-bottom: var(--s-2);
+		margin: 0;
 		transition: opacity 150ms ease;
 	}
 
-	.article-card:hover .card-title { opacity: 0.65; }
-	.card-date { margin: 0; }
+	.article-card:hover .card-title {
+		opacity: 0.65;
+	}
 
-	/* ─── Contact ────────────────────────────────────────────────────────── */
-	.home-contact { padding: var(--s-8) 0 var(--s-10); }
+	/* ─── Closer ─────────────────────────────────────────────────────────────
+	   Dark strip. Mirrors the hero. Simple invitation.
+	──────────────────────────────────────────────────────────────────────── */
+	.closer {
+		background: var(--ink);
+		padding: var(--s-9) 0;
+	}
 
-	/* ─── Responsive ─────────────────────────────────────────────────────── */
+	.closer-inner {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		gap: var(--s-6);
+		flex-wrap: wrap;
+	}
+
+	.closer-copy {
+		font-family: var(--font-serif);
+		font-size: clamp(1.25rem, 2.5vw, var(--text-2xl));
+		font-weight: 300;
+		font-style: italic;
+		color: rgba(246, 243, 236, 0.65);
+		line-height: 1.4;
+		margin: 0;
+	}
+
+	.closer-cta {
+		font-family: var(--font-sans);
+		font-size: var(--text-xs);
+		font-weight: 600;
+		letter-spacing: 0.12em;
+		text-transform: uppercase;
+		color: var(--bg);
+		text-decoration: none;
+		border-bottom: 1px solid rgba(246, 243, 236, 0.3);
+		padding-bottom: 3px;
+		white-space: nowrap;
+		transition: border-color 200ms ease;
+		flex-shrink: 0;
+	}
+
+	.closer-cta:hover {
+		border-color: rgba(246, 243, 236, 0.8);
+		opacity: 1;
+		text-decoration: none;
+	}
+
+	/* ─── Responsive ─────────────────────────────────────────────────────────
+	   Mobile: hero stacks vertically. Portrait on top, panel below.
+	   Keep the drama, drop the grid.
+	──────────────────────────────────────────────────────────────────────── */
 	@media (max-width: 900px) {
-		.hero-inner {
+		.hero {
 			grid-template-columns: 1fr;
-			gap: var(--s-7);
+			min-height: auto;
 		}
 
-		.hero-portrait {
-			position: static;
+		.hero-photo {
+			aspect-ratio: 4 / 5;
 			order: -1;
 		}
 
-		.hero-portrait img {
-			max-height: 70vw;
-			object-fit: cover;
-			object-position: center top;
+		.hero-panel {
+			align-items: flex-start;
+			padding: var(--s-8) var(--s-5);
 		}
 
-		.hero-gallery {
+		.hero-panel-inner {
+			max-width: 100%;
+		}
+
+		.feature-card {
 			grid-template-columns: 1fr;
+		}
+
+		.feature-img {
+			aspect-ratio: 16 / 9;
+		}
+
+		.feature-text {
+			border-left: none;
+			border-top: 1px solid var(--border);
+		}
+
+		.closer-inner {
+			flex-direction: column;
+			align-items: flex-start;
 		}
 	}
 
 	@media (max-width: 600px) {
-		.hero { padding: var(--s-7) 0 var(--s-6); }
+		.hero-panel {
+			padding: var(--s-7) var(--s-4);
+		}
 
 		.article-grid {
 			grid-template-columns: 1fr;
+		}
+
+		.writing {
+			padding: var(--s-8) 0;
 		}
 	}
 </style>
