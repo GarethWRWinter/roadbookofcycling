@@ -1,67 +1,145 @@
 ---
-import BaseHead from "../components/BaseHead.astro";
-import Header from "../components/Header.astro";
-import Footer from "../components/Footer.astro";
-import { SITE_TITLE, SITE_DESCRIPTION } from "../consts";
+import BaseHead from '../components/BaseHead.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import { SITE_TITLE } from '../consts';
 ---
 
 <!doctype html>
 <html lang="en">
 	<head>
-		<BaseHead title={`About • ${SITE_TITLE}`} description={SITE_DESCRIPTION} />
+		<BaseHead
+			title={`About — ${SITE_TITLE}`}
+			description="Gareth Winter. Cyclist, creative leader, former Creative Director at Team Sky."
+		/>
 	</head>
-
 	<body>
 		<Header />
-		<main>
-			<article class="prose">
-				<h1>About Gareth</h1>
-				<hr />
 
-				<figure class="pull-quote">
-					<blockquote>
-						<p>
-							“Live your life while you have it. Life is a splendid gift —
-							there is nothing small about it.”
-						</p>
-						<figcaption>— Branda Winter</figcaption>
-					</blockquote>
-				</figure>
+		<main class="about-main">
+			<div class="container">
+				<header class="about-head">
+					<p class="label about-kicker">About</p>
+					<h1 class="about-title">Gareth Winter</h1>
+				</header>
 
-				<p>
-					I grew up with stories like that. Stories about grit, service, pride in
-					craft, and doing things properly, even when no one is watching. Cycling
-					was never just a sport in my family. It was culture. It was character. It
-					was a way of measuring yourself honestly.
-				</p>
+				<article class="prose about-prose">
+					<figure class="pull-quote">
+						<blockquote>
+							<p>
+								"Live your life while you have it. Life is a splendid gift —
+								there is nothing small about it."
+							</p>
+						</blockquote>
+						<figcaption class="quote-caption">— Branda Winter</figcaption>
+					</figure>
 
-				<p>That belief still shapes everything I do.</p>
+					<p>
+						I grew up with stories like that. Stories about grit, service, pride in
+						craft, and doing things properly, even when no one is watching. Cycling
+						was never just a sport in my family. It was culture. It was character. It
+						was a way of measuring yourself honestly.
+					</p>
 
-				<h2>Cycling Was the Classroom</h2>
-				<p>
-					The bike is an honest mirror. It rewards patience, exposes ego, and
-					punishes sloppy details. Do the work, get the result. Skip the work, pay
-					for it.
-				</p>
+					<p>That belief still shapes everything I do.</p>
 
-				<h2>Work, at the Highest Level</h2>
-				<p>
-					I’ve spent over a decade inside elite performance environments. Former
-					Creative Director at Team Sky, working alongside Olympic champions and
-					Grand Tour winners. Contributor to systems that delivered Olympic gold
-					medals, Tour de France and Giro d’Italia victories.
-				</p>
+					<h2>Cycling Was the Classroom</h2>
+					<p>
+						The bike is an honest mirror. It rewards patience, exposes ego, and
+						punishes sloppy details. Do the work, get the result. Skip the work, pay
+						for it.
+					</p>
 
-				<p>
-					Now leading creative strategy and performance systems at Mindvalley,
-					focused on human optimisation and transformation at global scale.
-				</p>
+					<h2>Work, at the Highest Level</h2>
+					<p>
+						I've spent over a decade inside elite performance environments. Former
+						Creative Director at Team Sky, working alongside Olympic champions and
+						Grand Tour winners. Contributor to systems that delivered Olympic gold
+						medals, Tour de France and Giro d'Italia victories.
+					</p>
 
-				<p class="muted">
-					Cyclist. Creative leader. Student of marginal gains.
-				</p>
-			</article>
+					<p>
+						Now leading creative strategy and performance systems at Mindvalley,
+						focused on human optimisation and transformation at global scale.
+					</p>
+
+					<p class="about-signoff">
+						Cyclist. Creative leader. Student of marginal gains.
+					</p>
+				</article>
+			</div>
 		</main>
+
 		<Footer />
 	</body>
 </html>
+
+<style>
+	.about-main {
+		padding-top: var(--s-9);
+		padding-bottom: var(--s-10);
+	}
+
+	.about-head {
+		max-width: var(--measure);
+		margin: 0 auto var(--s-8);
+	}
+
+	.about-kicker {
+		margin-bottom: var(--s-4);
+	}
+
+	.about-title {
+		font-family: var(--font-serif);
+		font-size: clamp(2.5rem, 5vw, var(--text-4xl));
+		font-weight: 300;
+		letter-spacing: -0.02em;
+		line-height: 1.05;
+		margin: 0;
+	}
+
+	.about-prose {
+		max-width: var(--measure);
+		margin: 0 auto;
+	}
+
+	/* Pull quote — magazine centrepiece */
+	.pull-quote {
+		margin: 0 0 var(--s-8);
+		padding: var(--s-7) 0;
+		border-top: 1px solid var(--border);
+		border-bottom: 1px solid var(--border);
+	}
+
+	.pull-quote blockquote {
+		margin: 0 0 var(--s-3);
+		padding: 0;
+		border: none;
+		background: none;
+	}
+
+	.pull-quote blockquote p {
+		font-family: var(--font-serif);
+		font-size: clamp(1.5rem, 3vw, var(--text-2xl));
+		font-weight: 300;
+		font-style: italic;
+		line-height: 1.35;
+		color: var(--ink);
+		margin: 0;
+	}
+
+	.quote-caption {
+		display: block;
+		font-size: var(--text-sm);
+		color: var(--muted);
+		letter-spacing: 0.04em;
+	}
+
+	.about-signoff {
+		font-size: var(--text-sm);
+		letter-spacing: 0.08em;
+		text-transform: uppercase;
+		color: var(--muted);
+		margin-top: var(--s-7);
+	}
+</style>

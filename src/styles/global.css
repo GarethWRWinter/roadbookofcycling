@@ -1,222 +1,228 @@
-/* Roadbook of Cycling — global.css
-   Editorial, modern, performance-minded. Quiet authority.
+/* Roadbook of Cycling — Design System
+   Inspired by Rapha, Rouleur, Monocle.
+   Restrained luxury. Editorial authority. Performance as brand.
 */
 
+/* ─── Design Tokens ──────────────────────────────────────────────────────── */
 :root {
-	--bg: #fcfcfb;
-	--surface: #ffffff;
-	--ink: #0b0d10;
-	--muted: #4c5563;
-	--border: rgba(11, 13, 16, 0.10);
-	--hairline: rgba(11, 13, 16, 0.06);
+	/* Palette — warm, editorial, muted */
+	--bg:        #f6f3ec;
+	--surface:   #fdfbf7;
+	--ink:       #1a1714;
+	--muted:     #7a746c;
+	--subtle:    #b2aca3;
+	--border:    #ddd7ca;
+	--hairline:  rgba(26, 23, 20, 0.08);
 
-	--font-sans: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
-		"Segoe UI", Roboto, Helvetica, Arial;
-	--font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas;
+	/* Typography */
+	--font-serif: 'Cormorant Garamond', 'Palatino Linotype', Georgia, serif;
+	--font-sans:  ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
+	              'Helvetica Neue', Arial, sans-serif;
+	--font-mono:  ui-monospace, 'SFMono-Regular', Menlo, Consolas, monospace;
 
-	--text-xs: 0.82rem;
-	--text-sm: 0.92rem;
-	--text-md: 1.02rem;
-	--text-lg: 1.16rem;
-	--text-xl: 1.55rem;
-	--text-2xl: 2.25rem;
+	/* Type scale */
+	--text-xs:   0.72rem;
+	--text-sm:   0.85rem;
+	--text-base: 1rem;
+	--text-lg:   1.125rem;
+	--text-xl:   1.375rem;
+	--text-2xl:  2rem;
+	--text-3xl:  2.75rem;
+	--text-4xl:  4rem;
+	--text-5xl:  6rem;
 
-	--leading: 1.5;
+	/* Layout */
+	--container: 1200px;
+	--measure:   680px;
 
-	--container: 1120px;
-	--measure: 70ch;
-
-	--s-1: 0.25rem;
-	--s-2: 0.5rem;
-	--s-3: 0.75rem;
-	--s-4: 1rem;
-	--s-5: 1.5rem;
-	--s-6: 2rem;
-	--s-7: 3rem;
-	--s-8: 4rem;
+	/* Spacing */
+	--s-1:  0.25rem;
+	--s-2:  0.5rem;
+	--s-3:  0.75rem;
+	--s-4:  1rem;
+	--s-5:  1.5rem;
+	--s-6:  2rem;
+	--s-7:  3rem;
+	--s-8:  4rem;
+	--s-9:  6rem;
+	--s-10: 8rem;
 }
 
-* { box-sizing: border-box; }
+/* ─── Reset ──────────────────────────────────────────────────────────────── */
+*, *::before, *::after { box-sizing: border-box; }
 
-html { -webkit-text-size-adjust: 100%; }
+html {
+	-webkit-text-size-adjust: 100%;
+	scroll-behavior: smooth;
+}
 
 body {
 	margin: 0;
 	font-family: var(--font-sans);
-	font-size: var(--text-md);
-	line-height: var(--leading);
-	letter-spacing: -0.01em;
+	font-size: var(--text-base);
+	line-height: 1.7;
 	color: var(--ink);
 	background: var(--bg);
 	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
 }
 
-main {
-	max-width: var(--container);
-	margin: 0 auto;
-	padding: var(--s-7) var(--s-5);
+img, video {
+	max-width: 100%;
+	display: block;
 }
 
-article, .prose {
+/* ─── Typography ─────────────────────────────────────────────────────────── */
+h1, h2, h3, h4 {
+	font-family: var(--font-serif);
+	font-weight: 400;
+	line-height: 1.1;
+	letter-spacing: -0.01em;
+	margin: 0;
+	color: var(--ink);
+}
+
+p {
+	margin: 0 0 var(--s-5);
+	line-height: 1.75;
+}
+
+p:last-child { margin-bottom: 0; }
+
+small, .text-sm { font-size: var(--text-sm); }
+
+/* ─── Links ──────────────────────────────────────────────────────────────── */
+a {
+	color: var(--ink);
+	text-decoration: underline;
+	text-decoration-thickness: 1px;
+	text-underline-offset: 3px;
+	text-decoration-color: var(--border);
+	transition: text-decoration-color 150ms ease, opacity 150ms ease;
+}
+
+a:hover {
+	text-decoration-color: var(--muted);
+	opacity: 0.8;
+}
+
+/* ─── Prose ──────────────────────────────────────────────────────────────── */
+.prose {
 	max-width: var(--measure);
 	margin-left: auto;
 	margin-right: auto;
 }
 
-h1, h2, h3 {
-	letter-spacing: -0.035em;
-	line-height: 1.12;
-	margin: 0 0 var(--s-4);
+.prose h2 {
+	font-size: var(--text-2xl);
+	margin-top: var(--s-9);
+	margin-bottom: var(--s-4);
 }
 
-h1 { font-size: var(--text-2xl); }
-h2 { font-size: var(--text-xl); margin-top: var(--s-7); }
-h3 { font-size: var(--text-lg); margin-top: var(--s-6); }
+.prose h3 {
+	font-family: var(--font-sans);
+	font-size: var(--text-xl);
+	font-weight: 600;
+	letter-spacing: -0.02em;
+	margin-top: var(--s-7);
+	margin-bottom: var(--s-3);
+}
 
-p { margin: 0 0 var(--s-5); }
-small, .muted { color: var(--muted); font-size: var(--text-sm); }
+.prose p {
+	font-size: var(--text-lg);
+	line-height: 1.78;
+	margin-bottom: var(--s-5);
+}
 
-hr {
+.prose img {
+	width: 100%;
+	margin: var(--s-7) 0;
+	border: none;
+}
+
+.prose hr {
 	border: none;
 	border-top: 1px solid var(--border);
+	margin: var(--s-8) 0;
+}
+
+.prose blockquote {
 	margin: var(--s-7) 0;
+	padding-left: var(--s-6);
+	border-left: 2px solid var(--ink);
 }
 
-/* Links — clean, restrained */
-a {
+.prose blockquote p {
+	font-family: var(--font-serif);
+	font-size: var(--text-2xl);
+	font-weight: 300;
+	font-style: italic;
+	line-height: 1.4;
 	color: var(--ink);
-	text-decoration: underline;
-	text-decoration-thickness: 1px;
-	text-underline-offset: 4px;
-	text-decoration-color: rgba(11, 13, 16, 0.25);
-	transition: text-decoration-color 150ms ease, opacity 150ms ease;
-}
-a:hover {
-	text-decoration-color: rgba(11, 13, 16, 0.7);
+	margin: 0;
 }
 
-/* Buttons */
-.btn-row {
-	display: flex;
-	gap: var(--s-3);
-	align-items: center;
-	flex-wrap: wrap;
-	margin-top: var(--s-5);
+/* ─── Utilities ──────────────────────────────────────────────────────────── */
+.container {
+	max-width: var(--container);
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: var(--s-6);
+	padding-right: var(--s-6);
 }
 
-.btn {
-	display: inline-flex;
-	align-items: center;
-	justify-content: center;
-	gap: 0.5rem;
-	padding: 0.85rem 1.15rem;
-	border: 1px solid var(--border);
-	border-radius: 999px;
-	background: var(--surface);
-	color: var(--ink);
-	text-decoration: none;
+.label {
+	display: block;
+	font-family: var(--font-sans);
+	font-size: var(--text-xs);
 	font-weight: 600;
-	letter-spacing: -0.01em;
-	line-height: 1;
-	transition: transform 140ms ease, background 140ms ease, border-color 140ms ease, opacity 140ms ease;
-}
-
-.btn:hover {
-	transform: translateY(-1px);
-	border-color: rgba(11, 13, 16, 0.18);
-}
-
-.btn:active {
-	transform: translateY(0px);
-	opacity: 0.92;
-}
-
-.btn-primary {
-	background: var(--ink);
-	color: var(--bg);
-	border-color: rgba(11, 13, 16, 0.9);
-	text-decoration: none;
-}
-
-.btn-primary:hover {
-	border-color: rgba(11, 13, 16, 1);
-}
-
-.btn-secondary {
-	background: transparent;
-}
-
-/* Cards / plaques */
-.card {
-	border: 1px solid var(--border);
-	background: rgba(11, 13, 16, 0.02);
-	border-radius: 0;
-	padding: var(--s-6);
-}
-
-.card-title {
-	font-size: var(--text-sm);
-	letter-spacing: 0.06em;
+	letter-spacing: 0.12em;
 	text-transform: uppercase;
 	color: var(--muted);
-	margin: 0 0 var(--s-3);
 }
 
-.card p:last-child { margin-bottom: 0; }
-
-/* Images — square, premium */
-img {
-	max-width: 100%;
-	display: block;
-	border-radius: 0;
-	border: 1px solid var(--border);
-}
-
-/* Quotes — sans, stronger, quiet */
-blockquote {
-	margin: var(--s-6) 0;
-	padding: var(--s-5) var(--s-6);
-	border-left: 3px solid var(--ink);
-	background: rgba(11, 13, 16, 0.03);
-	border-radius: 0;
-}
-
-blockquote p {
+.divider {
+	border: none;
+	border-top: 1px solid var(--border);
 	margin: 0;
-	font-family: var(--font-sans);
-	font-size: var(--text-lg);
-	font-weight: 650;
-	line-height: 1.38;
-	letter-spacing: -0.015em;
-	color: var(--ink);
 }
 
-blockquote figcaption {
-	margin-top: var(--s-4);
-	font-size: var(--text-sm);
-	font-weight: 550;
-	color: var(--muted);
-}
-
-/* Accessibility */
+/* ─── Accessibility ──────────────────────────────────────────────────────── */
 .sr-only {
-	border: 0;
-	padding: 0;
-	margin: 0;
-	position: absolute !important;
-	height: 1px;
+	position: absolute;
 	width: 1px;
+	height: 1px;
+	padding: 0;
+	margin: -1px;
 	overflow: hidden;
-	clip: rect(1px, 1px, 1px, 1px);
-	clip-path: inset(50%);
+	clip: rect(0, 0, 0, 0);
 	white-space: nowrap;
+	border-width: 0;
 }
 
-/* Responsive */
+/* ─── Responsive ─────────────────────────────────────────────────────────── */
 @media (max-width: 900px) {
-	main { padding: var(--s-6) var(--s-4); }
+	:root {
+		--text-4xl: 3rem;
+		--text-3xl: 2.25rem;
+		--text-5xl: 4rem;
+	}
+
+	.container {
+		padding-left: var(--s-5);
+		padding-right: var(--s-5);
+	}
 }
+
 @media (max-width: 600px) {
-	main { padding: var(--s-6) var(--s-4); }
-	h1 { letter-spacing: -0.03em; }
+	:root {
+		--text-4xl: 2.25rem;
+		--text-3xl: 1.75rem;
+		--text-5xl: 3rem;
+	}
+
+	.container {
+		padding-left: var(--s-4);
+		padding-right: var(--s-4);
+	}
 }

@@ -1,172 +1,174 @@
 ---
-import { Image } from "astro:assets";
-import { getCollection } from "astro:content";
-import BaseHead from "../../components/BaseHead.astro";
-import Footer from "../../components/Footer.astro";
-import FormattedDate from "../../components/FormattedDate.astro";
-import Header from "../../components/Header.astro";
-import { SITE_DESCRIPTION, SITE_TITLE } from "../../consts";
+import { Image } from 'astro:assets';
+import { getCollection } from 'astro:content';
+import BaseHead from '../../components/BaseHead.astro';
+import Footer from '../../components/Footer.astro';
+import FormattedDate from '../../components/FormattedDate.astro';
+import Header from '../../components/Header.astro';
+import { SITE_DESCRIPTION, SITE_TITLE } from '../../consts';
 
-const posts = (await getCollection("blog")).sort(
-  (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf(),
+const posts = (await getCollection('blog')).sort(
+	(a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf(),
 );
 ---
 
 <!doctype html>
 <html lang="en">
-  <head>
-    <BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
-    <style>
-      /* Page layout */
-      main {
-        max-width: var(--container, 980px);
-        margin: 0 auto;
-        padding: var(--s-7, 3rem) var(--s-5, 1.5rem);
-      }
+	<head>
+		<BaseHead title={`Writing — ${SITE_TITLE}`} description={SITE_DESCRIPTION} />
+	</head>
+	<body>
+		<Header />
 
-      /* Editorial list container (centered, content left-aligned) */
-      .rb-wrap {
-        max-width: var(--measure, 72ch);
-        margin: 0 auto;
-      }
+		<main class="listing-main">
+			<div class="container">
+				<header class="listing-head">
+					<h1 class="listing-title">Writing</h1>
+					<p class="listing-sub">Stories from inside the sport.</p>
+				</header>
 
-      .rb-head {
-        margin-bottom: var(--s-7, 3rem);
-      }
+				<ul class="listing-feed">
+					{posts.map((post) => (
+						<li class="listing-item">
+							<a href={`/blog/${post.id}/`} class="listing-card">
+								{post.data.heroImage && (
+									<div class="listing-image">
+										<Image
+											src={post.data.heroImage}
+											alt={post.data.title}
+											width={1200}
+											height={675}
+										/>
+									</div>
+								)}
+								<div class="listing-body">
+									<p class="listing-date label">
+										<FormattedDate date={post.data.pubDate} />
+									</p>
+									<h2 class="listing-card-title">{post.data.title}</h2>
+									{post.data.description && (
+										<p class="listing-desc">{post.data.description}</p>
+									)}
+									<span class="listing-read">Read &rarr;</span>
+								</div>
+							</a>
+						</li>
+					))}
+				</ul>
+			</div>
+		</main>
 
-      .rb-title {
-        margin: 0 0 var(--s-2, 0.5rem);
-        letter-spacing: -0.03em;
-        line-height: 1.05;
-      }
-
-      .rb-sub {
-        margin: 0;
-        color: var(--muted, #4c5563);
-        font-size: var(--text-sm, 0.95rem);
-      }
-
-      /* List */
-      ul.rb-list {
-        list-style: none;
-        margin: 0;
-        padding: 0;
-        display: grid;
-        grid-template-columns: 1fr;
-        gap: var(--s-7, 3rem);
-      }
-
-      /* Card */
-      a.rb-card {
-        display: grid;
-        grid-template-columns: 1fr;
-        gap: var(--s-4, 1rem);
-        text-decoration: none;
-        color: inherit;
-      }
-
-      /* Image */
-      .rb-media {
-        width: 100%;
-        aspect-ratio: 16 / 9;
-        overflow: hidden;
-        background: rgba(11, 13, 16, 0.03);
-        border: 1px solid rgba(11, 13, 16, 0.10);
-        border-radius: 0; /* square corners */
-      }
-
-      .rb-media :global(img) {
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-        display: block;
-        border-radius: 0; /* square corners */
-        box-shadow: none;
-      }
-
-      /* Text */
-      .rb-meta {
-        display: grid;
-        gap: 0.25rem;
-      }
-
-      .rb-post-title {
-        margin: 0;
-        color: var(--ink, #0b0d10);
-        letter-spacing: -0.02em;
-        line-height: 1.1;
-        font-size: var(--text-lg, 1.25rem);
-      }
-
-      .rb-date {
-        margin: 0;
-        color: var(--muted, #4c5563);
-        font-size: var(--text-sm, 0.95rem);
-      }
-
-      /* Hover: subtle, premium */
-      a.rb-card:hover .rb-post-title {
-        text-decoration: underline;
-        text-decoration-thickness: 1px;
-        text-underline-offset: 4px;
-        text-decoration-color: rgba(11, 13, 16, 0.35);
-      }
-
-      a.rb-card:hover .rb-media {
-        border-color: rgba(11, 13, 16, 0.18);
-      }
-
-      /* Responsive */
-      @media (max-width: 520px) {
-        main {
-          padding: var(--s-5, 1.5rem) var(--s-4, 1rem);
-        }
-        ul.rb-list {
-          gap: var(--s-6, 2rem);
-        }
-      }
-    </style>
-  </head>
-
-  <body>
-    <Header />
-    <main>
-      <div class="rb-wrap">
-        <header class="rb-head">
-          <h1 class="rb-title">Blog</h1>
-          <p class="rb-sub">Stories, systems, and the honest work of riding.</p>
-        </header>
-
-        <section>
-          <ul class="rb-list">
-            {
-              posts.map((post) => (
-                <li>
-                  <a class="rb-card" href={`/blog/${post.id}/`}>
-                    {post.data.heroImage && (
-                      <div class="rb-media">
-                        <Image
-                          src={post.data.heroImage}
-                          alt=""
-                          width={1600}
-                          height={900}
-                        />
-                      </div>
-                    )}
-                    <div class="rb-meta">
-                      <h2 class="rb-post-title">{post.data.title}</h2>
-                      <p class="rb-date">
-                        <FormattedDate date={post.data.pubDate} />
-                      </p>
-                    </div>
-                  </a>
-                </li>
-              ))
-            }
-          </ul>
-        </section>
-      </div>
-    </main>
-    <Footer />
-  </body>
+		<Footer />
+	</body>
 </html>
+
+<style>
+	.listing-main {
+		padding-top: var(--s-9);
+		padding-bottom: var(--s-10);
+	}
+
+	.listing-head {
+		margin-bottom: var(--s-9);
+		padding-bottom: var(--s-6);
+		border-bottom: 1px solid var(--border);
+	}
+
+	.listing-title {
+		font-family: var(--font-serif);
+		font-size: clamp(2.5rem, 5vw, var(--text-4xl));
+		font-weight: 300;
+		letter-spacing: -0.02em;
+		margin-bottom: var(--s-3);
+	}
+
+	.listing-sub {
+		font-size: var(--text-lg);
+		color: var(--muted);
+		margin: 0;
+	}
+
+	.listing-feed {
+		list-style: none;
+		margin: 0;
+		padding: 0;
+		display: flex;
+		flex-direction: column;
+		gap: var(--s-10);
+	}
+
+	.listing-card {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		gap: var(--s-8);
+		align-items: start;
+		text-decoration: none;
+		color: inherit;
+	}
+
+	.listing-image {
+		width: 100%;
+		aspect-ratio: 16 / 10;
+		overflow: hidden;
+		background: var(--border);
+	}
+
+	.listing-image img {
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+		transition: transform 700ms ease;
+	}
+
+	.listing-card:hover .listing-image img {
+		transform: scale(1.02);
+	}
+
+	.listing-body {
+		padding-top: var(--s-3);
+	}
+
+	.listing-date {
+		margin-bottom: var(--s-4);
+	}
+
+	.listing-card-title {
+		font-family: var(--font-serif);
+		font-size: clamp(1.75rem, 3vw, var(--text-3xl));
+		font-weight: 400;
+		line-height: 1.1;
+		letter-spacing: -0.01em;
+		margin-bottom: var(--s-4);
+		transition: opacity 150ms ease;
+	}
+
+	.listing-card:hover .listing-card-title {
+		opacity: 0.65;
+	}
+
+	.listing-desc {
+		font-size: var(--text-base);
+		color: var(--muted);
+		line-height: 1.65;
+		margin-bottom: var(--s-5);
+	}
+
+	.listing-read {
+		font-family: var(--font-sans);
+		font-size: var(--text-xs);
+		font-weight: 600;
+		letter-spacing: 0.1em;
+		text-transform: uppercase;
+		color: var(--ink);
+		border-bottom: 1px solid var(--border);
+		padding-bottom: 2px;
+	}
+
+	/* Responsive */
+	@media (max-width: 800px) {
+		.listing-card {
+			grid-template-columns: 1fr;
+			gap: var(--s-4);
+		}
+	}
+</style>

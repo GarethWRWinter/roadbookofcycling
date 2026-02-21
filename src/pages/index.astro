@@ -1,227 +1,372 @@
 ---
-import { Image } from "astro:assets";
-import heroImage from "../assets/home/gareth-winter-home-1.JPG";
+import { Image } from 'astro:assets';
+import { getCollection } from 'astro:content';
+import BaseHead from '../components/BaseHead.astro';
+import Footer from '../components/Footer.astro';
+import FormattedDate from '../components/FormattedDate.astro';
+import Header from '../components/Header.astro';
+import { SITE_DESCRIPTION, SITE_TITLE } from '../consts';
+import heroPortrait from '../assets/home/gareth-winter-home-1.JPG';
+
+const posts = (await getCollection('blog'))
+	.sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
+
+const featured = posts[0];
+const remaining = posts.slice(1);
 ---
 
 <!doctype html>
 <html lang="en">
-<head>
-	<meta charset="utf-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1" />
-	<title>Roadbook of Cycling</title>
-	<meta name="description" content="Performance, craft, and the quiet obsession of getting better." />
-</head>
+	<head>
+		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+	</head>
+	<body>
+		<Header />
 
-<body>
-	<header class="site-header">
-		<nav>
-			<a href="/" class="active">Home</a>
-			<a href="/blog">Blog</a>
-			<a href="/about">About</a>
-		</nav>
-	</header>
-
-	<main class="home">
-		<section class="home-inner">
-			<div class="home-text">
-				<span class="eyebrow">Roadbook of Cycling</span>
-
-				<h1>Performance, craft, and the quiet obsession of getting better.</h1>
-
-				<p class="lede">
-					I write from inside the sport. Where training meets equipment.
-					Where detail becomes confidence. Where progress is earned, not claimed.
-				</p>
-
-				<ul class="pillars">
-					<li>I write from inside the sport.</li>
-					<li>Where training meets equipment.</li>
-					<li>Where detail becomes confidence.</li>
-					<li>Where progress is earned, not claimed.</li>
-				</ul>
-
-				<p class="signal">Minimal hype. Maximum signal.</p>
-
-				<div class="actions">
-					<a href="/blog" class="btn-primary">Read the writing</a>
-					<a href="/about" class="btn-secondary">About</a>
-				</div>
-
-				<div class="credibility">
-					<p class="credibility-lead">
-						I’ve spent over a decade inside elite performance environments.
-					</p>
-
-					<p>
-						Former Creative Director at Team Sky, working alongside Olympic champions
-						and Grand Tour winners. Contributor to systems that delivered Olympic gold
-						medals, Tour de France and Giro d’Italia victories.
-					</p>
-
-					<p>
-						Now leading creative strategy and performance systems at Mindvalley,
-						focused on human optimisation and transformation at global scale.
-					</p>
-
-					<p class="credibility-signoff">
-						Cyclist. Creative leader. Student of marginal gains.
-					</p>
-				</div>
-			</div>
-
-			<div class="home-image">
-				<Image
-					src={heroImage}
-					alt="Gareth Winter at a time trial event"
-					width={900}
-					height={1200}
-					loading="eager"
-				/>
-				<span class="caption">
-					Real-world training. Real-world constraints. Real-world obsession.
-				</span>
+		<!-- Masthead -->
+		<section class="masthead">
+			<div class="container">
+				<p class="label masthead-kicker">Road cycling — stories, craft &amp; performance</p>
+				<h1 class="masthead-headline">
+					Performance,<br />craft, and the<br />quiet obsession<br />of getting better.
+				</h1>
 			</div>
 		</section>
-	</main>
 
-	<style>
-		body {
-			margin: 0;
-			font-family: system-ui, -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, sans-serif;
-			color: #111;
-			background: #fff;
-		}
+		<hr class="divider" />
 
-		.site-header {
-			border-bottom: 1px solid #eee;
-			padding: 1rem 2rem;
-		}
+		<!-- Featured article -->
+		{featured && (
+			<section class="featured">
+				<div class="container">
+					<p class="label section-label">Latest</p>
+					<a href={`/blog/${featured.id}/`} class="featured-link">
+						{featured.data.heroImage && (
+							<div class="featured-image">
+								<Image
+									src={featured.data.heroImage}
+									alt={featured.data.title}
+									width={1400}
+									height={700}
+									loading="eager"
+								/>
+							</div>
+						)}
+						<div class="featured-body">
+							<h2 class="featured-title">{featured.data.title}</h2>
+							<p class="featured-date label">
+								<FormattedDate date={featured.data.pubDate} />
+							</p>
+							{featured.data.description && (
+								<p class="featured-desc">{featured.data.description}</p>
+							)}
+							<span class="read-link">Read &rarr;</span>
+						</div>
+					</a>
+				</div>
+			</section>
+		)}
 
-		nav {
-			max-width: 1200px;
-			margin: 0 auto;
-			display: flex;
-			gap: 1.5rem;
-		}
+		<!-- More articles -->
+		{remaining.length > 0 && (
+			<>
+				<hr class="divider section-divider" />
+				<section class="more-articles">
+					<div class="container">
+						<p class="label section-label">More</p>
+						<ul class="article-grid">
+							{remaining.map((post) => (
+								<li>
+									<a href={`/blog/${post.id}/`} class="article-card">
+										{post.data.heroImage && (
+											<div class="card-image">
+												<Image
+													src={post.data.heroImage}
+													alt={post.data.title}
+													width={800}
+													height={500}
+												/>
+											</div>
+										)}
+										<div class="card-body">
+											<h3 class="card-title">{post.data.title}</h3>
+											<p class="card-date label">
+												<FormattedDate date={post.data.pubDate} />
+											</p>
+										</div>
+									</a>
+								</li>
+							))}
+						</ul>
+					</div>
+				</section>
+			</>
+		)}
 
-		nav a {
-			text-decoration: none;
-			color: #555;
-			font-weight: 500;
-		}
+		<hr class="divider section-divider" />
 
-		nav a.active {
-			color: #000;
-			border-bottom: 2px solid #000;
-			padding-bottom: 0.25rem;
-		}
+		<!-- About -->
+		<section class="home-about">
+			<div class="container">
+				<div class="about-inner">
+					<div class="about-text">
+						<p class="label about-label">About</p>
+						<h2 class="about-heading">Gareth Winter</h2>
+						<p class="about-copy">
+							Former Creative Director at Team Sky. Cyclist. Creative leader at Mindvalley.
+							This is not a product review site. It is a window into a life lived
+							through cycling. Authority comes through authenticity, not credentials.
+						</p>
+						<a href="/about" class="read-link">Read the full story &rarr;</a>
+					</div>
+					<div class="about-portrait">
+						<Image
+							src={heroPortrait}
+							alt="Gareth Winter"
+							width={600}
+							height={800}
+							loading="lazy"
+						/>
+					</div>
+				</div>
+			</div>
+		</section>
 
-		.home {
-			padding: 4rem 2rem;
-		}
-
-		.home-inner {
-			max-width: 1200px;
-			margin: 0 auto;
-			display: grid;
-			grid-template-columns: 1.1fr 0.9fr;
-			gap: 4rem;
-			align-items: start;
-		}
-
-		.eyebrow {
-			text-transform: uppercase;
-			letter-spacing: 0.08em;
-			font-size: 0.7rem;
-			color: #666;
-		}
-
-		h1 {
-			font-size: 2.5rem;
-			line-height: 1.15;
-			margin: 0.75rem 0 1.5rem;
-		}
-
-		.lede {
-			font-size: 1.05rem;
-			line-height: 1.5;
-			color: #333;
-			max-width: 36rem;
-		}
-
-		.pillars {
-			margin: 1.5rem 0;
-			padding-left: 1.2rem;
-		}
-
-		.pillars li {
-			margin-bottom: 0.5rem;
-		}
-
-		.signal {
-			font-weight: 500;
-			margin: 1.25rem 0;
-		}
-
-		.actions {
-			display: flex;
-			gap: 1rem;
-			margin: 2rem 0;
-		}
-
-		.btn-primary {
-			background: #000;
-			color: #fff;
-			padding: 0.6rem 1.2rem;
-			border-radius: 999px;
-			text-decoration: none;
-			font-weight: 500;
-		}
-
-		.btn-secondary {
-			border: 1px solid #ccc;
-			color: #000;
-			padding: 0.6rem 1.2rem;
-			border-radius: 999px;
-			text-decoration: none;
-			font-weight: 500;
-		}
-
-		.credibility {
-			margin-top: 2rem;
-			max-width: 36rem;
-			font-size: 0.95rem;
-			color: #333;
-		}
-
-		.credibility-lead {
-			font-weight: 600;
-			margin-bottom: 0.75rem;
-		}
-
-		.credibility-signoff {
-			color: #666;
-			margin-top: 0.75rem;
-		}
-
-		.home-image img {
-			width: 100%;
-			height: auto;
-			display: block;
-		}
-
-		.caption {
-			display: block;
-			margin-top: 0.5rem;
-			font-size: 0.75rem;
-			color: #666;
-		}
-
-		@media (max-width: 900px) {
-			.home-inner {
-				grid-template-columns: 1fr;
-			}
-		}
-	</style>
-</body>
+		<Footer />
+	</body>
 </html>
+
+<style>
+	/* ─── Masthead ─────────────────────────────────────────────────────────── */
+	.masthead {
+		padding: var(--s-10) 0 var(--s-9);
+	}
+
+	.masthead-kicker {
+		margin-bottom: var(--s-5);
+	}
+
+	.masthead-headline {
+		font-family: var(--font-serif);
+		font-size: clamp(2.75rem, 6.5vw, var(--text-5xl));
+		font-weight: 300;
+		line-height: 1.05;
+		letter-spacing: -0.02em;
+		color: var(--ink);
+		margin: 0;
+	}
+
+	/* ─── Section helpers ──────────────────────────────────────────────────── */
+	.section-label {
+		margin-bottom: var(--s-5);
+	}
+
+	.section-divider {
+		margin-top: var(--s-9);
+	}
+
+	/* ─── Shared read link ─────────────────────────────────────────────────── */
+	.read-link {
+		font-family: var(--font-sans);
+		font-size: var(--text-xs);
+		font-weight: 600;
+		letter-spacing: 0.1em;
+		text-transform: uppercase;
+		color: var(--ink);
+		text-decoration: none;
+		border-bottom: 1px solid var(--ink);
+		padding-bottom: 2px;
+		transition: opacity 150ms ease;
+	}
+
+	.read-link:hover {
+		opacity: 0.5;
+		text-decoration: none;
+	}
+
+	/* ─── Featured article ─────────────────────────────────────────────────── */
+	.featured {
+		padding: var(--s-8) 0;
+	}
+
+	.featured-link {
+		display: grid;
+		grid-template-columns: 1fr;
+		gap: var(--s-6);
+		text-decoration: none;
+		color: inherit;
+	}
+
+	.featured-image {
+		width: 100%;
+		aspect-ratio: 16 / 9;
+		overflow: hidden;
+		background: var(--border);
+	}
+
+	.featured-image img {
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+		transition: transform 700ms ease;
+	}
+
+	.featured-link:hover .featured-image img {
+		transform: scale(1.02);
+	}
+
+	.featured-body {
+		max-width: 640px;
+	}
+
+	.featured-title {
+		font-family: var(--font-serif);
+		font-size: clamp(1.75rem, 3.5vw, var(--text-3xl));
+		font-weight: 400;
+		line-height: 1.1;
+		margin-bottom: var(--s-3);
+		transition: opacity 150ms ease;
+	}
+
+	.featured-link:hover .featured-title {
+		opacity: 0.65;
+	}
+
+	.featured-date {
+		margin-bottom: var(--s-4);
+	}
+
+	.featured-desc {
+		font-size: var(--text-lg);
+		color: var(--muted);
+		line-height: 1.65;
+		margin-bottom: var(--s-5);
+	}
+
+	/* ─── More articles grid ───────────────────────────────────────────────── */
+	.more-articles {
+		padding: var(--s-8) 0;
+	}
+
+	.article-grid {
+		list-style: none;
+		margin: 0;
+		padding: 0;
+		display: grid;
+		grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+		gap: var(--s-7);
+	}
+
+	.article-card {
+		display: block;
+		text-decoration: none;
+		color: inherit;
+	}
+
+	.card-image {
+		width: 100%;
+		aspect-ratio: 3 / 2;
+		overflow: hidden;
+		background: var(--border);
+		margin-bottom: var(--s-4);
+	}
+
+	.card-image img {
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+		transition: transform 600ms ease;
+	}
+
+	.article-card:hover .card-image img {
+		transform: scale(1.03);
+	}
+
+	.card-title {
+		font-family: var(--font-serif);
+		font-size: var(--text-2xl);
+		font-weight: 400;
+		line-height: 1.15;
+		margin-bottom: var(--s-2);
+		transition: opacity 150ms ease;
+	}
+
+	.article-card:hover .card-title {
+		opacity: 0.65;
+	}
+
+	.card-date {
+		margin: 0;
+	}
+
+	/* ─── About section ────────────────────────────────────────────────────── */
+	.home-about {
+		padding: var(--s-9) 0;
+	}
+
+	.about-inner {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		gap: var(--s-9);
+		align-items: center;
+	}
+
+	.about-label {
+		margin-bottom: var(--s-4);
+	}
+
+	.about-heading {
+		font-family: var(--font-serif);
+		font-size: clamp(2rem, 4vw, var(--text-3xl));
+		font-weight: 400;
+		margin-bottom: var(--s-5);
+	}
+
+	.about-copy {
+		font-size: var(--text-lg);
+		color: var(--muted);
+		line-height: 1.7;
+		margin-bottom: var(--s-5);
+		max-width: 44ch;
+	}
+
+	.about-portrait {
+		overflow: hidden;
+	}
+
+	.about-portrait img {
+		width: 100%;
+		height: auto;
+		display: block;
+		object-fit: cover;
+	}
+
+	/* ─── Responsive ───────────────────────────────────────────────────────── */
+	@media (max-width: 900px) {
+		.about-inner {
+			grid-template-columns: 1fr;
+		}
+
+		.about-portrait {
+			order: -1;
+			max-height: 65vw;
+			overflow: hidden;
+		}
+
+		.about-portrait img {
+			height: 65vw;
+			object-fit: cover;
+			object-position: center top;
+		}
+	}
+
+	@media (max-width: 600px) {
+		.masthead {
+			padding: var(--s-8) 0 var(--s-7);
+		}
+
+		.article-grid {
+			grid-template-columns: 1fr;
+		}
+	}
+</style>
