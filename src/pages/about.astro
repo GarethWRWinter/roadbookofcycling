@@ -2,7 +2,14 @@
 import BaseHead from '../components/BaseHead.astro';
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
+import { Image } from 'astro:assets';
+import Callout from '../components/Callout.astro';
+import SectionDivider from '../components/SectionDivider.astro';
+import EmailCommentBlock from '../components/EmailCommentBlock.astro';
 import { SITE_TITLE } from '../consts';
+
+import aboutPortrait from '../assets/about/sq/01-_DSC1458.jpg';
+import aboutRide from '../assets/about/sq/02-DSCF4163.jpg';
 ---
 
 <!doctype html>
@@ -21,51 +28,128 @@ import { SITE_TITLE } from '../consts';
 				<header class="about-head">
 					<p class="label about-kicker">About</p>
 					<h1 class="about-title">Gareth Winter</h1>
+					<p class="about-sub">Cyclist. Creative leader. Performance obsessive.</p>
 				</header>
 
 				<article class="prose about-prose">
-					<figure class="pull-quote">
+					<Callout title="A family standard">
 						<blockquote>
 							<p>
 								"Live your life while you have it. Life is a splendid gift —
 								there is nothing small about it."
 							</p>
+							<figcaption>— Florence Nightingale (quoted by Branda Winter)</figcaption>
 						</blockquote>
-						<figcaption class="quote-caption">— Branda Winter</figcaption>
+					</Callout>
+
+					<p>
+						Roadbook of Cycling is where I write from inside the sport — where training meets equipment,
+						where details become confidence, and where progress is earned rather than claimed.
+					</p>
+
+					<figure class="rb-figure">
+						<Image src={aboutPortrait} alt="Gareth Winter" width={1920} height={2400} />
 					</figure>
 
 					<p>
-						I grew up with stories like that. Stories about grit, service, pride in
-						craft, and doing things properly, even when no one is watching. Cycling
-						was never just a sport in my family. It was culture. It was character. It
-						was a way of measuring yourself honestly.
+						Cycling was never just a hobby in my family. It was culture. It was character. It was a way of
+						measuring yourself honestly.
 					</p>
 
-					<p>That belief still shapes everything I do.</p>
+					<SectionDivider label="My story" />
 
-					<h2>Cycling Was the Classroom</h2>
 					<p>
-						The bike is an honest mirror. It rewards patience, exposes ego, and
-						punishes sloppy details. Do the work, get the result. Skip the work, pay
-						for it.
-					</p>
-
-					<h2>Work, at the Highest Level</h2>
-					<p>
-						I've spent over a decade inside elite performance environments. Former
-						Creative Director at Team Sky, working alongside Olympic champions and
-						Grand Tour winners. Contributor to systems that delivered Olympic gold
-						medals, Tour de France and Giro d'Italia victories.
+						I can still hear my grandmother's voice: her accent flipping from queen's finest (when I was in her good books)
+						to cockney (when I wasn't). She was a working-class hero who saw the best in people — and travelled the world
+						on two wheels.
 					</p>
 
 					<p>
-						Now leading creative strategy and performance systems at Mindvalley,
-						focused on human optimisation and transformation at global scale.
+						Nan bought her first bike in 1949 from Algurn Cycles in Wandsworth, London. It's still hanging in my dad's garage.
+						In post-war Britain, cycling gave young people freedom when cars and money were scarce.
 					</p>
 
-					<p class="about-signoff">
-						Cyclist. Creative leader. Student of marginal gains.
+					<p>
+						My grandparents met through cycling clubs and racing. I still wear my grandad's first gold medal on a pendant —
+						from the year they met — to take him riding with me.
 					</p>
+
+					<Callout title="A truth (delivered with love)">
+						<p>
+							"You look good on a bike. Just as good as your dad. Nearly as good as your grandad."
+						</p>
+						<p class="muted" style="margin-top: var(--s-3);">— Martyn Winter</p>
+					</Callout>
+
+					<p>
+						My parents met at a roller-racing event in Peckham. My schoolmates did Disneyland — I did UK cyclo-tours:
+						camping in the rain, drinking river water, living on flapjacks. Cycling taught me hard work and persistence.
+						It also taught me what matters: craftsmanship, preparation, and the ability to suffer well.
+					</p>
+
+					<SectionDivider label="Cycling × career" />
+
+					<p>
+						In 2010 I began my career in the creative industry at Sky News &amp; Sports. Broadcasting Sir Brad Wiggins's Tour de France
+						victory and Team GB's dominance at London 2012 evolved into a full-time role in Sky's cycling sponsorship team,
+						where I grew to lead creative outputs.
+					</p>
+
+					<p>
+						Working alongside performance teams — coaches, chefs, nutritionists, physios, psychologists — rewired my understanding
+						of high performance. Environment matters. Systems matter. The unglamorous details matter.
+					</p>
+
+					<p>
+						Those lessons shaped my approach to training and to work: prepare to succeed, iterate relentlessly, and never pretend
+						that outcomes are luck.
+					</p>
+
+					<figure class="rb-figure">
+						<Image src={aboutRide} alt="Riding" width={2500} height={1667} />
+					</figure>
+
+					<h2>Nutrition: the "food first" shift</h2>
+					<p>
+						Team environments taught me something simple and easily missed: real food isn't just healthier — it performs.
+						I stopped chasing "space-food" shortcuts and built a food-first approach that improved sleep, recovery, immunity,
+						and power-to-weight.
+					</p>
+					<p>
+						I also learned the hard way that it's possible to chase a pro-level power-to-weight ratio by losing weight… and lose the power
+						that made you fast in the first place. The rule I now live by: <strong>fuel and train</strong> — never <strong>diet and exercise</strong>.
+					</p>
+
+					<h2>Today</h2>
+					<p>
+						I've spent over a decade inside elite performance environments — including leading creative across Team Sky-era cycling
+						sponsorship — contributing to systems that delivered Olympic gold medals, Tour de France and Giro d'Italia victories.
+					</p>
+					<p>
+						I now lead creative strategy and performance systems at Mindvalley, focused on human optimisation and transformation
+						at global scale.
+					</p>
+
+					<SectionDivider label="Partnership" />
+
+					<p>
+						I work with brands and teams who care about quality — the kind of partners who value craft, evidence, and long-term trust.
+						If that's you, we'll get on.
+					</p>
+
+					<ul>
+						<li><strong>Brand partnerships</strong> (content, product storytelling, and performance-led campaigns)</li>
+						<li><strong>Consulting</strong> (creative strategy, positioning, and high-performance systems)</li>
+						<li><strong>Speaking</strong> (marginal gains, discipline, and building environments that produce winners)</li>
+					</ul>
+
+					<EmailCommentBlock
+						action="https://formspree.io/f/xdalabzw"
+						title="About"
+						url={Astro.url.toString()}
+						heading="Get in touch"
+						copy="Want to work together, invite me to speak, or ask a question? Send a message here — it lands straight in my inbox."
+					/>
 				</article>
 			</div>
 		</main>
@@ -95,6 +179,12 @@ import { SITE_TITLE } from '../consts';
 		font-weight: 300;
 		letter-spacing: -0.02em;
 		line-height: 1.05;
+		margin: 0 0 var(--s-3);
+	}
+
+	.about-sub {
+		font-size: var(--text-lg);
+		color: var(--muted);
 		margin: 0;
 	}
 
@@ -103,43 +193,17 @@ import { SITE_TITLE } from '../consts';
 		margin: 0 auto;
 	}
 
-	/* Pull quote — magazine centrepiece */
-	.pull-quote {
-		margin: 0 0 var(--s-8);
-		padding: var(--s-7) 0;
-		border-top: 1px solid var(--border);
-		border-bottom: 1px solid var(--border);
+	.rb-figure {
+		margin: var(--s-7) 0;
 	}
 
-	.pull-quote blockquote {
-		margin: 0 0 var(--s-3);
-		padding: 0;
-		border: none;
-		background: none;
-	}
-
-	.pull-quote blockquote p {
-		font-family: var(--font-serif);
-		font-size: clamp(1.5rem, 3vw, var(--text-2xl));
-		font-weight: 300;
-		font-style: italic;
-		line-height: 1.35;
-		color: var(--ink);
-		margin: 0;
-	}
-
-	.quote-caption {
+	.rb-figure img {
+		width: 100%;
+		height: auto;
 		display: block;
-		font-size: var(--text-sm);
-		color: var(--muted);
-		letter-spacing: 0.04em;
 	}
 
-	.about-signoff {
-		font-size: var(--text-sm);
-		letter-spacing: 0.08em;
-		text-transform: uppercase;
+	.muted {
 		color: var(--muted);
-		margin-top: var(--s-7);
 	}
 </style>

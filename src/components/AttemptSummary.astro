@@ -1,0 +1,45 @@
+---
+interface Props {
+	monday: string;
+	tuesday: string;
+	friday: string;
+}
+
+const { monday, tuesday, friday } = Astro.props;
+---
+
+<div class="rb-attempts" role="note" aria-label="Attempts summary">
+	<div class="rb-attempt"><span class="rb-day">Monday</span><span class="rb-result">{monday}</span></div>
+	<div class="rb-attempt"><span class="rb-day">Tuesday</span><span class="rb-result">{tuesday}</span></div>
+	<div class="rb-attempt"><span class="rb-day">Friday</span><span class="rb-result">{friday}</span></div>
+</div>
+
+<style>
+	.rb-attempts {
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+		gap: var(--s-3);
+		margin: var(--s-6) 0;
+	}
+	.rb-attempt {
+		border: 1px solid var(--border);
+		background: var(--surface);
+		padding: var(--s-4);
+	}
+	.rb-day {
+		display: block;
+		font-size: var(--text-xs);
+		letter-spacing: 0.08em;
+		text-transform: uppercase;
+		color: var(--muted);
+		margin-bottom: 0.35rem;
+	}
+	.rb-result {
+		display: block;
+		font-weight: 650;
+		letter-spacing: -0.01em;
+	}
+	@media (max-width: 720px) {
+		.rb-attempts { grid-template-columns: 1fr; }
+	}
+</style>

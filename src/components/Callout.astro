@@ -1,0 +1,31 @@
+---
+interface Props {
+	title?: string;
+}
+
+const { title } = Astro.props;
+---
+
+<aside class="rb-callout">
+	{title && <div class="rb-callout__title">{title}</div>}
+	<div class="rb-callout__body"><slot /></div>
+</aside>
+
+<style>
+	.rb-callout {
+		border: 1px solid var(--border);
+		background: rgba(11, 13, 16, 0.02);
+		padding: var(--s-6);
+		margin: var(--s-6) 0;
+	}
+	.rb-callout__title {
+		font-size: var(--text-xs);
+		letter-spacing: 0.08em;
+		text-transform: uppercase;
+		color: var(--muted);
+		margin-bottom: var(--s-3);
+	}
+	.rb-callout__body :global(p:last-child) {
+		margin-bottom: 0;
+	}
+</style>
