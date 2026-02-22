@@ -1,6 +1,9 @@
 ---
-title: "Anyone Still Using Chain Oil Is Making an Expensive Mistake. Here's the Data."
-description: "I haven't cleaned a chain in 10 years. I've ridden 360km in British rain, broken course records, and gone sub-30 on Sa Calobra. Here's what chain wax actually does to your watts, your components, and your head."
+title: Anyone Still Using Chain Oil Is Making an Expensive Mistake. Here's the Data.
+slug: chain-wax-vs-chain-oil-silca-hot-melt-review
+description: I haven't cleaned a chain in 10 years. I've ridden 360km in British
+  rain, broken course records, and gone sub-30 on Sa Calobra. Here's what chain
+  wax actually does to your watts, your components, and your head.
 pubDate: 2026-02-18
 updatedDate: 2026-02-22
 author: Gareth Winter
@@ -10,10 +13,9 @@ tags:
   - Marginal Gains
 heroImage: ../../assets/blog/uploads/hero-chain-wax.jpg
 ---
-
 *Updated February 2026 | 12 min read | Gareth Winter*
 
----
+- - -
 
 ## I Stopped Cleaning My Chain 10 Years Ago. My Drivetrain Has Never Been Better.
 
@@ -29,7 +31,7 @@ What if cleaning your chain after every ride is the clearest possible sign that 
 
 That is the question that changed how I think about my drivetrain. And the answer, found across ten years, three Manchester to London editions, and one very personal appointment with a clock reading 29:53 on a Mallorcan mountainside, is what this post is about.
 
----
+- - -
 
 ## The Degreaser Is Not Maintenance. It's a Symptom.
 
@@ -55,7 +57,7 @@ A properly waxed chain does not sound lubricated. It sounds absent. Standard dri
 
 That silence is not magic. It's friction reduction. Not witchcraft. Watt-craft.
 
----
+- - -
 
 ## What Is Actually Happening Inside a Wax Bath
 
@@ -65,35 +67,39 @@ Chain wax is not candle wax. When most cyclists hear the word, they picture birt
 
 <a href="https://silca.cc/en-gb/collections/chain-waxing-system/products/secret-chain-wax-blend" target="_blank" rel="noopener noreferrer">SILCA's Secret Chain Blend</a> contains nano-scale tungsten disulfide, WS2, the same class of solid lubricant used in aerospace engineering. It does not sit between metal surfaces the way oil does. It plates into the microscopic imperfections of the chain itself, modifying the surface. The metal interface becomes the lubricant.
 
+![](../../assets/blog/uploads/dscf4953.jpg)
+
 Zero Friction Cycling, the most exhaustive independent drivetrain testing authority in the sport, places SILCA Hot Melt at approximately 3.8 watts friction loss at 250 watts. Their 6,000km block testing across clean, wet, and contaminated conditions consistently shows wet lubricants degrading to losses of 5 to 8 watts under real-world conditions.
 
 That gap is not theoretical. At 250 watts on a climb that already has you at the limit, the difference between 3.8 and 8 watts is the difference between holding the wheel and watching it go.
+
+![](../../assets/blog/uploads/dscf4960.jpg)
 
 Adam Kerin of ZFC has put the cost of a poor lubricant choice at upwards of 5 watts at race power, a number that increases as output increases. Friction Facts testing, reported through VeloNews, showed wax-based systems running nearly 6 watts faster than standard oil after one hour in real contamination. Six watts is not a rounding error. At 50 kilometres per hour, that is a bike length. Over 360 kilometres, it compounds into something you can feel in your legs at hour ten.
 
 ![Close-up of Shimano Dura-Ace chain inside SILCA hot melt waxing system with tungsten disulfide coating](../../assets/blog/uploads/silca-chain-waxing-close-up-tungsten-disulphide.jpg)
 
----
+- - -
 
 ## The Numbers, Side by Side
 
 For those of you who want it straight, here it is.
 
-|  | Standard Oil | SILCA Hot Melt Wax |
-| --- | --- | --- |
-| Contamination behaviour | Attracts and holds grit | Sheds contamination |
-| Friction loss, clean conditions | 4 to 6W | 3.8W @ 250W (ZFC) |
-| Friction loss, contaminated | 5 to 8W+ | Minimal degradation |
-| Post-ride maintenance | 20 to 30 min degreasing session | Wipe chain, back in the pot |
-| Cassette and ring wear | Accelerated | Significantly lower (ZFC 6,000km data) |
-| Real-world cost per service | Effectively free, until the cassette bill arrives | £1 to £2 per interval |
-| Re-application | Every ride or every few rides | Every 300 to 500km, topped up with Super Secret Drip |
+|                                 | Standard Oil                                      | SILCA Hot Melt Wax                                   |
+| ------------------------------- | ------------------------------------------------- | ---------------------------------------------------- |
+| Contamination behaviour         | Attracts and holds grit                           | Sheds contamination                                  |
+| Friction loss, clean conditions | 4 to 6W                                           | 3.8W @ 250W (ZFC)                                    |
+| Friction loss, contaminated     | 5 to 8W+                                          | Minimal degradation                                  |
+| Post-ride maintenance           | 20 to 30 min degreasing session                   | Wipe chain, back in the pot                          |
+| Cassette and ring wear          | Accelerated                                       | Significantly lower (ZFC 6,000km data)               |
+| Real-world cost per service     | Effectively free, until the cassette bill arrives | £1 to £2 per interval                                |
+| Re-application                  | Every ride or every few rides                     | Every 300 to 500km, topped up with Super Secret Drip |
 
 *Source: Zero Friction Cycling independent testing, Friction Facts via VeloNews*
 
 The cassette column is the one most people overlook until it is too late. You are not just buying friction reduction. You are buying drivetrain longevity. On a high-end groupset, that matters far more than the cost of the wax pot.
 
----
+- - -
 
 ## Three Races. Three Chains. One Conclusion That Never Changed.
 
@@ -155,7 +161,7 @@ Silent from the first pedal stroke to the last. The morning after, the chain wen
 
 Unlike my legs, which required considerably more.
 
----
+- - -
 
 ## Sa Calobra: When 18 Seconds Stops Being Abstract
 
@@ -187,7 +193,7 @@ When I crossed the line and saw 29:53, it wasn't relief.
 
 Wax didn't give me lungs. It didn't give me legs. But it removed resistance at the metal interface and it removed uncertainty from the preparation. Both of those things matter on a climb like Sa Calobra. The second one, in my experience, matters more.
 
----
+- - -
 
 ## The System That Makes This Actually Practical
 
@@ -215,7 +221,7 @@ You do not re-hot-wax every week. <a href="https://silca.cc/en-gb/collections/ch
 
 ![SILCA Super Secret Drip Wax Lubricant being applied to a bike chain](../../assets/blog/uploads/dscf1770-2.jpg)
 
----
+- - -
 
 ## What It Actually Costs, Run Properly
 
@@ -233,7 +239,7 @@ A 500g bag of Secret Chain Blend costs £40. The wax bath is reused indefinitely
 
 ZFC's long-range modelling shows drivetrain savings over 10,000 kilometres can reach four figures on high-end groupsets when low-wear lubrication is used consistently. I ride Campagnolo Super Record. This arithmetic is not abstract. The cassette I am not replacing early is a cassette I am riding instead.
 
----
+- - -
 
 ## Who This Is For
 
@@ -247,7 +253,7 @@ ZFC's long-range modelling shows drivetrain savings over 10,000 kilometres can r
 
 **The rider who is tired of the mess.** Oil is reactive. You clean because it failed. Wax is proactive. You prevent contamination from ever taking hold. The drivetrain stops being something you maintain and starts being something that simply works. That shift in relationship with your equipment is underrated.
 
----
+- - -
 
 ## How to Start
 
@@ -257,11 +263,11 @@ ZFC's long-range modelling shows drivetrain savings over 10,000 kilometres can r
 4. <a href="https://silca.cc/en-gb/collections/chain-waxing-system/products/silca-super-secret-chain-lube" target="_blank" rel="noopener noreferrer">Top up with Super Secret Drip</a> between rewaxes
 5. Ride. Come home. Wipe the chain. Back in the pot. Done.
 
----
+- - -
 
 Ready to make the switch? Use code **ROADBOOKOFCYCLING15** for 15% off at <a href="https://silca.cc/" target="_blank" rel="noopener noreferrer">silca.cc</a>. The only thing I cannot control is whether this code is still active when you read this. It was live when I wrote it. Use it now, while it works. On a £189 starter kit that is approximately £28 back, enough to cover your first two months of Super Secret Drip, with change left over.
 
----
+- - -
 
 ## Final Thought
 
