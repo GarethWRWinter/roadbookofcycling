@@ -1,0 +1,384 @@
+---
+title: Sa Calobra in sub-30
+description: Three attempts, two failures, and everything it took to climb Mallorca's most iconic road in under 30 minutes.
+pubDate: 2023-09-22
+author: Gareth Winter
+heroImage: ../../assets/blog/uploads/sa-calobra-hero.jpg
+tags:
+  - Mallorca
+  - Hillclimb
+  - Training
+  - Nutrition
+  - Bike Setup
+---
+
+I have ridden Mallorca's most iconic climb, **Sa Calobra**, countless times — getting dangerously close to 30:00. So I decided that it was time to stop being a *"nearly man"* and get it done in sub-30.
+
+I'd done the training, dialled all the marginal gains I could muster, and thought it would be a sure thing: arrive on Monday, ride Sa Calobra in sub-30 on Tuesday morning, and then enjoy tearing up the limestone roads and spending quality time on the beach with my family.
+
+I underestimated what it takes to scale the serpent in sub-30…
+
+It took three attempts, two failures and many learnings to achieve my goal.
+
+---
+
+Monday: **DNF** ✖️
+Tuesday: **30:47** ✖️
+Friday: **29:53** ✅
+
+---
+
+![Sa Calobra climb, Mallorca](../../assets/blog/uploads/sa-calobra-dscf3023.jpg)
+
+## Fear of Failure
+
+Failure is the path to success. When you wholeheartedly pursue a goal, dare to get it wrong along the way, and welcome the lessons it brings, you unlock the potential to conquer anything you set your mind to.
+
+The journey won't be easy; moments of self-doubt and obstacles will arise. However, you'll find personal growth in these challenges.
+
+Embracing the art of failure means you'll never give up. It's how you recover that counts.
+
+**Distance:** 9.44km
+**Elevation Gain:** 659m
+**Avg Grade:** 7.0%
+
+---
+
+![Sa Calobra serpentine road from above](../../assets/blog/uploads/sa-calobra-sco-23.jpg)
+
+## Why Sub-30?
+
+Riding Sa Calobra in under 30 minutes is considered a high benchmark.
+
+I wanted to prove to myself that I can reach that standard.
+
+Being a parent and a Creative Director drastically reduces my training time — every second counts. So, for me, it's all about intensity.
+
+6–8 a.m. is my training window. It is often said that an hour of quality training on the turbo is the equivalent of two hours on the road, so I mostly train indoors.
+
+Training for a 30-minute effort is the perfect goal for me.
+
+Everyone loves cycling for different reasons: escapism, freedom, exploring and travelling the world, a social spin with friends, commuting and getting about, etc.
+
+I ride for all these reasons and more, **but the core reason I love cycling** is that it gives me the distinct ability to push and challenge myself, see continuous progression and gain a sense of achievement.
+
+It takes courage and commitment to show up for a daily dose of hurt. To get comfortable with being uncomfortable.
+
+Having a goal makes you focus and remain consistent. For example, in my preparations for this effort, midway through my third 10-minute VO2 max turbo interval, the pain became so unbearable that every fibre of my brain and body wanted me to stop pedalling. Visualising Sa Calobra prevented me from quitting.
+
+A goal is often the difference between completing an effort and giving up. I always set goals — it's healthy for my obsessive mind.
+
+And that's what cycling is to me: an obsession that feeds my obsessiveness.
+
+---
+
+## The KOM
+
+Going sub-30 seems pretty mediocre compared to Tom Pidcock's knee-shattering KOM: **22:46**.
+
+I know I will never beat Tom Pidcock… It would be unhealthy to compare myself to one of the world's greatest cyclists. However, I can draw inspiration and strength from his achievements.
+
+Aspiring to be your best self and striving to achieve greatness in the context of your life, to your own standard and definition, is the healthiest way to navigate goal setting.
+
+---
+
+## Prepare to succeed
+
+I used to work with Team Sky. I learned firsthand from **Sir Dave Brailsford** the art of "preparing to succeed" and the marginal gains mindset: to leave no stone unturned in your preparations and always look for continuous improvement.
+
+Failure to prepare is preparing to fail. I gave this everything.
+
+I got my bike down to 7kg:
+
+- **Frame:** [Factor O2 VAM](https://viresvelo.com) (rim brake), a lightweight climbing machine — and my go-to bike.
+- **Groupset:** Campagnolo Super Record 11-Speed.
+- **Wheels:** White Industry T11 Hubs, Sapim CX-RAY spokes, Light Bicycle Falcon R25 rims: 20h front, 24h rear.
+- **Tyres & Tubes:** Michelin Power Cup tyres paired with Silca Latex Inner tubes for ultra-low rolling resistance.
+- [**Hammerhead Karoo 2:**](https://www.hammerhead.io/products/hammerhead-karoo-2) The Strava live segments feature was vital to help pace my PR.
+- **Drivetrain:** 52×36 — 12×29 — [Silca Waxed Dura-Ace Chain](https://silcavelo.eu/collections/chain-lube-wax) (the fastest wax on the fastest chain).
+- [**Wahoo Powerlink Pedals:**](https://uk.wahoofitness.com/devices/pedals/powrlink/powrlink-zero-dual-power-pedal-buy) accurate dual-sided power that can quickly transfer onto any bike.
+- **Other:** all nuts, bolts and screws replaced with titanium. I even removed my bottle cages and bar end plugs. I use vintage perforated leather bar tape. It weighs a ton in the *weight-weenie* world, but it's NOS (new old stock) — they don't make this stuff anymore, and removing it might have destroyed it. My saddle is also covered with perforated leather to match and weighs a ton, but hey. I am a human, not a robot. Sometimes, you have to let sentiment and style triumph over performance. Otherwise, we'd all look the same.
+
+![Factor O2 VAM climbing setup](../../assets/blog/uploads/sa-calobra-dscf3577.jpg)
+
+## I Got Aero AF
+
+- [**POC Ventral Air**](https://www.pocsports.com/collections/road-cycling-helmets-1/products/ventral-air-mips?variant=41480991998104) **245g:** lightweight, breathable, and aerodynamic.
+- [**POC Elicit**](https://www.roadbookofcycling.com/blog/2021/11/6/poc-elicit-clarity-review) **23g:** I once wore these sunnies for 14+ hours without leaving so much as an imprint on my nose… They are so light that you'll forget you're wearing them.
+- [**Le Col McLaren Skinsuit:**](https://lecol.cc/products/le-col-x-mclaren-racing-long-sleeve-skinsuit?variant=39711220957247) made in collaboration with McLaren Racing, this watt-saving skinsuit is world-class. My data below shows that aerodynamics are vital on the first 6km of Sa Calobra (9.5km).
+- [**Le Col Aero Socks:**](https://lecol.cc/products/pro-aero-socks?variant=39254904406079) I won't rant about how awful they look… Aero socks work.
+- **No HR monitor:** I rode to power and saved every gram possible.
+- [**UDOG Cima Lightweight Climbing Shoes:**](https://udog.cc/products/cima-salt-white) comfy, lightweight, stiff, and laces help tension across a longer surface area than dials.
+- **My Grandad's medal:** from a 25-mile TT he won in 1949. I always wear it for good luck — a pendant is essential for any hillclimb. I countered its minimal weight by removing my HR monitor.
+
+![Strava data from Sa Calobra attempt](../../assets/blog/uploads/sa-calobra-strava-data.png)
+
+## And Fuelled the Effort
+
+- **Breakfast:** two cups of [Workshop Coffee](https://workshopcoffee.com) — I always take my own coffee grinds and an Aeropress when I travel *(I'm a complete coffee snob)*. Followed by a [Veloforte Forza bar](https://veloforte.com/products/forza), which has over 40g of carbs and 10g of protein. They taste incredible, and are made with 100% natural real food ingredients.
+
+- **Just a 5% drop in hydration can lead to a 30% drop in performance:** travel, planes, air-con, and Mallorcan sunshine sap the very moisture from your soul… [Veloforte Passo](https://veloforte.com/collections/electrolyte-powder/products/passo-hydration-electrolyte-powder) rapidly hydrates and rebalances your electrolytes with 275mg sodium from pink Himalayan salt and 175mg potassium from freeze-dried coconut water. It also has 22g of fast-release energy and is high in anti-oxidants — the perfect way to start the day… after coffee.
+
+- **1hr before the effort:** [Veloforte Mela Chews](https://veloforte.com/collections/energy-sweets-chews/products/mela) have 44g of fast-release energy and are very light and easy to digest. They make fuelling fun.
+
+- **At the top of the descent:** [Veloforte Desto Gel](https://veloforte.com/collections/energy-gels/products/desto-energy-gel) for another kick of caffeine (75mg) and a 22g top-up of carbs. I urge you to try Veloforte if you hate other gels on the market.
+
+![Mallorca cycling preparation](../../assets/blog/uploads/sa-calobra-dscf2841.jpg)
+
+---
+
+## First Attempt: DNF
+
+We arrived on Monday afternoon. I planned to take my PB on Tuesday at sunrise, with empty roads and no one obstructing me. I wanted to take it ASAP to start our holiday on a high and to take the pressure off — and while my legs were fresh from a few steady days *(rather than at the end of the week when I would have accumulated tons of KMs).*
+
+Everything went to plan, except for a severe lack of sleep due to Zepp's teething. But I can survive off one or two nights of poor sleep.
+
+The roads were empty, my nutrition and hydration were dialled, my bike felt smooth and light, and I felt confident.
+
+There was a headwind, but the mountain helped shelter it.
+
+The first steep hairpin is about 6km into the climb. The racing line is the fastest way through a corner but also requires an extra kick of power. I *rarely* get out of the saddle, so I kicked back into my leather chair and laid down the power. FUCK! My seatpost twisted to the right.
+
+My saddle slipped despite torquing my seatpost up to the recommended amount (6nm) when I reassembled my bike after the flight. Even though I used a torque wrench and lots of carbon grip paste.
+
+I knocked the saddle back to centre. I wouldn't allow this to stop me from taking sub-30.
+
+Then, my seatpost dropped a few millimetres, and riding at my target power became slightly more manageable. **Eddy Merckx** once told me that my saddle looked a little too high. I should have listened…
+
+My seatpost dropped a few more millimetres… then a few centimetres, making it 20 times harder to achieve my target power.
+
+I was trying to figure out how I could still achieve my PB. There was only one possible solution. To "sit up" *(metaphorically, as I couldn't put weight on my saddle)* and save my legs for tomorrow.
+
+I reached the top, found the musette bag that I hid in a bush, fished out my multi-tool to re-adjust my seatpost and sipped a recovery shake to replenish my legs.
+
+![Sa Calobra descent](../../assets/blog/uploads/sa-calobra-dscf3068.jpg)
+
+---
+
+## Second Attempt: 30:47
+
+I was full of confidence for my second attempt. I looked at my splits on Strava from the previous day, and I'd set a good pace.
+
+I lowered my saddle 2mm and torqued the bolt to 6.2nm to avoid slippage. It did the job.
+
+I topped up my waxed chain with [Silca Super Secret Chain Lube](https://silcavelo.eu/products/silca-super-secret-chain-lube) and inflated my tyres to the correct pressure using the [Silca Pro Tyre Pressure Calculator](https://silcavelo.eu/pages/sppc-form) *(a free app).*
+
+I followed the same routine but went a little harder on the caffeine *(Zepp had another restless night teething).*
+
+As I approached the 6km mark and started powering through the hairpins, my seatpost stayed put.
+
+I was riding to power and cadence — trying to average 95rpm and 340 watts.
+
+As the road got steeper, I increased my power to 380+ watts — as it flattened and my power dropped below 300w, I quickly threw my chain down the cassette to get back up to my target power.
+
+The clock was approaching 30:00, and I knew I wouldn't make it.
+
+Where had the time gone?
+
+How had I fucked this up?
+
+I thought it was a sure thing. I went under the bridge and gave everything I could to get as close to 30 minutes as possible.
+
+My Hammerhead chirped as I crested the summit: **"New PB: 30:47."**
+
+**I could taste metal**; sweat was pouring down my face, and my lungs burned.
+
+After everything I had committed, I spent countless hours on Zwift, holding 360 watts for ten-minute intervals — they are the "fun" sessions compared to the mind-numbingly dull low-intensity thrice weekly Z2 sessions.
+
+I once read that a champion is someone who can endure the boredom, the routine, the repetition. It resonated with me.
+
+I had consistently prioritised my three pillars of human health and performance:
+
+- **Training and Competing**
+- **Nutrition and Hydration**
+- **Rest and Recovery**
+
+If **30:47** is the best I could do, I had to be content with that.
+
+![Riding through Mallorca](../../assets/blog/uploads/sa-calobra-dscf3341.jpg)
+
+---
+
+When I returned to the villa and uploaded my ride to Strava, I was disappointed with my numbers.
+
+I believed I had given everything, but the data does not lie.
+
+I averaged 325w. I knew I could do more. I hit 340w (give or take) whenever I looked at my power. And I know I can ride for 30 mins at 340w.
+
+> **Q: "Where was I losing power?"**
+>
+> **A: "Gear changes."**
+
+By trying to average 95rpm, I was dropping power every time I changed gear. Also, I have ALWAYS ridden a 53×39 chainset, but I panicked and put on a 52×36 to better maintain that cadence.
+
+I calculated that if I reduced the number of gear changes I made by riding a harder gear *(like my 39 would have given me)*, I could reduce my cadence on the steeper sections, grinding at 75/85rpm — and speed my legs up to 95/105rpm as the gradient flattened, instead of shifting gear — to reduce the power dropouts.
+
+This could save me a handful of seconds and help me increase my average power.
+
+Also, the first 6km is quite a shallow gradient compared to the final 3.5km. I might also find a few extra seconds if I get slightly lower and more aerodynamic.
+
+![Mallorca roads](../../assets/blog/uploads/sa-calobra-dscf3313.jpg)
+
+---
+
+> "Can I find 47 seconds?"
+>
+> — me
+
+---
+
+> "We both know you're not leaving this island without doing this."
+>
+> — Becky
+
+---
+
+10% of 30 mins is 3 mins. Can I give an extra ten per cent? *No. I thought I gave 100% already.*
+
+Can I give an extra 5%? *Maybe?*
+
+Can I give an extra 3%? *Definitely.*
+
+I had to try.
+
+On Thursday, I went for a steady recovery ride, saving my legs for another full-gas effort on Friday.
+
+![Recovery ride in Mallorca](../../assets/blog/uploads/sa-calobra-dscf3037.jpg)
+
+---
+
+## Third Attempt: 29:53
+
+**Where did I find 54 seconds?**
+
+I had the worst night's sleep ever — even worse than the last three.
+
+I stood in the kitchen at 3:30 a.m., boiling the kettle, and doubting my ability to perform on such poor sleep.
+
+I said to myself, **"Fuck the data. Fuck self-doubt."** and decided to do it in spite.
+
+I had a solution: "smash more caffeine". I ripped open our last bag of Workshop Coffee and made the most potent brew possible, and another, until the sun crept up from behind the mountains at 6:15 a.m.
+
+I packed an extra caffeine gel, the [**Veloforte Doppio**](https://veloforte.com/products/doppio-natural-energy-sports-gel) — my favourite.
+
+I wouldn't let the clock get the better of me this time.
+
+I turned on the Strava live feature on my Hammerhead Karoo 2 so I could race myself. **I could see if I was ahead of my previous effort in real-time.**
+
+My plan worked. At 6km, I was 60 seconds ahead of my last effort. If I could hold this pace, I would take Sa Calobra in under 30 mins.
+
+Then, my gap began to close…
+
+I clearly went hard on the final 3.5km on my last attempt.
+
+It was taking everything to hold this pace, let alone increase it.
+
+I had to dig deeper and find more strength. I had to look for my purpose: to lead by example and inspire others to become the best version of themselves — my friends and family, to everyone in the cycling community.
+
+I thought about my little boy and how I want to be a positive role model — to show him what success looks like — and that you must work hard to achieve your goals.
+
+I want him to be fearless and never stop learning — whoever he chooses to be and whatever he decides to do. It has taken decades for me to discover this. I want him to know from the get-go.
+
+I know he is too young to understand, but this is the standard I want to set for myself as a parent.
+
+His front four top teeth were coming down all at once. He spent the last week in pain with bright red cheeks, chewing on ice-cold cucumber to soothe his gums.
+
+His pain was my strength.
+
+I dug deeper and used all my mental and physical power to attack the home straight, clinging to 400w.
+
+I was racing a previous version of myself. The gap on my solo breakaway was closing.
+
+The final 10 seconds felt like 10 minutes.
+
+My Hammerhead chirped: **"New PB 29:53."**
+
+I fucking did it… with 7 seconds to spare.
+
+Relief.
+
+![Cresting the summit of Sa Calobra](../../assets/blog/uploads/sa-calobra-dscf3052.jpg)
+
+---
+
+Time to kick back and enjoy some precious family time.
+
+I absolutely love being a dad. I am so proud of his progress.
+
+He loves swimming, it's our favourite thing to do together.
+
+![Mallorca family holiday](../../assets/blog/uploads/sa-calobra-dscf3012.jpg)
+
+![Beach time in Mallorca](../../assets/blog/uploads/sa-calobra-dscf2737.jpg)
+
+![Family moments](../../assets/blog/uploads/sa-calobra-dscf3031.jpg)
+
+![Mallorca coastline](../../assets/blog/uploads/sa-calobra-dscf3541.jpg)
+
+---
+
+## Summary
+
+I realise I didn't just win a Stage of the Tour de France, but I achieved my goal. As a parent with a full-time leadership role, this is my definition of success.
+
+I am already planning ways to go faster on my next trip to Mallorca. A sub-29 is on the cards, but you've got to shoot for the moon to land on the stars, so let's call it a sub-28.
+
+![Mallorca riding](../../assets/blog/uploads/sa-calobra-dscf2789.jpg)
+
+![Mallorca roads and views](../../assets/blog/uploads/sa-calobra-dscf2818.jpg)
+
+![Riding in Mallorca](../../assets/blog/uploads/sa-calobra-dscf3866.jpg)
+
+![Sa Calobra approach](../../assets/blog/uploads/sa-calobra-dscf4010.jpg)
+
+![Mallorca cycling](../../assets/blog/uploads/sa-calobra-dscf3953.jpg)
+
+![Gareth Winter cycling](../../assets/blog/uploads/sa-calobra-dscf3913.jpg)
+
+![Mallorca scenery](../../assets/blog/uploads/sa-calobra-dscf3971.jpg)
+
+![Holiday moments](../../assets/blog/uploads/sa-calobra-dscf4290.jpg)
+
+![Family holiday Mallorca](../../assets/blog/uploads/sa-calobra-img8536.jpg)
+
+Thanks for reading and for your support.
+
+G
+
+---
+
+## Travel Essentials
+
+*Here are a few of my travel essentials that might be useful for your next cycling adventure or PB attempt. I have also added a few discount codes to say thanks for reading and supporting me.*
+
+*(FYI — no commission is earned through these links.)*
+
+**[Silca T-Ratchet + Ti-Torque Kit](https://silcavelo.eu/products/t-ratchet-ti-torque-kit-2nd-generation)**
+When you reassemble your bike, it's essential to torque up all of your bolts to the correct spec. This is like having an entire toolbox in your pocket.
+Discount code: **Winter15**
+
+**[Veloforte](https://veloforte.com)**
+Nutrition is a priority for me, not an afterthought. Veloforte ships directly in the EU and the UK, so you could even get it posted to the place you are staying to avoid extra baggage.
+Discount code: **GARETH20**
+
+**[Silca Pista Track Pump](https://silcavelo.eu/products/pista-floor-pump-red)**
+Originally designed in the 1950s, the Bianchi-Pirelli team requested a pump that could fit under the rear seat of the tiny Fiat team car. The compact size makes it perfect to strap inside a bike box.
+Discount code: **Winter15**
+
+**[Pelotan](https://pelotan.cc)**
+Protect yourself with the best suntan lotion for cyclists, designed by cyclists. I never ride without it in the summer.
+
+**[VeloSkin](https://veloskin.cc/discount/GARETHWINTER10)**
+Consecutive sweaty days in the saddle and sunshine can lead to saddle sores without a quality chamois cream. Veloskin is made with natural ingredients and is PH-neutral — suitable for all genders.
+Discount code: **GARETHWINTER10**
+
+**[Silca Pocket Impero](https://silcavelo.eu/products/pocket-impero)**
+Since you can't take CO2 on a plane, taking a pocket pump will ensure you have endless air. This is the finest, most efficient pocket pump you will ever thrust.
+Discount code: **Winter15**
+
+**[Workshop Coffee](https://workshopcoffee.com)**
+I take a bag of pre-ground Workshop coffee and an AeroPress when I travel. Quality coffee is a guarantee. I'm usually up before 4:30 a.m. — nothing opens in Mallorca until 9 a.m. I can't go that long without coffee. That's insane.
+
+**Hard Shell Bike Box**
+Use a box, not a bag. Otherwise, put your bike insurance on speed dial.
+I use a [Bonza bike box](https://www.sigmasports.com/item/Bonza-Bike-Box/Transport-Case/HCZ9) — brilliant and much cheaper than an Alan. But [Alan is the best.](https://bikeboxalan.com)
