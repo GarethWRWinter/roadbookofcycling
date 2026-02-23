@@ -66,10 +66,10 @@ const remaining = posts.slice(1);
 			<div class="trust-strip-inner container">
 				<p class="trust-strip-label">As seen in &amp; worked with</p>
 				<ul class="trust-list" role="list">
-					<li>Team Sky</li>
-					<li>Sky Sports</li>
-					<li>Sky News</li>
-					<li>Mindvalley</li>
+					<li><img src="/logos/team-sky.svg" alt="Team Sky" class="trust-logo" /></li>
+					<li><img src="/logos/sky-sports.svg" alt="Sky Sports" class="trust-logo" /></li>
+					<li><img src="/logos/sky-news.svg" alt="Sky News" class="trust-logo" /></li>
+					<li><img src="/logos/mindvalley.svg" alt="Mindvalley" class="trust-logo" /></li>
 				</ul>
 			</div>
 		</section>
@@ -342,12 +342,14 @@ const remaining = posts.slice(1);
 	}
 
 	.trust-list li {
-		font-family: var(--font-sans);
-		font-size: var(--text-sm);
-		font-weight: 600;
-		letter-spacing: 0.12em;
-		text-transform: uppercase;
-		color: var(--muted);
+		display: flex;
+		align-items: center;
+	}
+
+	.trust-logo {
+		height: 28px;
+		width: auto;
+		display: block;
 	}
 
 	/* ─── Primary Email Capture ──────────────────────────────────────────────
