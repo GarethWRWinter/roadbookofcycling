@@ -55,24 +55,28 @@ It resonated.
 
 ![Panoramic view of Sa Calobra, Mallorca](../../assets/blog/sa-calobra-sub-30/image-11-panoramic-sa-calobra-gareth-winter-sub-30.webp)
 
+<div style="margin:var(--s-7) 0;">
+  <iframe style="width:100%;height:450px;" src="https://veloviewer.com/segments/653262/embed" frameborder="0" scrolling="no"></iframe>
+</div>
+
 ---
 
 ## The Setup: Getting the Bike to 7kg
 
 I gave this everything Brailsford taught me.
 
-- **Frame:** [Factor O2 VAM](https://viresvelo.com) (rim brake). My go-to climbing machine.
+- **Frame:** <a href="https://viresvelo.com" target="_blank" rel="noopener noreferrer">Factor O2 VAM</a> (rim brake). My go-to climbing machine.
 - **Groupset:** Campagnolo Super Record 11-Speed.
 - **Wheels:** White Industry T11 Hubs, Sapim CX-RAY spokes, Light Bicycle Falcon R25 rims: 20h front, 24h rear. Custom built and stupid light.
-- **Tyres and tubes:** Michelin Power Cup with [Silca Latex Inner Tubes](https://silcavelo.eu/collections/tubes). Ultra-low rolling resistance. Not a detail worth skipping.
-- **Drivetrain:** 52x36 chainset, 12x29, [Silca Waxed Dura-Ace Chain](https://silcavelo.eu/collections/chain-lube-wax). The fastest wax on the fastest chain.
-- **Computer:** [Hammerhead Karoo 2](https://www.hammerhead.io/products/hammerhead-karoo-2) with Strava Live Segments enabled. This would prove to be more important than I knew.
-- **Pedals:** [Wahoo Powerlink](https://uk.wahoofitness.com/devices/pedals/powrlink/powrlink-zero-dual-power-pedal-buy) dual-sided, accurate to the watt, transfers to any bike in seconds.
+- **Tyres and tubes:** Michelin Power Cup with <a href="https://silcavelo.eu/collections/tubes" target="_blank" rel="noopener noreferrer">Silca Latex Inner Tubes</a>. Ultra-low rolling resistance. Not a detail worth skipping.
+- **Drivetrain:** 52x36 chainset, 12x29, <a href="https://silcavelo.eu/collections/chain-lube-wax" target="_blank" rel="noopener noreferrer">Silca Waxed Dura-Ace Chain</a>. The fastest wax on the fastest chain.
+- **Computer:** <a href="https://www.hammerhead.io/products/hammerhead-karoo-2" target="_blank" rel="noopener noreferrer">Hammerhead Karoo 2</a> with Strava Live Segments enabled. This would prove to be more important than I knew.
+- **Pedals:** <a href="https://uk.wahoofitness.com/devices/pedals/powrlink/powrlink-zero-dual-power-pedal-buy" target="_blank" rel="noopener noreferrer">Wahoo Powerlink</a> dual-sided, accurate to the watt, transfers to any bike in seconds.
 - **Everything else:** all nuts, bolts and screws swapped for titanium. Bottle cages removed. Bar end plugs gone. HR monitor left at the villa -- I was riding to power and every gram was a decision.
 
 I kept the vintage perforated leather bar tape. And the matching leather saddle cover. They weigh a ton in weight-weenie terms. I kept them anyway. I am a human, not a robot. Sometimes sentiment and style get a vote.
 
-On the aero side: [POC Ventral Air](https://www.pocsports.com/collections/road-cycling-helmets-1/products/ventral-air-mips) helmet at 245g, [POC Elicit](https://www.roadbookofcycling.com/blog/2021/11/6/poc-elicit-clarity-review) sunglasses at 23g (so light you forget they're there, which I cannot say about most sunglasses I've worn for 14 hours), [Le Col McLaren skinsuit](https://lecol.cc/products/le-col-x-mclaren-racing-long-sleeve-skinsuit?variant=39711220957247), Le Col Aero socks. And [UDOG Cima climbing shoes](https://udog.cc/products/cima-salt-white) with laces, because laces tension across a longer surface area than dials. Nobody tells you that.
+On the aero side: <a href="https://www.pocsports.com/collections/road-cycling-helmets-1/products/ventral-air-mips" target="_blank" rel="noopener noreferrer">POC Ventral Air</a> helmet at 245g, <a href="https://www.pocsports.com/collections/road-cycling-eyewear/products/elicit" target="_blank" rel="noopener noreferrer">POC Elicit</a> sunglasses at 23g (so light you forget they're there, which I cannot say about most sunglasses I've worn for 14 hours), <a href="https://lecol.cc/products/le-col-x-mclaren-racing-long-sleeve-skinsuit" target="_blank" rel="noopener noreferrer">Le Col McLaren skinsuit</a>, Le Col Aero socks. And <a href="https://udog.cc/products/cima-salt-white" target="_blank" rel="noopener noreferrer">UDOG Cima climbing shoes</a> with laces, because laces tension across a longer surface area than dials. Nobody tells you that.
 
 And my grandad's medal. Won in a 25-mile TT in 1949. I wear it for every hillclimb. I countered its minimal weight by removing my HR monitor.
 
@@ -108,7 +112,7 @@ I reached the top, found the musette bag I'd hidden in a bush, multi-tooled the 
 
 ## Second Attempt: 30:47
 
-Seatpost torqued to 6.2nm. Carbon paste reapplied. Chain topped with [Silca Super Secret Chain Lube](https://silcavelo.eu/products/silca-super-secret-chain-lube). Tyres set to the correct pressure using the [Silca Pro Tyre Pressure Calculator](https://silcavelo.eu/pages/sppc-form) (a free app).
+Seatpost torqued to 6.2nm. Carbon paste reapplied. Chain topped with <a href="https://silcavelo.eu/products/silca-super-secret-chain-lube" target="_blank" rel="noopener noreferrer">Silca Super Secret Chain Lube</a>. Tyres set to the correct pressure using the <a href="https://silcavelo.eu/pages/sppc-form" target="_blank" rel="noopener noreferrer">Silca Pro Tyre Pressure Calculator</a> (a free app).
 
 Zepp had another rough night. I followed the same pre-ride routine and went slightly harder on the caffeine.
 
@@ -166,7 +170,7 @@ I made the strongest possible brew from the last of the Workshop Coffee. Then an
 
 ![Workshop Coffee at 3:30am before the third attempt](../../assets/blog/sa-calobra-sub-30/image-9-workshop-coffee-sa-calobra-gareth-winter-sub-30.webp)
 
-I packed an extra caffeine gel. [Veloforte Doppio](https://veloforte.com/products/doppio-natural-energy-sports-gel), 75mg caffeine. My favourite.
+I packed an extra caffeine gel. <a href="https://veloforte.com/products/doppio-natural-energy-sports-gel" target="_blank" rel="noopener noreferrer">Veloforte Doppio</a>, 75mg caffeine. My favourite.
 
 ![Veloforte Desto caffeine gel for the final push](../../assets/blog/sa-calobra-sub-30/image-10-desto-veloforte-sa-calobra-gareth-winter-sub-30.webp)
 
@@ -197,6 +201,10 @@ Relief.
 ![Summit of Sa Calobra after going sub-30](../../assets/blog/sa-calobra-sub-30/image-12-top-sa-calobra-gareth-winter-sub-30.webp)
 
 ![Strava segment confirmation: 29:53](../../assets/blog/sa-calobra-sub-30/image-16-victory-strava-road-sa-calobra-gareth-winter-sub-30.webp)
+
+<div style="margin:var(--s-7) 0;aspect-ratio:16/9;">
+  <iframe style="width:100%;height:100%;" src="https://www.youtube.com/embed/sK8gyizTmGc?si=TXNwu2JvHT5VmrYY" title="Sa Calobra sub-30 vlog" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
 
 ---
 
@@ -237,34 +245,34 @@ G
 
 ![Silca T-Ratchet Ti-Torque Kit](../../assets/blog/sa-calobra-sub-30/image-18-silca-ratchet-sa-calobra-gareth-winter-sub-30.webp)
 
-**[Silca T-Ratchet + Ti-Torque Kit](https://silcavelo.eu/products/t-ratchet-ti-torque-kit-2nd-generation)**
+<strong><a href="https://silcavelo.eu/products/t-ratchet-ti-torque-kit-2nd-generation" target="_blank" rel="noopener noreferrer">Silca T-Ratchet + Ti-Torque Kit</a></strong>
 When you reassemble your bike, it's essential to torque up all of your bolts to the correct spec. This is like having an entire toolbox in your pocket.
 Discount code: **Winter15**
 
-**[Veloforte](https://veloforte.com)**
+<strong><a href="https://veloforte.com" target="_blank" rel="noopener noreferrer">Veloforte</a></strong>
 Nutrition is a priority for me, not an afterthought. Veloforte ships directly in the EU and the UK, so you could even get it posted to the place you are staying to avoid extra baggage.
 Discount code: **GARETH20**
 
 ![Silca Pista Track Pump](../../assets/blog/sa-calobra-sub-30/image-20-silca-pista-sa-calobra-gareth-winter-sub-30.webp)
 
-**[Silca Pista Track Pump](https://silcavelo.eu/products/pista-floor-pump-red)**
+<strong><a href="https://silcavelo.eu/products/pista-floor-pump-red" target="_blank" rel="noopener noreferrer">Silca Pista Track Pump</a></strong>
 Originally designed in the 1950s, the Bianchi-Pirelli team requested a pump that could fit under the rear seat of the tiny Fiat team car. The compact size makes it perfect to strap inside a bike box.
 Discount code: **Winter15**
 
-**[Pelotan](https://pelotan.cc)**
+<strong><a href="https://pelotan.cc" target="_blank" rel="noopener noreferrer">Pelotan</a></strong>
 Protect yourself with the best suntan lotion for cyclists, designed by cyclists. I never ride without it in the summer.
 
-**[VeloSkin](https://veloskin.cc/discount/GARETHWINTER10)**
+<strong><a href="https://veloskin.cc/discount/GARETHWINTER10" target="_blank" rel="noopener noreferrer">VeloSkin</a></strong>
 Consecutive sweaty days in the saddle and sunshine can lead to saddle sores without a quality chamois cream. Veloskin is made with natural ingredients and is PH-neutral -- suitable for all genders.
 Discount code: **GARETHWINTER10**
 
-**[Silca Pocket Impero](https://silcavelo.eu/products/pocket-impero)**
+<strong><a href="https://silcavelo.eu/products/pocket-impero" target="_blank" rel="noopener noreferrer">Silca Pocket Impero</a></strong>
 Since you can't take CO2 on a plane, taking a pocket pump will ensure you have endless air. This is the finest, most efficient pocket pump you will ever thrust.
 Discount code: **Winter15**
 
-**[Workshop Coffee](https://workshopcoffee.com)**
+<strong><a href="https://workshopcoffee.com" target="_blank" rel="noopener noreferrer">Workshop Coffee</a></strong>
 I take a bag of pre-ground Workshop coffee and an AeroPress when I travel. Quality coffee is a guarantee. I'm usually up before 4:30 a.m. -- nothing opens in Mallorca until 9 a.m. I can't go that long without coffee. That's insane.
 
 **Hard Shell Bike Box**
 Use a box, not a bag. Otherwise, put your bike insurance on speed dial.
-I use a [Bonza bike box](https://www.sigmasports.com/item/Bonza-Bike-Box/Transport-Case/HCZ9) -- brilliant and much cheaper than an Alan. But [Alan is the best.](https://bikeboxalan.com)
+I use a <a href="https://www.sigmasports.com/item/Bonza-Bike-Box/Transport-Case/HCZ9" target="_blank" rel="noopener noreferrer">Bonza bike box</a> -- brilliant and much cheaper than an Alan. But <a href="https://bikeboxalan.com" target="_blank" rel="noopener noreferrer">Alan is the best.</a>
