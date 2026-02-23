@@ -1,18 +1,21 @@
 ---
-title: "Sa Calobra in Sub-30: Three Attempts, Two Failures, One Lesson That Changed Everything"
-description: "How I broke 30 minutes on Sa Calobra after a DNF and a 30:47 -- including the gear-change mistake that cost me 47 seconds and the data-driven fix that found them back. Full kit, nutrition, and pacing breakdown."
+title: "Sa Calobra in Sub-30: Three Attempts, Two Failures, One Lesson That
+  Changed Everything"
+slug: sa-calobra-sub-30
+description: How I broke 30 minutes on Sa Calobra after a DNF and a 30:47 --
+  including the gear-change mistake that cost me 47 seconds and the data-driven
+  fix that found them back. Full kit, nutrition, and pacing breakdown.
 pubDate: 2023-09-22
 updatedDate: 2026-02-22
 author: Gareth Winter
-heroImage: ../../assets/blog/sa-calobra-sub-30/image-1-hero-sa-calobra-gareth-winter-sub-30.webp
 tags:
   - Mallorca
   - Hillclimb
   - Training
   - Nutrition
   - Bike Setup
+heroImage: ../../assets/blog/sa-calobra-sub-30/image-1-hero-sa-calobra-gareth-winter-sub-30.webp
 ---
-
 Three attempts.
 Two failures.
 Seven seconds to spare.
@@ -33,7 +36,7 @@ This is the story of how I found 54 seconds. And what it actually took to get th
 
 ![Sa Calobra serpentine road from above, Mallorca](../../assets/blog/sa-calobra-sub-30/image-15-snake-road-sa-calobra-gareth-winter-sub-30.webp)
 
----
+- - -
 
 ## Why Sub-30 Matters (and Why I Needed It)
 
@@ -59,20 +62,20 @@ It resonated.
   <iframe style="width:100%;height:450px;" src="https://veloviewer.com/segments/653262/embed" frameborder="0" scrolling="no"></iframe>
 </div>
 
----
+- - -
 
 ## The Setup: Getting the Bike to 7kg
 
 I gave this everything Brailsford taught me.
 
-- **Frame:** <a href="https://viresvelo.com" target="_blank" rel="noopener noreferrer">Factor O2 VAM</a> (rim brake). My go-to climbing machine.
-- **Groupset:** Campagnolo Super Record 11-Speed.
-- **Wheels:** White Industry T11 Hubs, Sapim CX-RAY spokes, Light Bicycle Falcon R25 rims: 20h front, 24h rear. Custom built and stupid light.
-- **Tyres and tubes:** Michelin Power Cup with <a href="https://silcavelo.eu/collections/tubes" target="_blank" rel="noopener noreferrer">Silca Latex Inner Tubes</a>. Ultra-low rolling resistance. Not a detail worth skipping.
-- **Drivetrain:** 52x36 chainset, 12x29, <a href="https://silcavelo.eu/collections/chain-lube-wax" target="_blank" rel="noopener noreferrer">Silca Waxed Dura-Ace Chain</a>. The fastest wax on the fastest chain.
-- **Computer:** <a href="https://www.hammerhead.io/products/hammerhead-karoo-2" target="_blank" rel="noopener noreferrer">Hammerhead Karoo 2</a> with Strava Live Segments enabled. This would prove to be more important than I knew.
-- **Pedals:** <a href="https://uk.wahoofitness.com/devices/pedals/powrlink/powrlink-zero-dual-power-pedal-buy" target="_blank" rel="noopener noreferrer">Wahoo Powerlink</a> dual-sided, accurate to the watt, transfers to any bike in seconds.
-- **Everything else:** all nuts, bolts and screws swapped for titanium. Bottle cages removed. Bar end plugs gone. HR monitor left at the villa -- I was riding to power and every gram was a decision.
+* **Frame:** <a href="https://viresvelo.com" target="_blank" rel="noopener noreferrer">Factor O2 VAM</a> (rim brake). My go-to climbing machine.
+* **Groupset:** Campagnolo Super Record 11-Speed.
+* **Wheels:** White Industry T11 Hubs, Sapim CX-RAY spokes, Light Bicycle Falcon R25 rims: 20h front, 24h rear. Custom built and stupid light.
+* **Tyres and tubes:** Michelin Power Cup with <a href="https://silcavelo.eu/collections/tubes" target="_blank" rel="noopener noreferrer">Silca Latex Inner Tubes</a>. Ultra-low rolling resistance. Not a detail worth skipping.
+* **Drivetrain:** 52x36 chainset, 12x29, <a href="https://silcavelo.eu/collections/chain-lube-wax" target="_blank" rel="noopener noreferrer">Silca Waxed Dura-Ace Chain</a>. The fastest wax on the fastest chain.
+* **Computer:** <a href="https://www.hammerhead.io/products/hammerhead-karoo-2" target="_blank" rel="noopener noreferrer">Hammerhead Karoo 2</a> with Strava Live Segments enabled. This would prove to be more important than I knew.
+* **Pedals:** <a href="https://uk.wahoofitness.com/devices/pedals/powrlink/powrlink-zero-dual-power-pedal-buy" target="_blank" rel="noopener noreferrer">Wahoo Powerlink</a> dual-sided, accurate to the watt, transfers to any bike in seconds.
+* **Everything else:** all nuts, bolts and screws swapped for titanium. Bottle cages removed. Bar end plugs gone. HR monitor left at the villa -- I was riding to power and every gram was a decision.
 
 I kept the vintage perforated leather bar tape. And the matching leather saddle cover. They weigh a ton in weight-weenie terms. I kept them anyway. I am a human, not a robot. Sometimes sentiment and style get a vote.
 
@@ -86,7 +89,7 @@ And my grandad's medal. Won in a 25-mile TT in 1949. I wear it for every hillcli
 
 ![My grandad's 1949 TT medal -- worn on every hillclimb](../../assets/blog/sa-calobra-sub-30/image-7-gareth-necklace-sa-calobra-gareth-winter-sub-30.webp)
 
----
+- - -
 
 ## First Attempt: DNF
 
@@ -108,7 +111,7 @@ I reached the top, found the musette bag I'd hidden in a bush, multi-tooled the 
 
 ![Veloforte recovery at the top of Sa Calobra](../../assets/blog/sa-calobra-sub-30/image-8-recovery-veloforte-sa-calobra-gareth-winter-sub-30.webp)
 
----
+- - -
 
 ## Second Attempt: 30:47
 
@@ -154,7 +157,7 @@ Thursday: recovery ride, easy pace, keep the legs ticking over.
 
 ![Sa Calobra landscape, Mallorca](../../assets/blog/sa-calobra-sub-30/image-2-landscape-sa-calobra-gareth-winter-sub-30.webp)
 
----
+- - -
 
 ## Third Attempt: 29:53
 
@@ -206,16 +209,16 @@ Relief.
   <iframe style="width:100%;height:100%;" src="https://www.youtube.com/embed/sK8gyizTmGc?si=TXNwu2JvHT5VmrYY" title="Sa Calobra sub-30 vlog" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>
 
----
+- - -
 
 ## What It Actually Took
 
 Sub-30 on Sa Calobra isn't just about fitness. I had the fitness on Tuesday. Here's what it actually required:
 
-- **The right data analysis:** understanding that cadence-chasing was costing me power, not saving it.
-- **The right gear choice:** a lesson I'll carry to every climb I ride from here.
-- **The right pacing tool:** the Strava Live Segments on the Karoo 2 was the difference between racing myself and hoping.
-- **The willingness to ride against every recovery principle I've ever trained myself to follow**, at 3:30 a.m., on no sleep, because some things matter more than the data.
+* **The right data analysis:** understanding that cadence-chasing was costing me power, not saving it.
+* **The right gear choice:** a lesson I'll carry to every climb I ride from here.
+* **The right pacing tool:** the Strava Live Segments on the Karoo 2 was the difference between racing myself and hoping.
+* **The willingness to ride against every recovery principle I've ever trained myself to follow**, at 3:30 a.m., on no sleep, because some things matter more than the data.
 
 I want to be a role model for Zepp. For what it looks like to set a goal and refuse to leave it unfinished. He was too young to understand what was happening on that mountain on Friday morning. But I know.
 
@@ -223,7 +226,7 @@ I set the standard for myself because of him.
 
 ![Sa Calobra road and mountain views](../../assets/blog/sa-calobra-sub-30/image-17-pool-road-sa-calobra-gareth-winter-sub-30.webp)
 
----
+- - -
 
 ## What's Next
 
@@ -235,7 +238,7 @@ Thanks for reading and for your support.
 
 G
 
----
+- - -
 
 ## Travel Essentials
 
@@ -246,8 +249,8 @@ G
 ![Silca T-Ratchet Ti-Torque Kit](../../assets/blog/sa-calobra-sub-30/image-18-silca-ratchet-sa-calobra-gareth-winter-sub-30.webp)
 
 <strong><a href="https://silcavelo.eu/products/t-ratchet-ti-torque-kit-2nd-generation" target="_blank" rel="noopener noreferrer">Silca T-Ratchet + Ti-Torque Kit</a></strong>
-When you reassemble your bike, it's essential to torque up all of your bolts to the correct spec. This is like having an entire toolbox in your pocket.
-Discount code: **Winter15**
+When you reassemble your bike, it's essential to torque up all of your bolts to the correct spec. Learn from my seatpost slip issue on my first sub-30 attempt. This is like having an entire toolbox in your pocket.
+ Use code **ROADBOOKOFCYCLING15** for 15% off.
 
 <strong><a href="https://veloforte.com" target="_blank" rel="noopener noreferrer">Veloforte</a></strong>
 Nutrition is a priority for me, not an afterthought. Veloforte ships directly in the EU and the UK, so you could even get it posted to the place you are staying to avoid extra baggage.
@@ -261,14 +264,6 @@ Discount code: **Winter15**
 
 <strong><a href="https://pelotan.cc" target="_blank" rel="noopener noreferrer">Pelotan</a></strong>
 Protect yourself with the best suntan lotion for cyclists, designed by cyclists. I never ride without it in the summer.
-
-<strong><a href="https://veloskin.cc/discount/GARETHWINTER10" target="_blank" rel="noopener noreferrer">VeloSkin</a></strong>
-Consecutive sweaty days in the saddle and sunshine can lead to saddle sores without a quality chamois cream. Veloskin is made with natural ingredients and is PH-neutral -- suitable for all genders.
-Discount code: **GARETHWINTER10**
-
-<strong><a href="https://silcavelo.eu/products/pocket-impero" target="_blank" rel="noopener noreferrer">Silca Pocket Impero</a></strong>
-Since you can't take CO2 on a plane, taking a pocket pump will ensure you have endless air. This is the finest, most efficient pocket pump you will ever thrust.
-Discount code: **Winter15**
 
 <strong><a href="https://workshopcoffee.com" target="_blank" rel="noopener noreferrer">Workshop Coffee</a></strong>
 I take a bag of pre-ground Workshop coffee and an AeroPress when I travel. Quality coffee is a guarantee. I'm usually up before 4:30 a.m. -- nothing opens in Mallorca until 9 a.m. I can't go that long without coffee. That's insane.
