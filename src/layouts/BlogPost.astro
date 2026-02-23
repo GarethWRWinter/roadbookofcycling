@@ -16,6 +16,8 @@ const { title, description, pubDate, updatedDate, heroImage, tags, youtubeId, yo
 <html lang="en">
 	<head>
 		<BaseHead title={`${title} — Roadbook of Cycling`} description={description} image={heroImage} />
+		<script async src="https://subscribe-forms.beehiiv.com/embed.js"></script>
+		<script type="text/javascript" async src="https://subscribe-forms.beehiiv.com/attribution.js"></script>
 	</head>
 	<body>
 		<Header />
@@ -66,6 +68,22 @@ const { title, description, pubDate, updatedDate, heroImage, tags, youtubeId, yo
 				/>
 			</div>
 		</main>
+
+		<section class="post-newsletter" aria-label="Newsletter signup">
+			<div class="post-newsletter-inner">
+				<h2 class="post-newsletter-heading">Enjoyed this? Get more like it.</h2>
+				<p class="post-newsletter-copy">One email, once a week. No sponsors. No reason to lie to you.</p>
+				<div class="post-newsletter-embed">
+					<iframe
+						src="https://subscribe-forms.beehiiv.com/7c00edfb-e96d-4e29-8cd2-23824ea958e3"
+						data-test-id="beehiiv-embed"
+						frameborder="0"
+						scrolling="no"
+						style="width: 100%; height: 363px; background-color: transparent; max-width: 100%; box-shadow: none; border-radius: 0;"
+					></iframe>
+				</div>
+			</div>
+		</section>
 
 		<Footer />
 	</body>
@@ -151,5 +169,47 @@ const { title, description, pubDate, updatedDate, heroImage, tags, youtubeId, yo
 	.post-contact {
 		max-width: var(--measure);
 		margin: var(--s-9) auto 0;
+	}
+
+	/* ─── Post Newsletter ─────────────────────────────────────────────────────
+	   Full-width dark strip. Mirrors the homepage primary email capture.
+	   Sits between the article contact block and the footer.
+	──────────────────────────────────────────────────────────────────────── */
+	.post-newsletter {
+		background: var(--ink);
+		padding: var(--s-10) 0;
+	}
+
+	.post-newsletter-inner {
+		max-width: 640px;
+		margin: 0 auto;
+		padding: 0 var(--s-5);
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		text-align: center;
+	}
+
+	.post-newsletter-heading {
+		font-family: var(--font-serif);
+		font-size: clamp(1.75rem, 3vw, var(--text-3xl));
+		font-weight: 300;
+		letter-spacing: -0.01em;
+		line-height: 1.1;
+		color: var(--bg);
+		margin: 0 0 var(--s-4);
+	}
+
+	.post-newsletter-copy {
+		font-size: var(--text-base);
+		color: rgba(246, 243, 236, 0.6);
+		line-height: 1.65;
+		max-width: 420px;
+		margin: 0 0 var(--s-6);
+	}
+
+	.post-newsletter-embed {
+		width: 100%;
+		max-width: 480px;
 	}
 </style>

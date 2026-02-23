@@ -172,26 +172,6 @@ const remaining = posts.slice(1);
 		)}
 
 		<!--
-			SECONDARY EMAIL CAPTURE
-			Light. Compact. One line on desktop, stacked on mobile.
-		-->
-		<section class="email-secondary" aria-label="Newsletter signup">
-			<div class="email-secondary-inner container">
-				<p class="email-secondary-heading">Want the honest version of cycling?</p>
-				<div class="beehiiv-secondary-wrapper">
-					<iframe
-						src="https://subscribe-forms.beehiiv.com/7c00edfb-e96d-4e29-8cd2-23824ea958e3"
-						class="beehiiv-embed"
-						data-test-id="beehiiv-embed"
-						frameborder="0"
-						scrolling="no"
-						style="width: 100%; height: 363px; background-color: transparent; max-width: 100%; box-shadow: none; border-radius: 0;"
-					></iframe>
-				</div>
-			</div>
-		</section>
-
-		<!--
 			ACT 3 — THE CLOSER
 			Dark strip. Mirrors the hero. Closes the loop.
 			Simple invitation, no friction.
@@ -545,40 +525,6 @@ const remaining = posts.slice(1);
 		opacity: 0.65;
 	}
 
-	/* ─── Secondary Email Capture ────────────────────────────────────────────
-	   Light. Compact. Headline left, form right.
-	──────────────────────────────────────────────────────────────────────── */
-	.email-secondary {
-		background: var(--surface);
-		border-top: 1px solid var(--border);
-		border-bottom: 1px solid var(--border);
-		padding: var(--s-7) 0;
-	}
-
-	.email-secondary-inner {
-		display: flex;
-		align-items: flex-start;
-		justify-content: space-between;
-		gap: var(--s-6);
-		flex-wrap: wrap;
-	}
-
-	.email-secondary-heading {
-		font-family: var(--font-serif);
-		font-size: clamp(1.25rem, 2.5vw, var(--text-2xl));
-		font-weight: 300;
-		font-style: italic;
-		color: var(--ink);
-		margin: 0;
-		flex-shrink: 0;
-		padding-top: var(--s-4);
-	}
-
-	.beehiiv-secondary-wrapper {
-		flex: 1;
-		max-width: 420px;
-	}
-
 	/* ─── Closer ─────────────────────────────────────────────────────────────
 	   Dark strip. Mirrors the hero. Simple invitation.
 	──────────────────────────────────────────────────────────────────────── */
@@ -666,19 +612,6 @@ const remaining = posts.slice(1);
 		.closer-inner {
 			flex-direction: column;
 			align-items: flex-start;
-		}
-	}
-
-	@media (max-width: 700px) {
-		.email-secondary-inner {
-			flex-direction: column;
-			align-items: center;
-			text-align: center;
-		}
-
-		.email-secondary-form {
-			justify-content: center;
-			max-width: 100%;
 		}
 	}
 
