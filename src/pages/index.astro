@@ -20,6 +20,8 @@ const remaining = posts.slice(1);
 <html lang="en">
 	<head>
 		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+		<script async src="https://subscribe-forms.beehiiv.com/embed.js"></script>
+		<script type="text/javascript" async src="https://subscribe-forms.beehiiv.com/attribution.js"></script>
 	</head>
 	<body>
 		<Header />
@@ -86,21 +88,16 @@ const remaining = posts.slice(1);
 					Subscribers get posts early, gear takes that didn't make the public blog, and the kind
 					of honest analysis that Cycling Weekly structurally cannot give you. Free. Always.
 				</p>
-				<form class="email-primary-form" action="https://formspree.io/f/xdalabzw" method="POST">
-					<input type="hidden" name="postTitle" value="Newsletter Signup — Homepage" />
-					<p aria-hidden="true" style="display:none;">
-						<label>Don't fill this out<input name="_gotcha" tabindex="-1" autocomplete="off" /></label>
-					</p>
-					<input
-						class="email-primary-input"
-						type="email"
-						name="email"
-						placeholder="Your email address"
-						required
-						autocomplete="email"
-					/>
-					<button class="email-primary-btn" type="submit">Join the list</button>
-				</form>
+				<div class="beehiiv-primary-wrapper">
+					<iframe
+						src="https://subscribe-forms.beehiiv.com/7c00edfb-e96d-4e29-8cd2-23824ea958e3"
+						class="beehiiv-embed"
+						data-test-id="beehiiv-embed"
+						frameborder="0"
+						scrolling="no"
+						style="background-color: transparent; max-width: 100%;"
+					></iframe>
+				</div>
 			</div>
 		</section>
 
@@ -181,21 +178,16 @@ const remaining = posts.slice(1);
 		<section class="email-secondary" aria-label="Newsletter signup">
 			<div class="email-secondary-inner container">
 				<p class="email-secondary-heading">Want the honest version of cycling?</p>
-				<form class="email-secondary-form" action="https://formspree.io/f/xdalabzw" method="POST">
-					<input type="hidden" name="postTitle" value="Newsletter Signup — Homepage Footer" />
-					<p aria-hidden="true" style="display:none;">
-						<label>Don't fill this out<input name="_gotcha" tabindex="-1" autocomplete="off" /></label>
-					</p>
-					<input
-						class="email-secondary-input"
-						type="email"
-						name="email"
-						placeholder="Your email address"
-						required
-						autocomplete="email"
-					/>
-					<button class="email-secondary-btn" type="submit">Join</button>
-				</form>
+				<div class="beehiiv-secondary-wrapper">
+					<iframe
+						src="https://subscribe-forms.beehiiv.com/7c00edfb-e96d-4e29-8cd2-23824ea958e3"
+						class="beehiiv-embed"
+						data-test-id="beehiiv-embed"
+						frameborder="0"
+						scrolling="no"
+						style="background-color: transparent; max-width: 100%;"
+					></iframe>
+				</div>
 			</div>
 		</section>
 
@@ -387,51 +379,16 @@ const remaining = posts.slice(1);
 		margin: 0 0 var(--s-7);
 	}
 
-	.email-primary-form {
-		display: flex;
-		gap: var(--s-3);
+	.beehiiv-primary-wrapper {
 		width: 100%;
 		max-width: 480px;
-		flex-wrap: wrap;
-		justify-content: center;
 	}
 
-	.email-primary-input {
-		flex: 1 1 220px;
-		font: inherit;
-		font-size: var(--text-sm);
-		padding: 0.75rem 1rem;
-		border: 1px solid rgba(246, 243, 236, 0.25);
-		background: rgba(246, 243, 236, 0.08);
-		color: var(--bg);
-		outline: none;
-	}
-
-	.email-primary-input::placeholder {
-		color: rgba(246, 243, 236, 0.35);
-	}
-
-	.email-primary-input:focus {
-		border-color: rgba(246, 243, 236, 0.6);
-	}
-
-	.email-primary-btn {
-		font-family: var(--font-sans);
-		font-size: var(--text-xs);
-		font-weight: 600;
-		letter-spacing: 0.1em;
-		text-transform: uppercase;
-		color: var(--ink);
-		background: var(--bg);
+	.beehiiv-embed {
+		width: 100%;
+		display: block;
+		background: transparent;
 		border: none;
-		padding: 0.75rem var(--s-6);
-		cursor: pointer;
-		white-space: nowrap;
-		transition: opacity 150ms ease;
-	}
-
-	.email-primary-btn:hover {
-		opacity: 0.85;
 	}
 
 	/* ─── Writing ────────────────────────────────────────────────────────────
@@ -616,50 +573,9 @@ const remaining = posts.slice(1);
 		flex-shrink: 0;
 	}
 
-	.email-secondary-form {
-		display: flex;
-		gap: var(--s-3);
+	.beehiiv-secondary-wrapper {
 		flex: 1;
 		max-width: 420px;
-		flex-wrap: wrap;
-	}
-
-	.email-secondary-input {
-		flex: 1 1 180px;
-		font: inherit;
-		font-size: var(--text-sm);
-		padding: 0.65rem 0.85rem;
-		border: 1px solid var(--border);
-		background: var(--bg);
-		color: var(--ink);
-		outline: none;
-	}
-
-	.email-secondary-input::placeholder {
-		color: var(--subtle);
-	}
-
-	.email-secondary-input:focus {
-		border-color: var(--muted);
-	}
-
-	.email-secondary-btn {
-		font-family: var(--font-sans);
-		font-size: var(--text-xs);
-		font-weight: 600;
-		letter-spacing: 0.1em;
-		text-transform: uppercase;
-		color: var(--bg);
-		background: var(--ink);
-		border: none;
-		padding: 0.65rem var(--s-5);
-		cursor: pointer;
-		white-space: nowrap;
-		transition: opacity 150ms ease;
-	}
-
-	.email-secondary-btn:hover {
-		opacity: 0.75;
 	}
 
 	/* ─── Closer ─────────────────────────────────────────────────────────────
