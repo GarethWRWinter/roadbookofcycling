@@ -32,15 +32,17 @@ const remaining = posts.slice(1);
 		<section class="hero" aria-label="Introduction">
 			<div class="hero-panel">
 				<div class="hero-panel-inner">
-					<p class="hero-eyebrow label">Road cycling — stories, craft &amp; performance</p>
+					<p class="hero-eyebrow label">Road Cycling. Unsponsored. Unfiltered. Earned.</p>
 					<h1 class="hero-headline">
-						Performance,<br />craft, and the<br />quiet obsession<br />of getting better.
+						I spent a decade<br />inside Team Sky.<br />Now I write the<br />truth about cycling.
 					</h1>
 					<p class="hero-copy">
-						I write from inside the sport. Where training meets equipment,
-						where small details compound, and where progress is earned — not claimed.
+						Sir Dave Brailsford's marginal gains philosophy. Sir Bradley Wiggins on the Champs-Élysées.
+						Froome. Thomas. Sir Chris Hoy. I was inside all of it. Now I write about cycling the way
+						I wish someone had written about it when I was starting out. No advertisers to protect.
+						No reason to lie to you.
 					</p>
-					<a href="/blog" class="hero-cta">Read the writing &rarr;</a>
+					<a href="#email-capture" class="hero-cta">Get the weekly email &rarr;</a>
 				</div>
 			</div>
 
@@ -57,6 +59,52 @@ const remaining = posts.slice(1);
 		</section>
 
 		<!--
+			TRUST STRIP — credentials, understated
+			Full-width. Cream background. Small-caps wordmarks.
+		-->
+		<section class="trust-strip" aria-label="Credentials">
+			<div class="trust-strip-inner container">
+				<p class="trust-strip-label">As seen in &amp; worked with</p>
+				<ul class="trust-list" role="list">
+					<li>Team Sky</li>
+					<li>Sky Sports</li>
+					<li>Sky News</li>
+					<li>Mindvalley</li>
+				</ul>
+			</div>
+		</section>
+
+		<!--
+			PRIMARY EMAIL CAPTURE
+			Dark. Centred. The honest pitch.
+		-->
+		<section class="email-primary" id="email-capture" aria-label="Newsletter signup">
+			<div class="email-primary-inner container">
+				<h2 class="email-primary-heading">One email. Once a week. The honest version.</h2>
+				<p class="email-primary-copy">
+					Most cycling content exists to protect a brand relationship. This doesn't.
+					Subscribers get posts early, gear takes that didn't make the public blog, and the kind
+					of honest analysis that Cycling Weekly structurally cannot give you. Free. Always.
+				</p>
+				<form class="email-primary-form" action="https://formspree.io/f/xdalabzw" method="POST">
+					<input type="hidden" name="postTitle" value="Newsletter Signup — Homepage" />
+					<p aria-hidden="true" style="display:none;">
+						<label>Don't fill this out<input name="_gotcha" tabindex="-1" autocomplete="off" /></label>
+					</p>
+					<input
+						class="email-primary-input"
+						type="email"
+						name="email"
+						placeholder="Your email address"
+						required
+						autocomplete="email"
+					/>
+					<button class="email-primary-btn" type="submit">Join the list</button>
+				</form>
+			</div>
+		</section>
+
+		<!--
 			ACT 2 — THE WRITING
 			Surface the work. Lead with the best piece, full width.
 			Let the images do the seducing.
@@ -67,6 +115,10 @@ const remaining = posts.slice(1);
 					<header class="writing-head">
 						<p class="label">Writing</p>
 					</header>
+
+					<p class="writing-editorial-note">
+						Everything here has been ridden, tested, or lived. Nothing gets published because a brand asked nicely.
+					</p>
 
 					<a href={`/blog/${featured.id}/`} class="feature-card">
 						{featured.data.heroImage && (
@@ -123,6 +175,31 @@ const remaining = posts.slice(1);
 		)}
 
 		<!--
+			SECONDARY EMAIL CAPTURE
+			Light. Compact. One line on desktop, stacked on mobile.
+		-->
+		<section class="email-secondary" aria-label="Newsletter signup">
+			<div class="email-secondary-inner container">
+				<p class="email-secondary-heading">Want the honest version of cycling?</p>
+				<form class="email-secondary-form" action="https://formspree.io/f/xdalabzw" method="POST">
+					<input type="hidden" name="postTitle" value="Newsletter Signup — Homepage Footer" />
+					<p aria-hidden="true" style="display:none;">
+						<label>Don't fill this out<input name="_gotcha" tabindex="-1" autocomplete="off" /></label>
+					</p>
+					<input
+						class="email-secondary-input"
+						type="email"
+						name="email"
+						placeholder="Your email address"
+						required
+						autocomplete="email"
+					/>
+					<button class="email-secondary-btn" type="submit">Join</button>
+				</form>
+			</div>
+		</section>
+
+		<!--
 			ACT 3 — THE CLOSER
 			Dark strip. Mirrors the hero. Closes the loop.
 			Simple invitation, no friction.
@@ -130,7 +207,7 @@ const remaining = posts.slice(1);
 		<div class="closer" role="complementary">
 			<div class="closer-inner container">
 				<p class="closer-copy">
-					Former Creative Director, Team Sky.<br />
+					Team Sky. Sky Sports. Mindvalley.<br />
 					Cyclist. Student of marginal gains.
 				</p>
 				<a
@@ -227,6 +304,134 @@ const remaining = posts.slice(1);
 		display: block;
 	}
 
+	/* ─── Trust Strip ────────────────────────────────────────────────────────
+	   Cream background. Centred wordmarks. Understated.
+	──────────────────────────────────────────────────────────────────────── */
+	.trust-strip {
+		background: var(--surface);
+		border-top: 1px solid var(--border);
+		border-bottom: 1px solid var(--border);
+		padding: var(--s-6) 0;
+	}
+
+	.trust-strip-inner {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		gap: var(--s-4);
+	}
+
+	.trust-strip-label {
+		font-size: var(--text-xs);
+		font-weight: 600;
+		letter-spacing: 0.12em;
+		text-transform: uppercase;
+		color: var(--subtle);
+		margin: 0;
+	}
+
+	.trust-list {
+		list-style: none;
+		margin: 0;
+		padding: 0;
+		display: flex;
+		align-items: center;
+		gap: var(--s-7);
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+
+	.trust-list li {
+		font-family: var(--font-sans);
+		font-size: var(--text-sm);
+		font-weight: 600;
+		letter-spacing: 0.12em;
+		text-transform: uppercase;
+		color: var(--muted);
+	}
+
+	/* ─── Primary Email Capture ──────────────────────────────────────────────
+	   Dark. Centred. The honest pitch.
+	──────────────────────────────────────────────────────────────────────── */
+	.email-primary {
+		background: var(--ink);
+		padding: var(--s-10) 0;
+	}
+
+	.email-primary-inner {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		text-align: center;
+		max-width: 640px;
+		margin: 0 auto;
+	}
+
+	.email-primary-heading {
+		font-family: var(--font-serif);
+		font-size: clamp(1.75rem, 3vw, var(--text-3xl));
+		font-weight: 300;
+		letter-spacing: -0.01em;
+		line-height: 1.1;
+		color: var(--bg);
+		margin: 0 0 var(--s-5);
+	}
+
+	.email-primary-copy {
+		font-size: var(--text-base);
+		color: rgba(246, 243, 236, 0.6);
+		line-height: 1.65;
+		max-width: 520px;
+		margin: 0 0 var(--s-7);
+	}
+
+	.email-primary-form {
+		display: flex;
+		gap: var(--s-3);
+		width: 100%;
+		max-width: 480px;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+
+	.email-primary-input {
+		flex: 1 1 220px;
+		font: inherit;
+		font-size: var(--text-sm);
+		padding: 0.75rem 1rem;
+		border: 1px solid rgba(246, 243, 236, 0.25);
+		background: rgba(246, 243, 236, 0.08);
+		color: var(--bg);
+		outline: none;
+	}
+
+	.email-primary-input::placeholder {
+		color: rgba(246, 243, 236, 0.35);
+	}
+
+	.email-primary-input:focus {
+		border-color: rgba(246, 243, 236, 0.6);
+	}
+
+	.email-primary-btn {
+		font-family: var(--font-sans);
+		font-size: var(--text-xs);
+		font-weight: 600;
+		letter-spacing: 0.1em;
+		text-transform: uppercase;
+		color: var(--ink);
+		background: var(--bg);
+		border: none;
+		padding: 0.75rem var(--s-6);
+		cursor: pointer;
+		white-space: nowrap;
+		transition: opacity 150ms ease;
+	}
+
+	.email-primary-btn:hover {
+		opacity: 0.85;
+	}
+
 	/* ─── Writing ────────────────────────────────────────────────────────────
 	   Featured article: large horizontal editorial card.
 	   Supporting articles: clean grid below.
@@ -239,6 +444,16 @@ const remaining = posts.slice(1);
 		margin-bottom: var(--s-7);
 		padding-bottom: var(--s-5);
 		border-bottom: 1px solid var(--border);
+	}
+
+	.writing-editorial-note {
+		font-family: var(--font-sans);
+		font-size: var(--text-xs);
+		font-weight: 600;
+		letter-spacing: 0.08em;
+		text-transform: uppercase;
+		color: var(--muted);
+		margin: 0 0 var(--s-6);
 	}
 
 	/* Featured card — horizontal, cinematic */
@@ -371,6 +586,80 @@ const remaining = posts.slice(1);
 		opacity: 0.65;
 	}
 
+	/* ─── Secondary Email Capture ────────────────────────────────────────────
+	   Light. Compact. Headline left, form right.
+	──────────────────────────────────────────────────────────────────────── */
+	.email-secondary {
+		background: var(--surface);
+		border-top: 1px solid var(--border);
+		border-bottom: 1px solid var(--border);
+		padding: var(--s-7) 0;
+	}
+
+	.email-secondary-inner {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		gap: var(--s-6);
+		flex-wrap: wrap;
+	}
+
+	.email-secondary-heading {
+		font-family: var(--font-serif);
+		font-size: clamp(1.25rem, 2.5vw, var(--text-2xl));
+		font-weight: 300;
+		font-style: italic;
+		color: var(--ink);
+		margin: 0;
+		flex-shrink: 0;
+	}
+
+	.email-secondary-form {
+		display: flex;
+		gap: var(--s-3);
+		flex: 1;
+		max-width: 420px;
+		flex-wrap: wrap;
+	}
+
+	.email-secondary-input {
+		flex: 1 1 180px;
+		font: inherit;
+		font-size: var(--text-sm);
+		padding: 0.65rem 0.85rem;
+		border: 1px solid var(--border);
+		background: var(--bg);
+		color: var(--ink);
+		outline: none;
+	}
+
+	.email-secondary-input::placeholder {
+		color: var(--subtle);
+	}
+
+	.email-secondary-input:focus {
+		border-color: var(--muted);
+	}
+
+	.email-secondary-btn {
+		font-family: var(--font-sans);
+		font-size: var(--text-xs);
+		font-weight: 600;
+		letter-spacing: 0.1em;
+		text-transform: uppercase;
+		color: var(--bg);
+		background: var(--ink);
+		border: none;
+		padding: 0.65rem var(--s-5);
+		cursor: pointer;
+		white-space: nowrap;
+		transition: opacity 150ms ease;
+	}
+
+	.email-secondary-btn:hover {
+		opacity: 0.75;
+	}
+
 	/* ─── Closer ─────────────────────────────────────────────────────────────
 	   Dark strip. Mirrors the hero. Simple invitation.
 	──────────────────────────────────────────────────────────────────────── */
@@ -458,6 +747,19 @@ const remaining = posts.slice(1);
 		.closer-inner {
 			flex-direction: column;
 			align-items: flex-start;
+		}
+	}
+
+	@media (max-width: 700px) {
+		.email-secondary-inner {
+			flex-direction: column;
+			align-items: center;
+			text-align: center;
+		}
+
+		.email-secondary-form {
+			justify-content: center;
+			max-width: 100%;
 		}
 	}
 
