@@ -85,15 +85,15 @@ Adam Kerin of ZFC has put the cost of a poor lubricant choice at upwards of 5 wa
 
 For those of you who want it straight, here it is.
 
-|                                 | Standard Oil                                      | SILCA Hot Melt Wax                                   |
-| ------------------------------- | ------------------------------------------------- | ---------------------------------------------------- |
-| Contamination behaviour         | Attracts and holds grit                           | Sheds contamination                                  |
-| Friction loss, clean conditions | 4 to 6W                                           | 3.8W @ 250W (ZFC)                                    |
-| Friction loss, contaminated     | 5 to 8W+                                          | Minimal degradation                                  |
-| Post-ride maintenance           | 20 to 30 min degreasing session                   | Wipe chain, back in the pot                          |
-| Cassette and ring wear          | Accelerated                                       | Significantly lower (ZFC 6,000km data)               |
-| Real-world cost per service     | Effectively free, until the cassette bill arrives | £1 to £2 per interval                                |
-| Re-application                  | Every ride or every few rides                     | Every 300 to 500km, topped up with Super Secret Drip |
+|                          | Standard Oil Lube                              | SILCA Hot Melt Wax                                          |
+| ------------------------ | ---------------------------------------------- | ----------------------------------------------------------- |
+| Contamination Behaviour  | Wet film holds grit in suspension              | Dry wax film resists contamination adhesion (ZFC 6,000 km)  |
+| Friction (Clean @250W)   | ~4.5–7 W depending on lube (FFT/ZFC)          | **3.8 W @250W** (ZFC trusted lab)                           |
+| Friction (Contaminated)  | Worst lubes lose ~5–6 W vs wax (ZFC 2022)     | Maintains low relative losses under contamination           |
+| Post-Ride Maintenance    | Degrease cycles required                       | Wipe + re-wax or drip top-up                                |
+| Cassette & Ring Wear     | Higher wear under contamination                | **5–10x lower wear** (ZFC 2023–25)                          |
+| Cost per Interval        | Cheap bottle, expensive drivetrain             | ~£1–£2 per treatment (material cost)                        |
+| Re-Application           | Every ride / few rides                         | 300–500 km: extend with Super Secret                        |
 
 *Source: Zero Friction Cycling independent testing, Friction Facts via VeloNews*
 
