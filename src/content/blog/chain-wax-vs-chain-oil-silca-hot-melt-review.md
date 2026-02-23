@@ -45,7 +45,7 @@ The problem was never the weather. It was never the distance.
 
 It was the lubricant. Doing exactly what oil does: collecting every particle on the road and grinding it methodically into the most expensive parts of my drivetrain.
 
-![Cyclist riding solo in wet conditions during Manchester to London endurance ride](../../assets/blog/uploads/gareth-winter-manchester-to-london-harry-dowdney.jpg)
+![road cyclist racing a time trial ](../../assets/blog/uploads/dsc08512.jpg)
 
 I switched to <a href="https://silca.cc/en-gb/collections/chain-waxing-system/products/secret-chain-wax-blend" target="_blank" rel="noopener noreferrer">SILCA Secret Chain Blend, Hot Melt Wax.</a> And the first thing I noticed was not speed.
 
@@ -107,7 +107,7 @@ I have used Manchester to London as my long-form testing ground across three dif
 
 ### Manchester to London, 2016: The Experiment
 
-![Crossing the finish line at Rapha Manchester to London 2016](../../assets/blog/uploads/28895328483_0cd4bdd42f_o.jpg)
+![Cyclist riding solo in wet conditions during Manchester to London endurance ride](../../assets/blog/uploads/gareth-winter-manchester-to-london-harry-dowdney.jpg)
 
 Immersive waxing in 2016 was fringe territory. The kind of thing a certain type of obsessive did in their kitchen and tried to explain at club runs while everyone edged quietly away.
 
@@ -124,6 +124,8 @@ I rode off the front with two others early on, Jake and Tom. After a few hours i
 I rode them off my wheel. Spent the next six hours alone. Low position. Rhythm. The particular mental clarity you get when there is nothing left to decide.
 
 When I reached London, my legs were finished.
+
+![Crossing the finish line at Rapha Manchester to London 2016 ](../../assets/blog/uploads/28895328483_0cd4bdd42f_o.jpg)
 
 **My drivetrain was not.**
 
