@@ -11,63 +11,57 @@ tags:
 heroImage: ../../assets/blog/uploads/poc-mj-svtempot.jpg
 ---
 
-Outside POC HQ and the pro ranks of EF Education-Nippo and Drops-Le Col, I am the first person to get my hands on the feathery new 23g POC Elicit Clarity sunglasses. So thanks for your trust, POC, and step aside Mitch Docker. I've got this.
+I picked up the prototypes at Rouleur Live. Damien Phillips from POC handed them to me. I held them. My first words were: "Fuck. These are light."
+
+23 grams. The lightest high-performance cycling sunglasses on the market. Outside POC HQ and the pro teams, I was the first person to get my hands on them. So step aside, Mitch Docker. I've got this.
 
 ![](../../assets/blog/uploads/poc-mj-svtempot.jpg)
 
 ![](../../assets/blog/uploads/poc-dsf5826.jpg)
 
-POC set out to create the lightest pair of high-performance cycling sunglasses without sacrificing protection or comfort, resulting in the Elicit Clarity, which made their racing debut upon the nose of Mitch Docker, ironically during his final race, Paris-Roubaix, the most arduous event in the road cycling calendar; proving they can punch well above their weight.
+Mitch Docker wore the Elicits in their racing debut: Paris-Roubaix, ironically his final professional race. The most brutal one-day race in the calendar. The Elicits survived. So did Mitch.
 
-> "The Elicit's are special, and their weight is extraordinary! The lightness means I hardly notice them and they are beautifully balanced. I am a fan of bigger lenses and I have ridden the Elicit's in almost every weather condition, including my last race, Paris-Roubaix, which was very messy, but they handled it all. I also think they look amazing and it has been fun to work so closely with POC on their development." — Mitch Docker
+> "The Elicit's are special, and their weight is extraordinary! The lightness means I hardly notice them and they are beautifully balanced. I am a fan of bigger lenses and I have ridden the Elicit's in almost every weather condition, including my last race, Paris-Roubaix, which was very messy, but they handled it all."
 
-## If You Want to Lead, You Must First Learn to Follow
+That is the brief this product was designed to meet. Lightest possible. No compromise on protection. Proven across the worst conditions in the sport.
 
-Before I get started, I feel like I need to lay down some context. Growing up in a family of old school roadies, I used to borrow one of my dad's old 6-speed steel-framed bikes with downtube shifters. I took pleasure in needing to work harder than my road companions on their shiny modern steeds. He still has it, and I love that bike, but it weighs a ton.
+## Weight Obsession: A Brief History
 
-Back in 2013, when I eventually upgraded to a lighter bike with an 11-speed groupset, I was like, "Oh, fuck. Is this what I have been missing out on?" It unlocked more speed than I could have imagined. Now I'm a total weight weenie, riding a Factor O2 VAM with Campagnolo Super Record — one of the lightest bikes and groupsets on the market. So when you've ridden a 12kg bike (which I still do during the winter), you truly appreciate a 6kg bike.
+I grew up borrowing my dad's old 6-speed steel bike with downtube shifters. I took perverse pleasure in working harder than everyone else on modern equipment. His bike weighed a ton. I loved it.
+
+Then in 2013, I upgraded to an 11-speed carbon bike. My first ride, I thought: "Is this what I've been missing?" Speed I couldn't explain arrived from nowhere. I became a weight weenie immediately.
 
 ![](../../assets/blog/uploads/poc-dsc06211.jpg)
 
-## Is There Such Thing as Too Light?
+Now I ride a Factor O2 VAM with Campagnolo Super Record. One of the lightest bike and groupset combinations on the market. When you go back to a heavier winter bike, the contrast is physical. You feel the difference in your legs.
 
-We often have a 'lighter is better' mentality in road cycling, but this is not always the case. In the quest to make my bikes lighter, I have occasionally overstepped the mark. Certain components need to be strong. Otherwise, they will fail.
+But weight savings have limits. I once swapped my Black Inc seatpost (184g) for a WR Compositi (131g). 53g saved. The post slipped and clicked constantly. The saddle would not hold position. I changed straight back and immediately understood why 53g can be worth keeping.
 
-For example, I swapped my Factor's Black Inc Seatpost (184g) for a lightweight WR Compositi seatpost (131g). I saved 53g, but the post kept clicking and wouldn't secure the saddle in the rails without slipping. So I quickly changed back and immediately realised how strong and comfortable it felt — just one of many examples where NOT to save weight.
+The POC Elicit Clarity is a 7g saving over my previous POC Crave Clarity. That is 23.3%. Which sounds modest. Which is not modest.
 
-We also obsess about body weight. I have been drastically underweight in my quest to become faster. But, unfortunately, it had the opposite effect. I became powerless.
+## The Product
 
-However, with the POC Elicit Clarity, you can save weight without consequence.
-
-> "Of course, it might only be 7g saving compared to my 30g POC Crave Clarity, but to put that number into perspective, that's a 23.3% reduction, which is a very respectable design and engineering achievement when the benchmark is already so high."
+POC could have saved weight by reducing lens size. That would have been the easy route. They did not take it.
 
 ![](../../assets/blog/uploads/poc-dsf5135.jpg)
 
-## POC Elicit Clarity Review
+Instead: frameless construction using Bio-Grilamid snap-fit hinges made predominantly from renewable sources. The result is a maximised lens surface with an uninterrupted field of vision. The lens is large. The coverage is wide. The weight is 23 grams.
 
-During Rouleur Live, I picked up some prototypes for testing. Damien Phillips, POC's Global Head of PR and Communication, and Linnea Jonsson, PR Manager, gave me a demo. My first impressions were, "I love the style and shape of the lens." then I picked them up and said something like, "Fuck… These are light."
-
-The flexibility is mind-blowing, and the assembly is brilliantly simple. If like me, you're a sucker for intelligent product design, you'll appreciate how the Elicit's construction showcases new thinking.
+The construction is clever. The hinges snap in. They flex without breaking. If you crash, the temples break away from the lens cleanly to limit damage. The rubberised nose bridge comes in two sizes, both included. The arms grip at the temples. When you stow them in your helmet vents, they stay put.
 
 ![](../../assets/blog/uploads/poc-dsf5137.jpg)
 
-For an easy win, POC could have reduced the lens size to save a gram or two. However, that would contradict their core value: to perfectly balance performance and protection. So instead, they have achieved this 23.3% weight-saving by creating a frameless construction with unique Bio-Grilamid plastic snap-fit hinges made predominantly from renewable sources.
+The Clarity lenses are made in collaboration with Carl Zeiss Vision. Enhanced contrast. Better hazard identification. Potholes, road debris, surface changes: you see them faster, which gives you more time to react. On a fast descent, that margin is real.
 
-This unique construction method results in a maximised lens surface with an undisrupted field of vision and broader eye protection. The rubberised nose bridge comes in two sizes — both are included in the box. The arms are flexible and rubberised at the temples, which improves fit, comfort, and adds extra grip when you stow them inside your helmet vents.
-
-Put simply; the Elicit Clarity have an excellent field of vision, broad protection area, are so comfortable and lightweight that you forget you are even wearing them.
+Ri-Pel coating: repels water, sweat, dirt and oil. Makes them easy to clean. Anti-fog treatment on the inside. The lenses do what they should do without requiring constant maintenance.
 
 ![](../../assets/blog/uploads/poc-dsf5164.jpg)
 
-## Personal Thoughts and Summary
+I have ridden these in full sun, crosswinds, rain and headwinds. They do not move. The balance of the frame and the flexible arms that hug the temple keep them in place regardless of speed or conditions. My one concern before testing was that 23 grams might mean they blow off at pace. They do not.
 
-I fully appreciate POC's Clarity lenses (made in collaboration with Carl Zeiss Vision). While cycling, we often have to make split-second decisions, and our vision is the first port of call. The enhanced contrast helps identify potential hazards, such as potholes, which increases your reaction time and gives precious milliseconds to help inform better decisions.
+## Personal Summary
 
-POC's Clarity lenses also have anti-fog treatments and repel rain and dirt. The Elicit Clarity are so light that, to begin with, I forgot I was wearing them, and I kept taking my helmet off before my sunnies and had to catch them each time.
-
-Like me, you may have thought, "A 23g pair of sunnies? Won't they blow off your face and fly away?" I have ridden these in the sunshine, strong head/crosswinds and rain. They stay put, no matter what — due to the way they are balanced, the flexible design of the arms that hug your temple, coupled with the rubberised grip and nose bridge.
-
-The benefits of these sunnies go far beyond 'weight saving'. The undisrupted vision and lack of mass make these sunglasses so comfortable that you might forget you are wearing them — which is great for longer rides.
+The first few rides, I kept removing my helmet before my sunglasses because I forgot I was wearing them. That took some adjustment. In a good way.
 
 ![](../../assets/blog/uploads/poc-dsf5422.jpg)
 
@@ -75,35 +69,37 @@ The benefits of these sunnies go far beyond 'weight saving'. The undisrupted vis
 
 ## Pros
 
-- Incredibly lightweight.
-- All-day comfort.
-- Undisrupted field of vision.
-- Wide protection area.
-- Clarity lenses.
-- Stylish as hell.
+- Incredibly lightweight
+- All-day comfort: you forget they are there
+- Uninterrupted field of vision
+- Wide protection area
+- Clarity lenses with enhanced contrast
+- The style is clean
 
 ## Cons
 
-- So light and unnoticeable, you might forget you are wearing them.
-- To shave weight, the arms have quite an industrial appearance. Visually, I prefer the sleeker arms of the Crave or Aspire.
+- So light you might remove your helmet and drop them (see above)
+- The arms have an industrial look to save weight. I prefer the slimmer arms on the Crave or Aspire aesthetically
 
-As you can see, I struggled to find any real cons. To maximise the potential of POC's lightweight innovations, pair them with the Ventral Lite. The combined weight is a mere 223g (size medium helmet). If you have an event where every gram matters, they are a killer combo.
+The cons list is short. The Elicits are the best sunglasses I have owned.
+
+If weight matters to you: pair them with the POC Ventral Lite helmet. Combined weight is 223 grams (size medium). That is a serious number for any event where every gram counts.
 
 ![](../../assets/blog/uploads/poc-dsf5458.jpg)
 
-## Elicit Clarity Details
+## Elicit Clarity Specifications
 
-- **Weight:** Exceptionally lightweight – 23g.
-- **Bio-Grilamid temples:** Lightweight, strong, durable and made from majority renewable sources.
-- **Snap hinges:** Snap-in hinges allow very quick and easy lens changes. The hinges also allow the temples to break away from the lens in a fall, minimising damage.
-- **Interchangeable nosepiece:** Two sizes of nosepiece are provided so each user can find a comfortable fit.
-- **Clarity lens:** Lenses with Clarity technology for sharper vision.
-- **Curved lens:** A continuous, curved lens with chamfers at the edge give exceptional coverage and keep weight low.
-- **UV400:** Complete UVA and UVB protection.
-- **Ri-Pel™:** Protects from dirt, water, sweat, salt, oil and dust, and makes the lenses easier to keep clean.
-- **Anti-scratch treatment:** Keeps the lenses free from blemishes that affect vision.
-- **Spare clear lens:** Swap lenses to have the best vision in different conditions.
-- Includes a hard case and soft pouch.
+- **Weight:** 23g
+- **Frame:** Frameless Bio-Grilamid construction with snap-fit hinges
+- **Hinges:** Snap-in; temples break away on impact to protect the lens
+- **Nose bridge:** Two rubberised sizes included
+- **Lens:** POC Clarity technology with Carl Zeiss Vision collaboration for enhanced contrast
+- **Coverage:** Curved continuous lens with chamfers for exceptional peripheral coverage
+- **UV protection:** UV400 (full UVA and UVB)
+- **Ri-Pel coating:** Protects against water, sweat, dirt, salt, oil and dust
+- **Anti-scratch treatment:** Applied to lens surface
+- **Spare clear lens:** Included for low-light conditions
+- **Case:** Hard case and soft pouch included
 
 ![](../../assets/blog/uploads/poc-dsf5608.jpg)
 
@@ -117,10 +113,16 @@ As you can see, I struggled to find any real cons. To maximise the potential of 
 
 ### November 2022
 
-I have been riding the Elicit's for over a year, and they are still my go-to. I rode from Manchester to London back in June, which took around 12hrs, and then my ride home took a few more. After a 14hr day, I barely had a dent on my nose (see the image below), whereas all the other finishers had big red, angry-looking marks. For me, that says it all.
+Over a year of riding the Elicits. They are still the first pair I reach for.
 
-The Elicits remain the most comfortable, high-performance, and stylish sunnies in my drawer.
+In June, I rode from Manchester to London. Approximately 12 hours in the saddle. A few hours more to get home. 14 hours total.
+
+At the finish, I had barely a dent on my nose. Other finishers had angry red marks from their frames. The Elicits sit on your face differently. The contact is minimal and distributed. Not concentrated on the bridge.
+
+After 14 hours, that difference is not marginal.
 
 ![](../../assets/blog/uploads/poc-1year.jpg)
+
+Still the most comfortable, high-performance sunnies in my collection.
 
 Gareth

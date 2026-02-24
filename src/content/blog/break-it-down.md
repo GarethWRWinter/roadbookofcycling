@@ -11,58 +11,60 @@ tags:
 heroImage: ../../assets/blog/uploads/break-dsf7461.jpg
 ---
 
-The imposing sight of a mountain looming on the horizon can defeat you before you've even started. It's the same when you load up a training session on Zwift and think: "Fuck me. This is going to hurt."
+The imposing sight of a mountain on the horizon can beat you before you've even clipped in.
 
-The mind is far sharper than the sword. So use it to cut through any self-doubt by breaking down the challenge into manageable chunks (apply to all aspects of life).
+It's the same when you load up a training session on Zwift and think: "Fuck me. This is going to hurt."
 
-Here goes my process and inner dialogue. I load up today's session. It's only 75mins but with 40mins at FTP. "Ah fuck. Here we go again."
+That thought is the enemy. The mind is sharper than the sword. So use it. Break the challenge into pieces small enough to hold.
+
+Here is my inner monologue for a 75-minute session with 40 minutes at FTP. Not a brutal session on paper. Brutal in the legs.
 
 ![](../../assets/blog/uploads/break-dsf7461.jpg)
 
 ### Warm-Up
 
-"This is free." So I piss about on my phone and load up a playlist.
+"This is free." I piss about on my phone and build the playlist.
 
 ![](../../assets/blog/uploads/break-dsf7491.jpg)
 
-### First 10min Interval
+### First 10-Minute Interval
 
-"This is still basically the warm-up." My body is riding on autopilot. So, my mind starts to wander and process everything on my to-do list.
+"This is still basically the warm-up." The body is on autopilot. My mind is somewhere else: processing the to-do list, solving problems, thinking about dinner.
 
 ![](../../assets/blog/uploads/break-dsf7526.jpg)
 
-### Second 10min Interval
+### Second 10-Minute Interval
 
-"This is comfortable. No stress." My subconscious keeps ticking.
+"Comfortable. No stress." The subconscious keeps ticking.
 
 ![](../../assets/blog/uploads/break-dsf7537.jpg)
 
-### Third 10min Interval
+### Third 10-Minute Interval
 
-"This is getting uncomfortable, but nothing I can't handle." I slowly become conscious of my effort. So I turn up the music and tap away to the rhythm.
+"Getting uncomfortable, but nothing I can't hold." I start to become conscious of the effort. Turn the music up. Tap the beat. Let the rhythm carry the cadence.
 
 ![](../../assets/blog/uploads/break-dsf7543.jpg)
 
-### Fourth 10min Interval
+### Fourth 10-Minute Interval
 
-"This is starting to hurt. The first 2mins are going to be fine, the second 2mins could start to burn, the third should be pretty toasty, fourth I might have to grimace, but the fifth, I have nothing to lose. I can empty the tank, and it's done."
+"This is starting to hurt. But here is the map: first two minutes are fine. Second two minutes might start to burn. Third should be uncomfortable. Fourth I may have to grimace. Fifth: I have nothing to lose. Empty the tank. Then it's done."
 
-I crank up the music and let it distract me from the sensation of time and effort. Then I get to the end of the final interval and go, "That wasn't so bad. I could go for another."
+Crank the music. Let it drown out the clock. Get to the end of the final interval and think: "That wasn't so bad. I could go again."
 
 ![](../../assets/blog/uploads/break-dsf7568.jpg)
 
-Once broken down, only 10mins of this 75min session are uncomfortable, and only 2/4mins hurt. Seems a lot easier now, eh?
+That is the thing about it. When you break it down, only 10 of those 75 minutes are genuinely uncomfortable. Only two to four minutes actually hurt. The rest is just time and cadence.
 
-My point is: "Don't let a challenge beat you before you've even started."
+It seems easier now, right?
 
-Secondly, if you don't fail frequently, then you probably aren't pushing yourself hard enough. Take confidence in your abilities.
+The principle applies everywhere. Don't let the mountain beat you before you've started climbing it. Look at the next 10 minutes. Not the summit.
+
+And one more thing: if you never fail a session, you are not pushing hard enough. Take confidence in what your body can do. Then ask it for more.
 
 ![](../../assets/blog/uploads/break-reps-01.png)
 
 ![](../../assets/blog/uploads/break-reps-02.png)
 
 ![](../../assets/blog/uploads/break-reps-03.png)
-
-A sweaty biohazard 💦.
 
 G

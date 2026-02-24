@@ -11,79 +11,97 @@ tags:
 heroImage: ../../assets/blog/uploads/eroica-img2311.jpg
 ---
 
-Something happened when I arrived at the L'Eroica Britannia press event and slid my leather shoes into toe clips and fastened the straps (rather than twisting the ratchet on my carbon shoes and clipping into my Speedplay pedals). I was transported back to my teenage years, standing in my dad's garage — unhooking his old Peugeot-Campagnolo race bike from the ceiling, where it hung from the saddle via a toe strap.
+I slid my leather shoes into the toe clips, fastened the straps, and forty years disappeared.
+
+My dad's garage. His old Peugeot-Campagnolo race bike, hung upside down from the ceiling by a toe strap. The smell of cured rubber, cold steel and three decades of accumulated grease. The clink of metal on metal when I'd unhook it from the hook and wheel it out onto the street.
+
+L'Eroica Britannia does this to you. It pulls the thread and the whole thing unravels.
 
 *📷 Moloko Cycling*
 
 ![](../../assets/blog/uploads/eroica-img2311.jpg)
 
-I could almost smell the cured rubber, cold steel and various greases and oils that linger in the air of his garage (which is more like a cycling museum). L'Eroica Britannia is a celebration of this nostalgia — helping us re-live the golden era of cycling. But unfortunately, it also presents another N+1 excuse. Oh, well.
+L'Eroica is a celebration of nostalgia and a reminder of why we got into this sport in the first place. There is one fundamental rule: your bike must be pre-1987. Reproductions are permitted. I was on a pink Condor Classico Pista, fixed wheel, 48x17. Two gears: in the saddle and out the saddle.
 
-There is only one fundamental rule: you must ride a pre-1987 bike (reproductions, such as mine, are also permitted). Goodwood Motor Circuit is the new home of L'Eroica Britannia and has a cycling legacy. In 1982, Goodwood hosted the World Road Championships, where Giuseppe Saronni and Mandy Bishop (Jones) took the titles, and they are attending the main event this August 6-7th.
+Goodwood Motor Circuit is the new home of L'Eroica Britannia. In 1982, Goodwood hosted the World Road Championships, where Giuseppe Saronni and Mandy Bishop (Jones) took the titles. Both are attending the main event in August. Cycling history runs deep here.
 
-I haven't been to Goodwood Motor Circuit in decades. I'm not a petrol head at all. However, even I got goosebumps when I pulled up alongside the race control tower and pulled my pink Condor Classico Pista fixed wheel bike out of the boot.
+I haven't been to Goodwood in decades. I am not a petrol head. But even I got goosebumps pulling up alongside the race control tower and lifting my pink fixie out of the boot.
 
-Goodwood Motor Circuit is unlike any other circuit I have ridden, such as Silverstone, Brands Hatch, etc. It has classic style and heritage, a fitting venue for L'Eroica. Daffodils and white picket fences line the circuit. Tim Bulley, International Director of the Goodwood Estate & keen cyclist, explained that they have six different varieties of daffodil that all stagger in bloom, so Goodwood is painted yellow for most of the year.
+Daffodils and white picket fences line the circuit. Tim Bulley, International Director of the Goodwood Estate and a keen cyclist, told me they have six varieties of daffodil timed to stagger in bloom. Goodwood is painted yellow for most of the year.
 
 *📷 James Clarke*
 
 ![](../../assets/blog/uploads/eroica-goodwood156.jpg)
 
-After the ride briefing in the control tower, we rolled out on our classic steeds and straight up the road of The Goodwood Festival of Speed hill climb — which was a baptism of fire for all my road companions who hadn't ridden with downtube shifters for many years, if ever at all, as they waggled them to 'find the gear'. I still love downtube shifters. Nothing symbolises that a rise in pace is coming when someone drops their shoulder to throw it in the big dog.
+After the briefing in the control tower, we rolled out and straight up the hill climb road of the Festival of Speed. A baptism of fire for anyone who hadn't touched downtube shifters in years. I watched them waggle for the gear, that familiar shoulder drop as they reached down to throw it in the big ring.
 
-However, I was riding my fixed wheel (48x17), which only has two gears: in the saddle and out the saddle.
+I still love downtube shifters. Nothing communicates intent quite like that.
+
+On the fixie, I had no such deliberation. Just legs and resistance.
 
 ![](../../assets/blog/uploads/eroica-goodwood230.jpg)
 
-The ride was like a treasure hunt. And the first golden surprise was parked on top of the second climb - the Artisan Coffee Van. I have a nose for coffee and could smell it a mile off. But I didn't catch the scent of Sir Chris Hoy, who popped out of the serving hatch as we huddled around the van like preying vultures. It was a brilliant surprise.
+The ride was a treasure hunt. And the first prize was parked at the top of the second climb.
+
+I smelled the Artisan Coffee Van before I saw it. Then Sir Chris Hoy leaned out of the serving hatch.
+
+Nobody expected that.
 
 *📷 Moloko Cycling*
 
 ![](../../assets/blog/uploads/eroica-goodwood243.jpg)
 
-I have heard many tales about Sir Chris Hoy carrying his espresso machine to training camps, Olympic holding camps, events, etc. As a confessed coffee snob, I can relate. Life is too short to drink shit coffee. Chris was pulling golden shots as fast as we could drink them — with Artisan's chocolate pairings to make the experience even sweeter.
+Chris Hoy pulls espresso with the same attention he gave to track cycling: focused, precise, generous with his time. He was pulling shots as fast as we could drink them, pairing each one with Artisan's chocolates. I was five coffees deep before we had even left the top of the hill.
+
+The stories about Chris carrying his espresso machine to training camps and Olympic holding camps are true. Life is too short for bad coffee. I can relate.
 
 *📷 James Clarke*
 
 ![](../../assets/blog/uploads/eroica-goodwood275.jpg)
 
-Artisan Coffee was co-created by my friend Ash Palmer-Watts, a gastronomic genius and the most significant coffee connoisseur I have come to know. Ash is a keen road cyclist, and our paths first crossed at LeBlanq, where his passions and professions intertwine.
+Artisan Coffee was co-created by my friend Ash Palmer-Watts: a genuinely gifted food person and the most serious coffee connoisseur I know. Ash is a road cyclist. Our paths crossed at LeBlanq, where his passions and profession overlap.
+
+If you are a home coffee person, give Artisan a try. Their purpose is to remove the faff from making exceptional coffee at home. No espresso machine? They have coffee bags that work with just a kettle. If you do grind your own beans, their whole bean range is brilliant. There is a solution for every setup.
 
 *📷 James Clarke*
 
 ![](../../assets/blog/uploads/eroica-goodwood318.jpg)
 
-If you are a home coffee enthusiast like me — give Artisan a try. Their purpose is to simplify the process of creating artisanal coffee at home. For example, if you only have a kettle, they have created coffee 'tea bags' — so you don't need a french press or any pour-over gadgets. If you are like me and like to grind your own coffee and have an espresso machine, then Artisan has a great range of delicious whole beans. They have a solution for everyone.
+After waving goodbye to the Artisan team (at coffee number five), we rolled onto a gravel section through the West Dean Estate. Beautiful. The kind of road that makes you forget you are on a fixed gear with no brakes worth trusting.
+
+Lunch at the Ashling Park Estate, an award-winning vineyard. I do not drink, so I spent the time inspecting their bees with considerable enthusiasm while everyone else had the sparkling wine. The lunch was exceptional.
 
 *📷 James Clarke*
 
 ![](../../assets/blog/uploads/eroica-goodwood435.jpg)
 
-Anyway, back to the ride. After waving goodbye to the Artisan team (I was five coffees deep by this point), we rolled onto a gravel section and through the West Dean Estate, which was beautiful.
+When we arrived back at the empty circuit, Tim let us loose on the track.
 
-We stopped for lunch at the Ashling Park Estate, an award-winning wine producer and vineyard. Now, I stay away from the naughty water, but the lunch was delicious, and they have a healthy population of bees — so while everyone was enjoying sparkling wine, I looked more like Winnie-the-Pooh.
+Having trained all morning at social pace, and having eaten enough honey to constitute a dietary event, I lined up alongside Simon Smythe from Cycling Weekly. Both of us on fixies. One lap, full gas.
+
+There is something clarifying about a fixed wheel bike at maximum effort. No hiding. Just pressure and pain.
 
 *📷 James Clarke*
 
 ![](../../assets/blog/uploads/eroica-goodwood466.jpg)
 
-The race track was empty when we arrived back at Goodwood Motor Circuit, so Tim let us loose. Having ridden at a social pace, and having eaten enough honey to put a yellow bear in a carb-coma, I thought I'd go à bloc for a lap with Simon Smythe, Cycling Weekly's senior tech writer — both on our fixies.
+Artisan were waiting at the finish line. Six coffees is fine. Six is perfectly reasonable.
+
+We sat in the evening light and ate from the Goodwood Estate larder. Cheese, charcuterie, bread. The good stuff. Nobody was in a hurry to leave.
 
 *📷 James Clarke*
 
 ![](../../assets/blog/uploads/eroica-goodwood482.jpg)
 
-Artisan Coffee Co greeted us at the finish line. I couldn't resist another. Six coffees is fine, right? We enjoyed local delicacies from the Goodwood Estate before saying our goodbyes.
+That is what these days are. Cycling brings strangers together around a shared language: suffering, kit, history, coffee, food, roads. By the end of the day, these people are not strangers.
 
-It was a fantastic day out, and I am sitting here smiling as I recall these memories. I have made some friends for life, we all bonded over an appreciation for steel bikes, great produce, beautiful scenery and road camaraderie.
+The routes for the August event have just launched. West Sussex is stunning. The main event is August 6-7th.
+
+I hope to see some of you there.
 
 *📷 Moloko Cycling*
 
 ![](../../assets/blog/uploads/eroica-img2340.jpg)
-
-I cannot wait for the actual event in August, and I hope to see some of you there. The routes have just been launched. I can testament, the West Sussex countryside is stunning.
-
-Thanks for reading. G
 
 ![](../../assets/blog/uploads/eroica-img2571.jpg)
 

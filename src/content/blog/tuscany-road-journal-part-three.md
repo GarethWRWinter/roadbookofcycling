@@ -13,127 +13,133 @@ heroImage: ../../assets/blog/uploads/tuscany-3-dsf4248.jpg
 
 *07:00 Sunday 16th August*
 
-"So, today we are going to San Gim-ig-narno?" — Me
+"So, today we are going to San Gim-ig-narno?"
 
-"No. San." — Gabriele
+"No. San."
 
-"San." — Me
+"San."
 
-"Jim" — Gabriele
+"Jim."
 
-"Jim" — Me
+"Jim."
 
-"in-yano" — Gabriele
+"in-yano."
 
-"in-yano" — Me
+"in-yano."
 
-"San Gimignano" — Me
+"San Gimignano."
 
-"Bene." — Gabriele
+"Bene."
 
-God, I wish I could speak Italian. I find it rude and embarrassing that I can only say, 'Grazie, sì, bene and ciao'. I have promised Gabriele that next year I will come back semi-fluent. (I have downloaded Duolingo, and I am still learning how to say 'The boy eats the apple'.)
+I cannot speak Italian. My vocabulary is: grazie, sì, bene, ciao. I promised Gabriele I would come back semi-fluent. I downloaded Duolingo. I am still learning to say "The boy eats the apple."
 
 ![](../../assets/blog/uploads/tuscany-3-dsf4248.jpg)
 
-I can't speak a word of Italian and Gabriele doesn't know much English, but we both speak Cycling. We are two strangers from different worlds, but the universal language of cycling instantly connects us. Today, Gabriele is taking me on a 'Magical Mystery Tour' of San Gimignano; to unlock the secret gems of the medieval commune. (If you like wine, gelato, porcupines and cycling, keep reading.)
+We cannot speak each other's languages. But we both speak Cycling. Two strangers from different worlds and a common language that does not need translation. Gabriele was taking me on a Magical Mystery Tour of San Gimignano. He had said: wine, gelato, porcupines, cycling. I was in.
 
-Gabriele pointed at the horizon: "San Gimignano, over there." — Gabriele
+Piano, piano. Steady pace to save my legs for the Strade Bianche later in the week.
+
+Gabriele pointed at the horizon. "San Gimignano, over there."
 
 I could see tiny towers in the distance.
 
-"It looks like a Disney castle." — Me
+"It looks like a Disney castle."
 
-"Yes, Disneyland in the natural." — Gabriele
-
-We were riding 'piano, piano', nice and steady to save my legs for Strade Bianche later in the week. The fresh morning air emptied my overactive mind and helped me gain a zen-like balance.
+"Yes," Gabriele said. "Disneyland in the natural."
 
 ![](../../assets/blog/uploads/tuscany-3-dsf4262.jpg)
 
-This was one of the most memorable days I have ever had on a bike. I had no idea where I was going or any of the surprises to come. After spending a few days constantly tackling problems, it was nice to handover control to Gabriele.
+This was one of the most memorable days I have had on a bike. I had no idea where I was going. After several days of constant problems, handing control to someone else entirely was a relief.
 
-We climbed through the walled streets and into the fairytale castle. Gabriele pointed at the market square, the towers and the Duomo di San Gimignano, and the 12th-century Collegiate Church which encases the Santa Fina Chapel and her remains.
-
-Saint Fina (1238–1253), was a Christian who developed a paralytic illness and spent the rest of her life on a bed made from a wooden pallet, where Saint Gregory the Great allegedly appeared to her to predict her death. Miraculous healings were later attributed to her remains. We took a moment to pay our respects.
+We climbed into the walled city. Gabriele showed me the market square, the towers, the Duomo di San Gimignano and the 12th-century Collegiate Church containing the Santa Fina Chapel. Saint Fina (1238-1253): a young Christian who developed a paralytic illness and spent her remaining years on a wooden pallet, where Saint Gregory allegedly appeared to predict her death. Miraculous healings were later attributed to her remains. We took a moment.
 
 ![](../../assets/blog/uploads/tuscany-3-dsf4271.jpg)
 
-We rolled over to the square, Gabriele pointed at a small, unassuming gelateria, Dondoli. On first appearances, you'd have no idea that this small shop was home to the best gelato in the world.
+In the square, Gabriele pointed at a small, unassuming gelateria. Dondoli. From the outside, no indication of what it is.
 
-"Gareth, take your girl here. You try Crema Di Santa Fina." — Gabriele
+"Gareth, take your girl here. You try Crema di Santa Fina."
 
-Sergio Dondoli is a multiple Gelato World Champion. His shop walls are covered in awards and photographs of celebrities who have visited his iconic gelateria.
+Sergio Dondoli is a multiple Gelato World Champion. His walls are covered in awards and photographs of everyone who has made the pilgrimage to his gelateria. The shop is the antithesis of its reputation: quiet, simple, small.
 
 ![](../../assets/blog/uploads/tuscany-3-dsf5027.jpg)
 
-I have named this photograph 'Devil in Disguise'. A careful composition of the ironic ring-light-reflection. 😇
+*(I have named this photograph "Devil in Disguise". A careful study of ironic ring-light composition.)*
 
 ![](../../assets/blog/uploads/tuscany-3-dsf4281.jpg)
 
 ## Into the Countryside
 
-We left 'Disneyland in the natural' and headed to the countryside for our next stop, Cesani, a winery hidden off the beaten track.
+We left Disneyland in the natural and headed back roads to Cesani: a winery hidden off the track, exactly where you would expect to find the best wine in Tuscany.
 
-"Gareth, you take your girl here to buy wine." — Gabriele
+"Gareth, you take your girl here to buy wine."
 
-"Why don't we buy some now?" — Me
+"Why don't we buy some now?"
 
-There is no time like the present. I gestured to Gabriele that I would put a bottle in my back pocket. He thought I was mad. "Okay." — he said, and we headed to the reception.
+Gabriele looked at me as if I had suggested something unreasonable. Then: "Okay."
 
-It was a Sunday morning, I don't think they were expecting visitors, but the universal language of cycling opened the door for us. The boss, Vincenzo Cesani, let his legs do all the talking.
+Sunday morning. They were not expecting visitors. The universal language of cycling opened the door. Vincenzo Cesani met us in the reception and let his legs do the introduction.
 
 ![](../../assets/blog/uploads/tuscany-3-dsf4354.jpg)
 
-Becky is fond of a glass of red, so I asked for their recommendation and threw it in my back pocket. "You real Italian." — Vincenzo Cesani
+Becky drinks red. I asked Vincenzo for his recommendation and put the bottle in my back pocket. He said: "You real Italian."
 
-No, sadly not… I'm teetotal. When I declined Vincenzo's invitation to taste their wares, I thought I would be slapped in the face. However, I misused the phrase "pane e acqua." (bread and water — a pro cyclist who doesn't dope), and he nodded with respect. Phew.
+I am teetotal. When I declined his invitation to taste the wines, I thought he might ask us to leave. Instead I misused the phrase "pane e acqua" (bread and water: the pro cyclist's code for riding clean). He nodded with respect. That misfire worked in my favour.
 
 ![](../../assets/blog/uploads/tuscany-3-dsf5029.jpg)
 
-Despite Gabriele's objections, I insisted that I would gift him a bottle; to say thank you for his kindness, hospitality, and taking me on these adventures.
+I wanted to buy Gabriele a bottle to thank him for his kindness and for sharing these places with me. He would not hear of it. He insisted on carrying his own bottle home.
 
-There was plenty of room to fit both bottles in my pockets, but Gabriele wouldn't have it. He insisted that he would carry his bottle. Gabriele's pockets were too short to fit a bottle of wine (safely), so he taped it to his top tube.
+The problem: Gabriele's pockets were too short to carry a wine bottle safely. His solution: tape it to the top tube.
 
-I had some concerns, the idea of a heavy glass bottle bouncing on top of carbon fibre terrified me. I tried to stop him and take the wine in my pocket, but Gabriele would not allow it.
+I objected. A heavy glass bottle bouncing on carbon fibre on a rough road is not a sensible arrangement. I pressed him to let me carry it in my pockets. Gabriele would not have it. I let it go. We waved goodbye to Vincenzo and his daughter and rolled out.
 
 ![](../../assets/blog/uploads/tuscany-3-dsf4349.jpg)
 
-We waved goodbye to Vincenzo and his daughter, weighed down with our precious cargo.
+The road away from the winery was rough. We descended over broken tarmac, picking lines, trying not to bounce.
 
-As the winery is off the beaten track, the road surface wasn't great. We began descending over some broken-up tarmac.
+"Attenzione!"
 
-"Attenzione!" — Gabriele
+Gabriele pulled over hard, stopped, turned around. He pointed at a scattering of black shards on the road.
 
-Gabriele stopped halfway down the descent, pulled into the side of the road and turned around. He pointed to a pile of black shards on the road.
+I looked at them and thought: "Fuck."
 
-I took one look at the shards and thought "Fuck." Gabriele's top tube has been shattered by the bouncing weight of the bottle. This is my fault. I shouldn't have let him carry it like this. I should have pressed him harder to allow me to ferry it home in my deep pockets.
+The bouncing glass bottle had shattered Gabriele's top tube. This was exactly what I had feared. This was my fault. I should not have let him carry it. I started apologising but there was confusion.
 
-I was racked with guilt, I tried to apologise, but there was some confusion.
+Gabriele pointed at the shards again. Then pointed at the roadside.
 
-He pointed at the shards again, then to the roadside at a dead porcupine. It had been hit by a car; its spines were splayed all over the road — not shards of Gabriele's top tube. Phew.
+A dead porcupine. Hit by a car. Its spines splayed across the asphalt.
+
+Not carbon. Porcupine quills.
 
 ![](../../assets/blog/uploads/tuscany-3-dsf4291.jpg)
 
-Porcupine spines are used as quills by artists in Tuscany. Gabriele put one in his pocket to take home and gestured for me to do the same. Perhaps they bring good luck?
+Porcupine spines are used as artist's quills in Tuscany. Gabriele picked one up and put it in his pocket. Gestured for me to do the same.
 
-The road home was flat. Gabriele sat on the front and rode like Paris-Roubaix champion, Franco Ballerini. Lots of other riders jumped on the back of us to take advantage of Gabriele, the powerhouse.
+Perhaps they bring good luck.
+
+The road home was flat. Gabriele went to the front and did not come off it. He rode like Franco Ballerini, the Paris-Roubaix champion. Other riders latched on as we passed them, taking the wheel of this Tuscan powerhouse until the group behind us had doubled in size.
 
 ![](../../assets/blog/uploads/tuscany-3-dsf5042.jpg)
 
-We arrived back home, wine and top tube in tact. Becky was pleasantly surprised with her gift and the story behind it. I think she was glad today's 'ride debrief' wasn't just me droning on about my training, how good my bike is, or how hungry I am. Today, I actually had a story worth sharing.
+Wine intact. Top tube intact. Back at the cottage, I gave Becky the bottle and the story behind it. She was pleased with both. For once, my ride debrief was not about training numbers or how good my bike is or how hungry I am.
 
-I showered, ate breakfast, threw some clothes on and drove Becky straight to San Gimignano, so she could experience "Disneyland in the natural." More importantly, I couldn't wait to try a scoop of Dondoli's speciality gelato, 'Crema di Santa Fina' (named after the town's patron saint) — cream flavoured with bourbon vanilla pods, San Gimignano saffron pistils and Pisa pine nuts.
+Today I had a story worth sharing.
 
-The verdict? It's worth booking a holiday to Tuscany just to visit Gelateria Dondoli. Enough said.
+I showered, got dressed, and drove Becky straight back to San Gimignano so she could see it properly. More importantly, I had been waiting all morning to try the Crema di Santa Fina: cream flavoured with bourbon vanilla pods, San Gimignano saffron pistils and Pisa pine nuts.
+
+It is worth booking a holiday to Tuscany just to visit Gelateria Dondoli. That is not an exaggeration.
 
 ![](../../assets/blog/uploads/tuscany-3-dsf4294.jpg)
 
 ![](../../assets/blog/uploads/tuscany-3-dsf4297.jpg)
 
-After a long walk in mutual awe and admiration for the beauty and history of San Gimignano, we headed back to our cottage.
+We walked the town in mutual silence, absorbing the scale of it.
 
-There was a knock on the door. Could this be my seatpin wedge arriving in the post? Can I finally ditch this hire bike and ride my Factor O2 VAM?
+Back at the cottage, a knock at the door.
 
-I have written enough for one day. Stay tuned for part four of my Tuscany Road Journal.
+Could this be the seatpin wedge? Could I finally ride my Factor O2 VAM?
+
+Stay tuned.
 
 ![](../../assets/blog/uploads/tuscany-3-dsf4301.jpg)
 

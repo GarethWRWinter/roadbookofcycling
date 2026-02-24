@@ -11,7 +11,9 @@ tags:
 heroImage: ../../assets/blog/uploads/wiggins-dsf0996.jpg
 ---
 
-I began writing about our trip to Factor Bikes UK to pick up Sir Brad and Ben's new whips, but sometimes a picture says a thousand words, so I have just laid out a photo journal:
+Some days are better written in photographs.
+
+We went to Factor Bikes UK to pick up Sir Brad and Ben's new bikes. I started writing about it. Then I looked at the pictures and stopped writing.
 
 ![](../../assets/blog/uploads/wiggins-dsf0996.jpg)
 
@@ -69,6 +71,6 @@ Brad said he hadn't ridden a bike in over a year. His position and pedal stroke 
 
 ![](../../assets/blog/uploads/wiggins-dsf1217.jpg)
 
-Yes. We smashed a Maccies.
+And yes. We had a Maccies.
 
 Gareth

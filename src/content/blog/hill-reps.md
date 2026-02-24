@@ -11,35 +11,39 @@ tags:
 heroImage: ../../assets/blog/uploads/hill-reps-dsf6364.jpg
 ---
 
-Hill reps are the purest form of interval training: warm-up, full gas, recover, repeat, cool down.
+Hill reps are the purest form of interval training. No complexity. No special equipment. Warm up, go full gas, recover, repeat, cool down, cafe.
 
-*"The slower you roll on the flats, the faster you'll go up the climbs."*
+"The slower you roll on the flats, the faster you'll go up the climbs."
 
-Made even better with a few friends — hill reps are an oddly social way to ride, as you can warm up together, attack the hills at your own pace, regroup at the end, and cool down as you spin to the cafe (to refill your empty legs and bore non-cycling bystanders with stories about your heart rate and power output).
+Do them with friends and they become oddly social. You warm up together, attack the hill at your own pace, regroup at the top, spin to the cafe talking about your power numbers to anyone who hasn't managed to escape yet.
 
 ![](../../assets/blog/uploads/hill-reps-dsf6364.jpg)
 
-I try to build routes that don't incorporate the same climb twice, but repping one climb does have benefits, such as lap times and splits to compare, or if you are training for a specific hill climb, Strava KOM/QOM, etc.
+The beauty of a climb is that nobody gets dropped for long. You might get shelled at the first hairpin, but you roll off the top and wait. Everybody reconvenes. The hill is the great equaliser.
 
-If you're feeling strong, you can initiate a bit of friendly competition — or do an extra interval if no one wants to race. If you're having a bad day, need to recover, or can't keep up with the grimpeurs — you can take it steady or maybe skip a climb. No one gets left behind, whatever your ability.
+You can build routes with variety, using a different climb each time. Or rep the same climb, chase your Strava segments, compare splits, build toward a specific race or event. Both approaches work. Both approaches hurt.
 
 ![](../../assets/blog/uploads/hill-reps-dsf5824.jpg)
 
-Spring is my favourite time of year. The cold morning air forces you to ride hard to keep warm. The pro-racing calendar is usually full of my favourite races — Tour of Flanders, Paris Roubaix, Strade Bianche, Liège-Bastogne-Liège, Gent Wevelgem — urging me to go out and ride.
+Spring is the season for this. The cold morning air forces you to ride hard just to generate heat. The race calendar comes back to life: Flanders, Roubaix, Strade Bianche, Liège-Bastogne-Liège. It's impossible to watch those races and not want to go out immediately and suffer on a climb.
 
 ![](../../assets/blog/uploads/hill-reps-dsf5993.jpg)
 
 ![](../../assets/blog/uploads/hill-reps-dsf6189.jpg)
 
-You know you've gone deep when your lungs burn, and you can taste metal. This is your red blood cells releasing iron, which forms thick spittle known as 'Belgian toothpaste' — the taste of a job well done, soon to be washed down with coffee.
+You know you've gone deep when your lungs burn and you can taste metal. That is iron: your red blood cells under load, releasing what cyclists call "Belgian toothpaste." The taste of a job well done, soon to be replaced by coffee.
 
-Just look at that string of 'toothpaste' inside Niki Terpstra's mouth as he won Paris Roubaix in 2014 — a clear indication of how hard he attacked the final sector of pavé with six kilometres to go.
+Niki Terpstra, Paris-Roubaix 2014, attacking the final sector of pavé with six kilometres to go. Look at the string inside his mouth. That is a man who has committed completely.
 
 ![](../../assets/blog/uploads/hill-reps-terpstra.jpeg)
 
 ![](../../assets/blog/uploads/hill-reps-dsf6239.jpg)
 
-We're not all 'climbers', but we all love climbing. Nothing gives you that same sense of satisfaction as reaching the top. To me, heaven is a summit-less climb. You can just leave me there, half-wheeling my grandad for eternity.
+Not every rider is a climber. But every rider loves reaching the top.
+
+There is nothing else in cycling quite like that feeling. The gradient kicks up. The cadence drops. The burn builds. Then you crest it, the world opens out in front of you, the legs spin free, and for a few seconds everything is perfect.
+
+My ideal version of this sport: an endless climb with no summit. Just leave me there, half-wheeling my grandad for eternity.
 
 *"See you at the top."*
 
@@ -49,6 +53,8 @@ We're not all 'climbers', but we all love climbing. Nothing gives you that same 
 
 ![](../../assets/blog/uploads/hill-reps-dsf6639.jpg)
 
-My dad once told me, "Get the best pair of bib shorts and wheels you can afford." This is the best piece of cycling advice I have ever received. Good bibs will keep you comfortable all day, and good wheels will keep you rolling smoothly.
+My dad always said: "Get the best bib shorts and wheels you can afford." The best piece of cycling advice I have ever received. Good bibs keep you comfortable all day. Good wheels keep you rolling when your legs are gone.
+
+He was right. He usually is.
 
 Gareth.

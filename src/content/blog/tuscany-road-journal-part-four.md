@@ -14,63 +14,64 @@ heroImage: ../../assets/blog/uploads/tuscany-4-dsf5135.jpg
 **Gareth Winter: 'Suspicious' Jiffy Bag Arrives at Italian Training Camp**
 
 - Amateur cyclist claims: "It's just a small seatpin clamp."
-- 'Winter's history of substance abuse is well documented.'
+- "Winter's history of substance abuse is well documented."
 
 *Monday 17th August 2020*
 
-Gareth Winter, 31, has condemned the report into the 'Factor Bikes Jiffy bag affair'. The 2014 KOM record holder (of a small, insignificant Strava segment), interviewed on RoadCyclingNews.it.
+Gareth Winter, 31, has condemned the report into the Factor Bikes Jiffy Bag Affair. The 2014 KOM record holder (of a small and largely insignificant Strava segment in South-West London), has agreed to be interviewed by RoadCyclingNews.it.
 
-In March, Winter was granted permission to consume 'above normal' quantities of oral-hygiene-substance 'Alcohol Hand Sanitiser'; which can help prevent the spread of germs and the COVID-19 virus. Winter claims that the substance helps manage his OCD and so-called 'germaphobia'. Winter has been accused of abusing this exemption.
+In March, Winter was granted permission to consume above-normal quantities of the oral hygiene substance "Alcohol Hand Sanitiser," which assists in the prevention of COVID-19. Winter claims the substance is required to manage his OCD and self-diagnosed germaphobia. He has been accused of abusing this exemption.
 
-*"Gareth's hand sanitiser abuse is obsessive and excessive. It's not technically against the rules, but there is certainly an issue of morality."* — Anonymous
+*"Gareth's hand sanitiser consumption is obsessive and excessive. It is not technically against the rules, but there is a question of morality."* — Anonymous source
 
 ![](../../assets/blog/uploads/tuscany-4-dsf5135.jpg)
 
-The saga began on August 13th 2020 when Mr Winter arrived at his Tuscan retreat, claiming that his seatpin wedge was missing (required for installation of seatpin and saddle into his frame).
+The affair began on 13th August 2020, when Mr Winter arrived at his Tuscan cottage and claimed his seatpin wedge was missing: the small component required to secure the seatpost and saddle into his Factor O2 VAM frameset.
 
-*"Without this small, seemingly insignificant component, my bike is unrideable."* — Gareth Winter
+*"Without this small, seemingly insignificant component, my bike is completely unrideable."* — Gareth Winter
 
-Factor Bikes UK provided evidence proving that without this component a seatpost and saddle cannot be installed into Gareth's Factor O2 VAM.
+Factor Bikes UK provided documentary evidence confirming that the component is, in fact, required for the installation of the seatpost and saddle.
 
 ![](../../assets/blog/uploads/tuscany-4-screenshot.jpg)
 
-Speculation began after a Jiffy bag was delivered to Gareth during the Critérium du Dauphiné 2020 — a race that he half-watched on the Eurosport Player app (which kept crashing) while sitting on the toilet.
+Speculation surrounding the package began when a Jiffy bag was delivered to Mr Winter mid-trip. It is understood the delivery coincided with his viewing of the Critérium du Dauphiné 2020 on the Eurosport Player app, which he was watching on his telephone while seated in a lavatory.
 
-At the request of Winter, Rob Wicks (Operations Manager, Factor Bikes UK), arranged for a replacement seatpin wedge to be delivered to Winter's Tuscan cottage via DHL priority shipping. It is reported that Wicks then told John Bailey (Managing Director, Factor Bikes UK): *"Gareth's been sorted."* — Rob Wicks
+At Mr Winter's request, Rob Wicks (Operations Manager, Factor Bikes UK) arranged for a replacement seatpin wedge to be shipped via DHL priority to the Tuscan cottage. It is understood that Wicks then communicated to John Bailey (Managing Director, Factor Bikes UK): *"Gareth's been sorted."*
 
-The anonymous source claimed: *"There was a liquid substance inside the Jiffy bag. Clearly Factor Bikes are supplying Gareth with additional hand sanitiser."* — Anonymous
+An anonymous source subsequently claimed: *"There was a liquid substance inside the Jiffy bag. It is our view that Factor Bikes are supplying Gareth with additional hand sanitiser."*
 
-An immediate investigation was launched. The 'suspicious jiffy bag' poses the question: 'How could any cyclist be so careless?'
+An immediate investigation was launched.
 
 ![](../../assets/blog/uploads/tuscany-4-dsf5139.jpg)
 
-'Accidentally' leaving a vital component at home seems like an alias for wrongdoing? The images posted on Winter's social media account led to further accusations of "A cover-up attempt". Both Winter and Wicks deny that anything suspicious was inside the package.
+The suggestion that Mr Winter "accidentally" omitted a critical component when packing his bicycle has been described by one source as "an alias for deliberate wrongdoing." Photographs posted on Winter's social media account during the trip were cited as evidence of a potential cover-up. Both Winter and Wicks deny any wrongdoing.
 
-Bailey told the hearing: *"Wicks informed me that the package contained the required wedge for attaching Gareth's seatpost to his frame. Gareth needs this component so he can enjoy riding his Factor O2 VAM in Tuscany, rather than a hire bike."* — John Bailey, Managing Director, Factor Bikes UK
+Bailey addressed the hearing: *"Wicks informed me that the package contained the seatpin wedge required for Mr Winter's bicycle. Mr Winter required this component in order to ride his Factor O2 VAM rather than a hire bicycle."* — John Bailey, Managing Director, Factor Bikes UK
 
-However, an inconsistency was noted. Winter refers to the component as a seatpin wedge, and Wicks/Bailey referred to it as a seatpost wedge.
+An inconsistency was noted. Mr Winter consistently refers to the component as a "seatpin wedge." Wicks and Bailey both refer to it as a "seatpost wedge." This discrepancy is the subject of ongoing enquiry.
 
 ![](../../assets/blog/uploads/tuscany-4-dsf5195.jpg)
 
-Factor Bikes UK stated: *"We strongly refute the allegation of supplying hand sanitiser to Winter. We are surprised and disappointed that the committee has chosen to present an anonymous and potentially malicious claim in this way, without presenting any evidence or allowing us to respond."* — Factor Bikes UK
+Factor Bikes UK issued a statement: *"We strongly refute the allegation that we supplied hand sanitiser to Mr Winter. We are surprised and disappointed that the committee has chosen to present an anonymous and potentially malicious claim without evidence and without permitting us to respond."*
 
-Speaking to Road Cycling News, Winter added: *"It is well known, my history of hand sanitiser abuse. However, the contents of this package are well documented and Factor Bikes UK are able to present full evidence to the court."* — Gareth Winter
+Mr Winter told RoadCyclingNews.it: *"My history of hand sanitiser use is well documented. However, the contents of this package are fully documented and Factor Bikes UK are in a position to present complete evidence to the court."*
 
 ![](../../assets/blog/uploads/tuscany-4-dsf5152.jpg)
 
-Speaking to Road Cycling News, Gabriele Pecce (Winter's host), who signed for the parcel, stated: *"It was just an envelope, a Jiffy bag, a small Jiffy bag. As far as I know I could have been Speedplay pedals in there."* — Gabriele Pecce
+Gabriele Pecce (Mr Winter's Tuscan host), who accepted delivery of the parcel, told our correspondent: *"It was just an envelope. A Jiffy bag. A small Jiffy bag. As far as I know there could have been Speedplay pedals in there."*
 
-Responding to Winter's claim about the report, authorities added: *"We received evidence from people who did not wish to be named, it was made clear where we relied on anonymous sources, and we trusted them as being credible. People can read the report and come to their own conclusions."*
+Responding to Mr Winter's comments, the committee stated: *"We received evidence from individuals who did not wish to be named. It was made clear where we relied on anonymous sources, and we trusted them as credible. The public may read the report and draw their own conclusions."*
 
 ![](../../assets/blog/uploads/tuscany-4-dsf5191.jpg)
 
-The case has now been fully dismissed after evidence suggests the anonymous source was mistaken. The small sachet of liquid, also found in the Jiffy bag, was not alcohol-based hand sanitiser. It was, in fact, 'Black Inc carbon fibre grip paste', to assist with the proper installation of the seatpost/pin into the frame.
+The case has been fully dismissed. The liquid sachet found in the Jiffy bag was not hand sanitiser. It was Black Inc carbon fibre grip paste, required for the correct installation of the seatpost into the frame.
 
-Winter and Factor Bikes UK also stated:
-- The proper supply of componentry is fully documented for all of our customers and ambassadors.
-- Winter is doing everything in his power to avoid contracting or spreading COVID-19.
-- Concern at the use of Gareth's hand sanitiser abuse has been dismissed as 'best-practise behaviour'.
-- Gareth has learned from his mistake. He will never forget a vital component while transporting his Factor O2 VAM.
+Winter and Factor Bikes UK jointly confirmed:
+
+- The supply of componentry to customers and ambassadors is fully documented.
+- Mr Winter is doing everything in his power to avoid contracting or spreading COVID-19.
+- His use of hand sanitiser has been formally assessed and dismissed as "best-practice behaviour."
+- Mr Winter has acknowledged the oversight and confirmed he will not repeat the error.
 
 ![](../../assets/blog/uploads/tuscany-4-dsf5261.jpg)
 
@@ -78,15 +79,15 @@ Winter and Factor Bikes UK also stated:
 
 ---
 
-Clearly, I'm taking the piss out of the 'Wiggins Jiffy bag scandal'. The intention of this blog post is to highlight how the media can tear people down with the smallest thread of misinformation.
+I am, of course, taking the piss out of the Wiggins Jiffy Bag Scandal.
 
-We're all just trying to move forwards at our own speed. Let's support each other.
+The point is a serious one. How easily a thread of anonymous information becomes a headline. How quickly reputations get destroyed before any evidence is examined. We are all just trying to ride our bikes. Let's support each other.
 
 ![](../../assets/blog/uploads/tuscany-4-dsf5148.jpg)
 
-Thank you, Rob, for getting this wedge over to me, so I could ditch the hire bike and ride my VAM on the Strade Bianche parcours.
+Thank you, Rob. Without you, there would be no Strade Bianche.
 
-Stay tuned for my next Tuscan adventure: 'Strade Bianche'.
+Next up: the white roads.
 
 ![](../../assets/blog/uploads/tuscany-4-dsf5203.jpg)
 

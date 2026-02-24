@@ -11,92 +11,102 @@ tags:
 heroImage: ../../assets/blog/uploads/indoor-dsf9590.jpg
 ---
 
-I thought training indoors was for fairweather cyclists who like to avoid the cold, dark, wet winter months. However, my opinion has transformed completely. Indoor training is mentally and physically challenging, making it incredibly rewarding, and has become an essential part of my routine as it maximises my limited time.
+524 hours on Zwift. Since March 2020.
 
-At the moment of writing this, I have clocked over 524hrs on Zwift (since March 2020). As you can imagine, I have learned a thing or two along the way. So, whether you're a veteran turbo-trooper or have just enrolled, hopefully, you can pick up a trick or two.
+That number embarrasses and impresses me in equal measure. I started indoor training thinking it was for fairweather cyclists who couldn't face the cold. Two years later, it is the foundation of my fitness. Structured, time-efficient, brutal when you want it to be.
+
+If you are new to the turbo, here is what those 524 hours have taught me.
 
 ![](../../assets/blog/uploads/indoor-dsf9590.jpg)
 
 ## 1. Come Prepared
 
-Having a plan will ensure you see it through. If you plan to go hard, go to war with yourself. If you plan to recover, have the self-discipline to 'sit up and beg' and keep it steady. I recommend giving one of Zwift's training programmes a try, or following one of their many workouts, rather than opting for an agenda-less 'free ride'. The structured sessions will do the planning for you, give you a focus and ensure you "don't stop when you're tired. Stop when you're done."
+No plan is a plan to quit.
 
-Yesterday informs today, today informs tomorrow. So prioritise good sleep and plan your week. I keep a training calendar so that I can prepare ahead of time. Failing to prepare is preparing to fail. Find reasons why you can achieve your training objectives, rather than excuses not to.
+Before you clip in: fill your bottles, calibrate your power device, lay out a fresh towel, position your fan, put on your headphones. Set up your pain cave so that when your legs start burning, your environment is not the reason you stop.
 
-Prep your pain cave with a fresh towel, calibrate your power device, fill your bottles, put on your headphones, position your fan, etc. Create boundaries and give precedence to your training time. The result of prioritising yourself will pay dividends to all other aspects of your life and your mental and physical wellbeing.
+Use Zwift's structured training programmes instead of free riding. The session does the planning for you. Your job is to execute it.
+
+Failing that: pick a target. One number on the screen you are not allowed to drop below. Then hold it. Yesterday informs today. Today informs tomorrow. Prioritise sleep, plan your week, and protect your training time like the appointment it is.
+
+"Don't stop when you're tired. Stop when you're done."
 
 ![](../../assets/blog/uploads/indoor-dsf4987.jpg)
 
 ## 2. Nutrition
 
-To maximise performance and recruit all of your training gains, you need to fuel and refuel. Consider the training demands for the session ahead. For example, a high-intensity session will require at least 40g of carbohydrates per hour.
+You cannot out-suffer under-fuelling.
+
+For a high-intensity session, you need at least 40g of carbohydrates per hour before the effort begins. Do not skip this.
 
 ### Pre-session
 
-Before a high-intensity session, I like to eat a Veloforte Avanti natural energy bar for breakfast. They are perfectly balanced to provide enough fuel for the first hour of power: 40g of carbs, 5g protein, 8g fat, 252Kcal. Being made of natural ingredients, they are easy to digest, gluten-free and plant-based.
-
-Alternatively, I'll reach for a slice of sourdough toast with nut butter and chopped banana on top. Either way, I advocate eating real food rather than synthetic 'nutrition-isms' that are full of initials and acronyms, rather than ingredients.
+Before a hard session, I reach for a Veloforte Avanti bar: 40g of carbs, 5g protein, 8g fat, 252 calories. Made from real ingredients, easy to digest, no synthetic additives. If I want something savory: sourdough toast with nut butter and sliced banana. Either way, I eat real food rather than laboratory packaging with a long list of initials where ingredients should be.
 
 ### Post-session
 
-Refuelling is vital to the recovery process. Your glycogen starved muscles are desperate to absorb nutrients. Therefore, I like to prepare my post-ride meal before I clip in.
+Prepare your post-ride meal before you clip in.
 
-I wake up an hour before my training begins, make a coffee, eat my pre-ride snack, then prepare my post-ride meal. It's an excellent way to save time and ensure that you are refuelling immediately afterwards. My favourite post-ride macronutrient-packed breakfast is poached eggs and avocado on sourdough toast. This portion holds 28g of protein, 69g of carbs, 30g of fat, 648kcal.
+I wake up, make coffee, eat my pre-ride snack, then prepare breakfast. By the time I am off the bike and in the shower, the meal is ready. Glycogen-starved muscles need nutrients within 30 minutes. Do not eat an hour later while scrolling your phone.
+
+My post-ride: poached eggs and avocado on sourdough. 28g protein, 69g carbs, 30g fat, 648 calories.
 
 ![](../../assets/blog/uploads/indoor-dsf5856.jpg)
 
 #### Ingredients
 
-- Sourdough Bread
-- Medium-sized ripe avocado
-- Large eggs x 2
-- Coriander
-- Thai Basil
-- Red Chilli
+- Sourdough bread
+- Medium ripe avocado
+- 2 large eggs
+- Fresh coriander
+- Thai basil
+- Red chilli
 - Lemon juice
 - Shallot
 - Ground coriander seeds
-- Salt
-- Pepper
+- Salt and pepper
 
 #### Method
 
-Before my training session, I mash the avocado with salt, pepper and ground coriander seeds (I use a pepper grinder, you can also use a pestle & mortar). Next, I dice the shallot and red chilli, scatter into the avocado, squeeze over some lemon juice, throw in some chopped coriander and Thai basil and store it in an airtight container to spread over toast later.
+Before the session: mash the avocado with salt, pepper and ground coriander seeds. Dice the shallot and red chilli, fold them in, squeeze over lemon juice, add chopped coriander and Thai basil. Store in an airtight container.
 
-After my turbo session, I jump in the shower, get dressed and then plate up. Cook your eggs however you like them, poached, fried, soft boiled. If you have a plant-based diet, replace the eggs with spicy vegan sausages.
+After the session: shower, get dressed, plate up. Cook eggs however you like them. Spread the avocado mix over toast. Eat immediately.
 
-When short for time, I reach for a Veloforte recovery shake. They have a 3:1 carbohydrate to protein ratio and essential nutrients to kick start the recovery process. The point is, refuel and reward yourself with a flavourful balanced meal, created from good quality ingredients.
+If time is short, a Veloforte recovery shake does the job: 3:1 carbohydrate to protein ratio, exactly when you need it. The point is the same: refuel, and refuel fast.
 
 ![](../../assets/blog/uploads/indoor-stocks.png)
 
 ## 3. Bib Shorts
 
-Don't use old worn out bib shorts on the turbo. I know you don't have to look your best while training indoors, but this is about functionality.
+Your best bib shorts. Not your old ones.
 
-Kicking out power while riding in a fixed position without respite takes a real toll on your saddle area. Good quality bib shorts will keep you comfortable, so your mind is free to focus on the pain and sensation of your effort — not your sensitive spots.
+I know indoor sessions do not require looking the part. This is not about aesthetics. Sustained power output in a fixed position is harder on your saddle contact than any road ride. The chamois pad takes a beating. A worn-out chamois will introduce variables your mind should not be dealing with when you are deep in a four-minute VO2 MAX effort.
 
 ![](../../assets/blog/uploads/indoor-dsf7094.jpg)
 
-If you are doing indoor sessions over 2hrs, you may want to consider a halftime change. I regularly do 3hr sessions, and my bibs become saturated with sweat. Changing halfway into clean/dry bibs will help to avoid chaffing and discomfort. It's also a great little morale boost.
+For sessions over two hours, consider a halftime chamois change. I regularly do three-hour sessions. Damp bibs compound friction as time passes. A fresh pair halfway through is a modest sacrifice for a significant comfort gain. It doubles as a mental reset.
 
-I recommend wearing lightweight summer bib shorts with better breathability and moisture-wicking properties to help avoid overheating. In addition, a pro-level chamois pad is necessary to deal with extended periods of power delivery in the saddle.
+Wear lightweight summer bibs with good moisture-wicking. The heat buildup indoors is considerable, even with a fan. A pro-level chamois pad for extended seated efforts.
 
-Bib shorts are personal. We all come in different shapes and sizes, so find a brand and style that works for you.
+Bib shorts are personal. Shapes and preferences vary. Find what works for you and do not cheap out on the pair you use most.
 
 ![](../../assets/blog/uploads/indoor-dsf9783.jpg)
 
 ## 4. Hygiene
 
-Have you ever had a saddle sore so painful that you've considered buying medieval stocks from a bondage website to 'air it out' and stop you from being able to close your legs? No, me neither…
+Have you ever had a saddle sore so bad you considered buying medieval stocks from an unusual website, purely to stop yourself from being able to close your legs?
 
-Salty sweat is an efficient cutting compound, which leads to skin breaks if you're not careful. Removing potential setbacks, such as saddle sores, will keep you consistent.
+Me neither.
 
-### Preventative Measures
+But close.
 
-- Wear bib shorts with a quality chamois.
-- Ensure your bike fit is optimised. For example, excessive saddle height and reach will overload saddle pressure points.
-- Use chamois cream to reduce friction — it has natural anti-bacterial and soothing properties.
-- As soon as you unclip, get those sweaty bibs off immediately, sling them in the washing machine and head straight for the shower. Do this before refuelling. Otherwise, you'll be sitting in sweat and bacteria.
+Salty sweat is a surprisingly effective cutting compound. It will break skin if you give it enough hours and the wrong conditions. Saddle sores end training blocks. Preventing them is not complicated, but it requires discipline.
+
+Preventative measures:
+- Wear quality bibs with a proper chamois
+- Optimise your bike fit. Excessive saddle height and reach overload contact pressure
+- Use chamois cream. It reduces friction and has anti-bacterial properties
+- The moment you unclip, get the sweaty bibs off. Straight into the wash. Shower immediately. Do this before you eat or scroll your phone
 
 ![](../../assets/blog/uploads/indoor-dsf9803.jpg)
 
@@ -104,18 +114,22 @@ Salty sweat is an efficient cutting compound, which leads to skin breaks if you'
 
 ## 5. Mindset
 
-You will learn more from failure than you will from success. If you don't fail regularly, that's a good sign that you are not pushing yourself hard enough. Quitting, however, is not healthy for your mind. If you quit today, you permit yourself to quit tomorrow and the next day — which will leave you with negative feelings and unfulfillment.
+Failure is a training load indicator. If you are never failing a session, you are not pushing hard enough.
 
-Set yourself a goal and a purpose, and you have a measure of success to work towards. This can be anything from increasing your FTP by 5%, riding your first 100km, etc. Now you can 'prepare to succeed' by removing excuses and variables.
+Quitting is different from failing. Quitting is a habit. The brain remembers. Give yourself permission to quit today, and it becomes slightly easier to quit tomorrow. The deficit accumulates silently.
+
+Set a goal with a measurable outcome: increase FTP by 5%, complete your first 100km, hit a target wattage for a specific duration. Now you have a standard you are either meeting or not. That clarity removes the grey area where excuses live.
 
 ![](../../assets/blog/uploads/indoor-dsf2548.jpg)
 
-For example, did your boss just put an early meeting in the diary? Set boundaries and ask them to reschedule. Not an option? Set your alarm an hour earlier and go to bed on time, or move your training session to later in the day. That is just one of many examples of removing excuses to not turn up.
+Did your boss schedule a 7am meeting? Ask them to move it. Not possible? Get up an hour earlier. Move the session to the evening. Every excuse has a solution. Finding the solution is part of the discipline.
 
-"It takes relentless self-discipline to schedule suffering into your day, every day. But if you do, you'll find at the end of that suffering there is a whole other life just waiting for you." — David Goggins
+David Goggins said: "It takes relentless self-discipline to schedule suffering into your day, every day. But if you do, you'll find at the end of that suffering there is a whole other life just waiting for you."
 
-Ever wonder why it feels so good to chase or be chased by cyclists? A daily dose of suffering synthesises the behaviour of the hunter-gather. Modern life has phased out 'the chase'. However, recreating challenging physical tasks reconnects us to this evolutionary instinct, even on Zwift.
+That lands differently after 524 hours.
 
-I have far more than 5 learnings inside my head. If you have any questions, just ask.
+The indoor trainer recreates something primal. The chase. Modern life has largely removed the experience of sustained physical pursuit. Zwift simulates it in the most inconvenient room in your house. But the neurochemical response is real.
+
+Suffer indoors. Ride faster outdoors.
 
 Gareth.
