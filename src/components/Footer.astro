@@ -5,7 +5,13 @@ const year = new Date().getFullYear();
 <footer class="site-footer">
 	<hr class="divider" />
 	<div class="footer-inner container">
-		<p class="copyright">© {year} Gareth Winter</p>
+		<div class="footer-left">
+			<p class="copyright">© {year} Gareth Winter</p>
+			<nav class="footer-legal" aria-label="Legal links">
+				<a href="/privacy-policy">Privacy Policy</a>
+				<a href="/terms">Terms of Use</a>
+			</nav>
+		</div>
 		<nav class="footer-socials" aria-label="Social links">
 			<a
 				href="https://www.instagram.com/garethwrwinter/"
@@ -62,6 +68,13 @@ const year = new Date().getFullYear();
 		justify-content: space-between;
 		padding-top: var(--s-5);
 		padding-bottom: var(--s-7);
+		gap: var(--s-5);
+	}
+
+	.footer-left {
+		display: flex;
+		flex-direction: column;
+		gap: var(--s-2);
 	}
 
 	.copyright {
@@ -70,6 +83,24 @@ const year = new Date().getFullYear();
 		text-transform: uppercase;
 		color: var(--muted);
 		margin: 0;
+	}
+
+	.footer-legal {
+		display: flex;
+		gap: var(--s-4);
+	}
+
+	.footer-legal a {
+		font-size: var(--text-xs);
+		letter-spacing: 0.06em;
+		text-transform: uppercase;
+		color: var(--muted);
+		text-decoration: none;
+		transition: color 150ms ease;
+	}
+
+	.footer-legal a:hover {
+		color: var(--ink);
 	}
 
 	.footer-socials {

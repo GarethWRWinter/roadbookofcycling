@@ -1,0 +1,187 @@
+---
+import BaseHead from '../components/BaseHead.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import { SITE_TITLE } from '../consts';
+---
+
+<!doctype html>
+<html lang="en">
+	<head>
+		<BaseHead
+			title={`Terms of Use — ${SITE_TITLE}`}
+			description="Terms of Use for Roadbook of Cycling."
+		/>
+	</head>
+	<body>
+		<Header />
+
+		<main class="legal-main">
+			<div class="container">
+				<header class="legal-head">
+					<p class="label legal-kicker">Legal</p>
+					<h1 class="legal-title">Terms of Use</h1>
+					<p class="legal-sub">Last updated: February 2026</p>
+				</header>
+
+				<article class="prose legal-prose">
+
+					<p>
+						Please read these Terms of Use ("Terms") carefully before using
+						<a href="https://www.roadbookofcycling.com">www.roadbookofcycling.com</a>
+						(the "Site"), operated by Gareth Winter ("we", "us", or "our").
+						By accessing or using the Site, you agree to be bound by these Terms.
+						If you do not agree to these Terms, please do not use the Site.
+					</p>
+
+					<h2>1. Use of the Site</h2>
+
+					<p>
+						This Site is provided for personal, non-commercial informational purposes. You agree to use
+						the Site only for lawful purposes and in a manner that does not infringe the rights of others
+						or restrict or inhibit their use and enjoyment of the Site.
+					</p>
+					<p>You must not:</p>
+					<ul>
+						<li>Use the Site in any way that violates applicable local, national, or international law or regulation</li>
+						<li>Reproduce, duplicate, copy, or re-sell any part of the Site without express written permission</li>
+						<li>Attempt to gain unauthorised access to any part of the Site or its related systems</li>
+						<li>Transmit any unsolicited or unauthorised advertising or promotional material</li>
+					</ul>
+
+					<h2>2. Intellectual Property</h2>
+
+					<p>
+						All content on this Site — including but not limited to text, photography, graphics, logos,
+						and editorial copy — is the property of Gareth Winter and is protected by applicable
+						copyright and intellectual property law. You may not reproduce, distribute, or use any
+						content from this Site without prior written permission.
+					</p>
+					<p>
+						Where third-party content appears (such as embedded videos or brand logos displayed for
+						editorial reference), all rights remain with the respective rights holders.
+					</p>
+
+					<h2>3. Accuracy of Information</h2>
+
+					<p>
+						The content on this Site is published for general informational and editorial purposes.
+						While we take care to ensure accuracy, we make no warranty — express or implied — as to
+						the completeness, accuracy, reliability, or suitability of the information. Any reliance
+						you place on such information is strictly at your own risk.
+					</p>
+					<p>
+						Product reviews, training advice, and gear recommendations reflect personal opinion and
+						experience. They are not a substitute for professional advice. Always consult a qualified
+						professional before making decisions about training, nutrition, or equipment.
+					</p>
+
+					<h2>4. Affiliate Links and Advertising</h2>
+
+					<p>
+						This Site may contain affiliate links and display advertising through Google AdSense.
+						Where a link may earn a commission, this will be disclosed clearly. Affiliate relationships
+						do not influence editorial content — our reviews and recommendations reflect genuine
+						personal experience and opinion only.
+					</p>
+
+					<h2>5. Third-Party Links</h2>
+
+					<p>
+						The Site may contain links to third-party websites. These links are provided for your
+						convenience only. We have no control over the content of those sites and accept no
+						responsibility for them or for any loss or damage that may arise from your use of them.
+					</p>
+
+					<h2>6. Disclaimer of Warranties</h2>
+
+					<p>
+						The Site is provided on an "as is" and "as available" basis without any warranties of
+						any kind, either express or implied. We do not warrant that the Site will be uninterrupted,
+						error-free, or free of viruses or other harmful components.
+					</p>
+
+					<h2>7. Limitation of Liability</h2>
+
+					<p>
+						To the fullest extent permitted by law, Gareth Winter shall not be liable for any indirect,
+						incidental, special, or consequential damages arising out of or in connection with your
+						use of the Site or its content.
+					</p>
+
+					<h2>8. Comments and User Submissions</h2>
+
+					<p>
+						By submitting a message via our contact form, you grant us the right to use the content
+						of that message for the purpose of responding to your enquiry. We will not publish or
+						share your personal communications without your permission.
+					</p>
+
+					<h2>9. Changes to These Terms</h2>
+
+					<p>
+						We reserve the right to modify these Terms at any time. Changes will be posted on this
+						page with an updated date. Your continued use of the Site after any changes constitutes
+						your acceptance of the revised Terms.
+					</p>
+
+					<h2>10. Governing Law</h2>
+
+					<p>
+						These Terms are governed by and construed in accordance with the laws of England and Wales.
+						Any disputes arising in connection with these Terms shall be subject to the exclusive
+						jurisdiction of the courts of England and Wales.
+					</p>
+
+					<h2>11. Contact</h2>
+
+					<p>
+						If you have any questions about these Terms, please get in touch via the
+						<a href="/about">contact form on our About page</a>.
+					</p>
+
+				</article>
+			</div>
+		</main>
+
+		<Footer />
+	</body>
+</html>
+
+<style>
+	.legal-main {
+		padding-top: var(--s-9);
+		padding-bottom: var(--s-10);
+	}
+
+	.legal-head {
+		max-width: var(--measure);
+		margin: 0 auto var(--s-8);
+	}
+
+	.legal-kicker {
+		margin-bottom: var(--s-4);
+	}
+
+	.legal-title {
+		font-family: var(--font-serif);
+		font-size: clamp(2.5rem, 5vw, var(--text-4xl));
+		font-weight: 300;
+		letter-spacing: -0.02em;
+		line-height: 1.05;
+		margin: 0 0 var(--s-3);
+	}
+
+	.legal-sub {
+		font-size: var(--text-sm);
+		color: var(--muted);
+		margin: 0;
+		text-transform: uppercase;
+		letter-spacing: 0.06em;
+	}
+
+	.legal-prose {
+		max-width: var(--measure);
+		margin: 0 auto;
+	}
+</style>
