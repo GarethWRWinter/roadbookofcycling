@@ -3,6 +3,8 @@ import '../styles/global.css';
 import type { ImageMetadata } from 'astro';
 import FallbackImage from '../assets/blog-placeholder-1.jpg';
 import { SITE_TITLE } from '../consts';
+import Analytics from '@vercel/analytics/astro';
+import SpeedInsights from '@vercel/speed-insights/astro';
 
 interface Props {
 	title: string;
@@ -68,6 +70,19 @@ const { title, description, image = FallbackImage, type, pubDate, updatedDate, a
 <meta property="twitter:description" content={description} />
 <meta property="twitter:image" content={new URL(image.src, Astro.url)} />
 
+<!-- Google Search Console verification — replace token when verifying -->
+<!-- <meta name="google-site-verification" content="REPLACE_WITH_YOUR_VERIFICATION_TOKEN" /> -->
+
+<!-- Google Analytics 4 — replace G-XXXXXXXXXX with your Measurement ID -->
+<!-- To get your ID: analytics.google.com → Admin → Data Streams → copy Measurement ID -->
+<script type="text/partytown" async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+<script type="text/partytown">
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-XXXXXXXXXX');
+</script>
+
 <!-- Google AdSense -->
 <meta name="google-adsense-account" content="ca-pub-9344676407799354" />
 <script
@@ -75,3 +90,7 @@ const { title, description, image = FallbackImage, type, pubDate, updatedDate, a
 	src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9344676407799354"
 	crossorigin="anonymous"
 ></script>
+
+<!-- Vercel Web Analytics + Speed Insights -->
+<Analytics />
+<SpeedInsights />
