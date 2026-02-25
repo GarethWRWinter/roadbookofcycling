@@ -1,0 +1,225 @@
+---
+import { getCollection } from 'astro:content';
+import { Image } from 'astro:assets';
+import BaseHead from '../../components/BaseHead.astro';
+import Header from '../../components/Header.astro';
+import Footer from '../../components/Footer.astro';
+import FormattedDate from '../../components/FormattedDate.astro';
+import { SITE_TITLE } from '../../consts';
+import { tagToSlug } from '../../utils/tags';
+
+export async function getStaticPaths() {
+	const posts = await getCollection('blog');
+
+	// Collect all unique tags across all posts
+	const tagSet = new Set<string>();
+	posts.forEach((post) => {
+		post.data.tags?.forEach((tag) => tagSet.add(tag));
+	});
+
+	// For each tag, return the slug + matching posts
+	return Array.from(tagSet).map((tag) => ({
+		params: { tag: tagToSlug(tag) },
+		props: {
+			tag,
+			posts: posts
+				.filter((p) => p.data.tags?.includes(tag))
+				.sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()),
+		},
+	}));
+}
+
+const { tag, posts } = Astro.props;
+const siteUrl = Astro.site?.toString() ?? 'https://www.roadbookofcycling.com';
+const canonicalURL = new URL(Astro.url.pathname, Astro.site);
+
+const tagPageSchema = {
+	"@context": "https://schema.org",
+	"@type": "CollectionPage",
+	"name": `${tag} — ${SITE_TITLE}`,
+	"url": canonicalURL.toString(),
+	"description": `All articles about ${tag} on Roadbook of Cycling.`,
+	"author": {
+		"@type": "Person",
+		"@id": `${siteUrl}/about/#gareth-winter`
+	}
+};
+---
+
+<!doctype html>
+<html lang="en">
+	<head>
+		<BaseHead
+			title={`${tag} — ${SITE_TITLE}`}
+			description={`All articles about ${tag} on Roadbook of Cycling. ${posts.length} post${posts.length !== 1 ? 's' : ''}.`}
+		/>
+		<script type="application/ld+json" set:html={JSON.stringify(tagPageSchema)} />
+	</head>
+	<body>
+		<Header />
+
+		<main class="tag-main">
+			<div class="container">
+				<header class="tag-head">
+					<p class="label tag-kicker">Tag</p>
+					<h1 class="tag-title">{tag}</h1>
+					<p class="tag-count">{posts.length} article{posts.length !== 1 ? 's' : ''}</p>
+				</header>
+
+				<ul class="tag-feed" role="list">
+					{posts.map((post) => (
+						<li class="tag-item">
+							<a href={`/blog/${post.id}/`} class="tag-card">
+								{post.data.heroImage && (
+									<div class="tag-card-img">
+										<Image
+											src={post.data.heroImage}
+											alt={post.data.title}
+											width={800}
+											height={450}
+										/>
+									</div>
+								)}
+								<div class="tag-card-body">
+									<p class="label tag-card-date">
+										<FormattedDate date={post.data.pubDate} />
+									</p>
+									<h2 class="tag-card-title">{post.data.title}</h2>
+									{post.data.description && (
+										<p class="tag-card-desc">{post.data.description}</p>
+									)}
+								</div>
+							</a>
+						</li>
+					))}
+				</ul>
+			</div>
+		</main>
+
+		<Footer />
+	</body>
+</html>
+
+<style>
+	.tag-main {
+		padding-top: var(--s-9);
+		padding-bottom: var(--s-10);
+	}
+
+	.tag-head {
+		max-width: var(--measure);
+		margin: 0 auto var(--s-8);
+	}
+
+	.tag-kicker {
+		margin-bottom: var(--s-3);
+	}
+
+	.tag-title {
+		font-family: var(--font-serif);
+		font-size: clamp(2.5rem, 5vw, var(--text-4xl));
+		font-weight: 300;
+		letter-spacing: -0.02em;
+		line-height: 1.05;
+		margin: 0 0 var(--s-3);
+	}
+
+	.tag-count {
+		font-size: var(--text-sm);
+		color: var(--muted);
+		text-transform: uppercase;
+		letter-spacing: 0.06em;
+		margin: 0;
+	}
+
+	.tag-feed {
+		list-style: none;
+		padding: 0;
+		margin: 0;
+		display: flex;
+		flex-direction: column;
+		gap: 0;
+	}
+
+	.tag-item {
+		border-top: 1px solid var(--border);
+	}
+
+	.tag-item:last-child {
+		border-bottom: 1px solid var(--border);
+	}
+
+	.tag-card {
+		display: grid;
+		grid-template-columns: 280px 1fr;
+		gap: var(--s-6);
+		padding: var(--s-6) 0;
+		text-decoration: none;
+		color: inherit;
+		transition: opacity 150ms ease;
+	}
+
+	.tag-card:hover {
+		opacity: 0.75;
+	}
+
+	.tag-card-img {
+		overflow: hidden;
+		aspect-ratio: 16 / 9;
+	}
+
+	.tag-card-img :global(img) {
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+		display: block;
+		transition: transform 400ms ease;
+	}
+
+	.tag-card:hover .tag-card-img :global(img) {
+		transform: scale(1.03);
+	}
+
+	.tag-card-body {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		gap: var(--s-3);
+	}
+
+	.tag-card-date {
+		color: var(--muted);
+		margin: 0;
+	}
+
+	.tag-card-title {
+		font-family: var(--font-serif);
+		font-size: clamp(1.25rem, 2vw, var(--text-xl));
+		font-weight: 400;
+		line-height: 1.15;
+		letter-spacing: -0.01em;
+		margin: 0;
+		color: var(--ink);
+	}
+
+	.tag-card-desc {
+		font-size: var(--text-sm);
+		color: var(--muted);
+		line-height: 1.6;
+		margin: 0;
+		display: -webkit-box;
+		-webkit-line-clamp: 2;
+		-webkit-box-orient: vertical;
+		overflow: hidden;
+	}
+
+	@media (max-width: 640px) {
+		.tag-card {
+			grid-template-columns: 1fr;
+		}
+
+		.tag-card-img {
+			aspect-ratio: 16 / 9;
+		}
+	}
+</style>

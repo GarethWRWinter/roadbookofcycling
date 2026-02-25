@@ -7,15 +7,77 @@ import FormattedDate from '../components/FormattedDate.astro';
 import Header from '../components/Header.astro';
 import YouTube from '../components/YouTube.astro';
 import EmailCommentBlock from '../components/EmailCommentBlock.astro';
+import AuthorCard from '../components/AuthorCard.astro';
+import { tagToSlug } from '../utils/tags';
 
 type Props = CollectionEntry<'blog'>['data'];
 
 const { title, description, pubDate, updatedDate, heroImage, tags, youtubeId, youtubeTitle } = Astro.props;
+
+const siteUrl = Astro.site?.toString() ?? 'https://www.roadbookofcycling.com';
+const canonicalURL = new URL(Astro.url.pathname, Astro.site);
+
+const blogPostingSchema = {
+	"@context": "https://schema.org",
+	"@type": "BlogPosting",
+	"headline": title,
+	"description": description,
+	"url": canonicalURL.toString(),
+	"datePublished": pubDate.toISOString(),
+	...(updatedDate && { "dateModified": updatedDate.toISOString() }),
+	"author": {
+		"@type": "Person",
+		"@id": `${siteUrl}/about/#gareth-winter`,
+		"name": "Gareth Winter",
+		"url": `${siteUrl}/about/`
+	},
+	"publisher": {
+		"@type": "Organization",
+		"name": "Roadbook of Cycling",
+		"url": siteUrl,
+		"logo": {
+			"@type": "ImageObject",
+			"url": `${siteUrl}/favicon.svg`
+		}
+	},
+	"mainEntityOfPage": {
+		"@type": "WebPage",
+		"@id": canonicalURL.toString()
+	},
+	...(heroImage && {
+		"image": {
+			"@type": "ImageObject",
+			"url": new URL(heroImage.src, Astro.site).toString()
+		}
+	}),
+	...(tags && tags.length > 0 && { "keywords": tags.join(", ") })
+};
+
+const breadcrumbSchema = {
+	"@context": "https://schema.org",
+	"@type": "BreadcrumbList",
+	"itemListElement": [
+		{ "@type": "ListItem", "position": 1, "name": "Home", "item": siteUrl },
+		{ "@type": "ListItem", "position": 2, "name": "Writing", "item": `${siteUrl}/blog/` },
+		{ "@type": "ListItem", "position": 3, "name": title, "item": canonicalURL.toString() }
+	]
+};
 ---
 
 <html lang="en">
 	<head>
-		<BaseHead title={`${title} — Roadbook of Cycling`} description={description} image={heroImage} />
+		<BaseHead
+			title={`${title} — Roadbook of Cycling`}
+			description={description}
+			image={heroImage}
+			type="article"
+			pubDate={pubDate}
+			updatedDate={updatedDate}
+			articleAuthor="Gareth Winter"
+			tags={tags}
+		/>
+		<script type="application/ld+json" set:html={JSON.stringify(blogPostingSchema)} />
+		<script type="application/ld+json" set:html={JSON.stringify(breadcrumbSchema)} />
 		<script async src="https://subscribe-forms.beehiiv.com/embed.js"></script>
 		<script type="text/javascript" async src="https://subscribe-forms.beehiiv.com/attribution.js"></script>
 	</head>
@@ -26,7 +88,7 @@ const { title, description, pubDate, updatedDate, heroImage, tags, youtubeId, yo
 			<div class="post-hero">
 				<Image
 					src={heroImage}
-					alt=""
+					alt={title}
 					width={1800}
 					height={900}
 					loading="eager"
@@ -42,7 +104,9 @@ const { title, description, pubDate, updatedDate, heroImage, tags, youtubeId, yo
 					</span>
 					{tags && tags.length > 0 && (
 						<span class="post-tags">
-							{tags.map((tag: string) => <span class="tag">{tag}</span>)}
+							{tags.map((tag: string) => (
+								<a href={`/tags/${tagToSlug(tag)}/`} class="tag">{tag}</a>
+							))}
 						</span>
 					)}
 				</div>
@@ -59,6 +123,8 @@ const { title, description, pubDate, updatedDate, heroImage, tags, youtubeId, yo
 				<p class="rb-disclosure"><slot name="disclosure" /></p>
 				<slot />
 			</article>
+
+			<AuthorCard />
 
 			<div class="post-contact">
 				<EmailCommentBlock
@@ -141,6 +207,13 @@ const { title, description, pubDate, updatedDate, heroImage, tags, youtubeId, yo
 		color: var(--muted);
 		border: 1px solid var(--border);
 		padding: 0.2em 0.7em;
+		text-decoration: none;
+		transition: color 150ms ease, border-color 150ms ease;
+	}
+
+	.tag:hover {
+		color: var(--ink);
+		border-color: var(--ink);
 	}
 
 	.post-title {

@@ -14,12 +14,47 @@ const posts = (await getCollection('blog'))
 
 const featured = posts[0];
 const remaining = posts.slice(1);
+
+const siteUrl = Astro.site?.toString() ?? 'https://www.roadbookofcycling.com';
+
+const websiteSchema = {
+	"@context": "https://schema.org",
+	"@type": "WebSite",
+	"@id": `${siteUrl}/#website`,
+	"url": siteUrl,
+	"name": "Roadbook of Cycling",
+	"description": "Performance, craft, and the quiet obsession of getting better.",
+	"author": { "@type": "Person", "@id": `${siteUrl}/about/#gareth-winter` }
+};
+
+const personSchema = {
+	"@context": "https://schema.org",
+	"@type": "Person",
+	"@id": `${siteUrl}/about/#gareth-winter`,
+	"name": "Gareth Winter",
+	"url": `${siteUrl}/about/`,
+	"jobTitle": "Creative Director, Cycling Writer",
+	"description": "Former Creative Director at Sky Sports and Team Sky. Inside British cycling's greatest decade.",
+	"knowsAbout": ["Road cycling", "Cycling training", "Marginal gains", "Professional cycling", "Bike fitting", "Cycling nutrition"],
+	"sameAs": [
+		"https://www.instagram.com/garethwrwinter/",
+		"https://www.strava.com/athletes/garethwrwinter"
+	],
+	"worksFor": { "@type": "Organization", "name": "Mindvalley" },
+	"alumniOf": [
+		{ "@type": "Organization", "name": "Sky Sports" },
+		{ "@type": "Organization", "name": "Team Sky" },
+		{ "@type": "Organization", "name": "Veloforte" }
+	]
+};
 ---
 
 <!doctype html>
 <html lang="en">
 	<head>
 		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+		<script type="application/ld+json" set:html={JSON.stringify(websiteSchema)} />
+		<script type="application/ld+json" set:html={JSON.stringify(personSchema)} />
 		<script async src="https://subscribe-forms.beehiiv.com/embed.js"></script>
 		<script type="text/javascript" async src="https://subscribe-forms.beehiiv.com/attribution.js"></script>
 	</head>

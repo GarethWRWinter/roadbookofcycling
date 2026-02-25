@@ -8,10 +8,16 @@ interface Props {
 	title: string;
 	description: string;
 	image?: ImageMetadata;
+	// Article-specific Open Graph props (omit for non-article pages)
+	type?: 'website' | 'article';
+	pubDate?: Date;
+	updatedDate?: Date;
+	articleAuthor?: string;
+	tags?: string[];
 }
 
 const canonicalURL = new URL(Astro.url.pathname, Astro.site);
-const { title, description, image = FallbackImage } = Astro.props;
+const { title, description, image = FallbackImage, type, pubDate, updatedDate, articleAuthor, tags } = Astro.props;
 ---
 
 <!-- Global Metadata -->
@@ -45,11 +51,15 @@ const { title, description, image = FallbackImage } = Astro.props;
 <meta name="description" content={description} />
 
 <!-- Open Graph / Facebook -->
-<meta property="og:type" content="website" />
+<meta property="og:type" content={type ?? 'website'} />
 <meta property="og:url" content={Astro.url} />
 <meta property="og:title" content={title} />
 <meta property="og:description" content={description} />
 <meta property="og:image" content={new URL(image.src, Astro.url)} />
+{type === 'article' && pubDate && <meta property="article:published_time" content={pubDate.toISOString()} />}
+{type === 'article' && updatedDate && <meta property="article:modified_time" content={updatedDate.toISOString()} />}
+{type === 'article' && articleAuthor && <meta property="article:author" content={articleAuthor} />}
+{type === 'article' && tags && tags.map((tag) => <meta property="article:tag" content={tag} />)}
 
 <!-- Twitter -->
 <meta property="twitter:card" content="summary_large_image" />

@@ -10,6 +10,29 @@ import { SITE_TITLE } from '../consts';
 
 import aboutPortrait from '../assets/about/sq/01-_DSC1458.jpg';
 import aboutRide from '../assets/about/sq/02-DSCF4163.jpg';
+
+const siteUrl = Astro.site?.toString() ?? 'https://www.roadbookofcycling.com';
+
+const personSchema = {
+	"@context": "https://schema.org",
+	"@type": "Person",
+	"@id": `${siteUrl}/about/#gareth-winter`,
+	"name": "Gareth Winter",
+	"url": `${siteUrl}/about/`,
+	"jobTitle": "Creative Director, Cycling Writer",
+	"description": "Former Creative Director at Sky Sports and Team Sky. Inside British cycling's greatest decade — Wiggins, Froome, Thomas, Hoy.",
+	"knowsAbout": ["Road cycling", "Cycling training", "Marginal gains", "Professional cycling", "Bike fitting", "Cycling nutrition"],
+	"sameAs": [
+		"https://www.instagram.com/garethwrwinter/",
+		"https://www.strava.com/athletes/garethwrwinter"
+	],
+	"worksFor": { "@type": "Organization", "name": "Mindvalley" },
+	"alumniOf": [
+		{ "@type": "Organization", "name": "Sky Sports" },
+		{ "@type": "Organization", "name": "Team Sky" },
+		{ "@type": "Organization", "name": "Veloforte" }
+	]
+};
 ---
 
 <!doctype html>
@@ -19,6 +42,7 @@ import aboutRide from '../assets/about/sq/02-DSCF4163.jpg';
 			title={`About — ${SITE_TITLE}`}
 			description="Gareth Winter. The family that gave me cycling. And everything else."
 		/>
+		<script type="application/ld+json" set:html={JSON.stringify(personSchema)} />
 	</head>
 	<body>
 		<Header />
