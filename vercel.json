@@ -1,6 +1,26 @@
 {
   "redirects": [
     {
+      "source": "/blog/:y(\\d{4})/:m(\\d{1,2})/:d(\\d{1,2})/why-you-should-wax-your-chain-with-silca",
+      "destination": "/blog/chain-wax-vs-chain-oil-silca-hot-melt-review",
+      "permanent": true
+    },
+    {
+      "source": "/blog/:y(\\d{4})/:m(\\d{1,2})/:d(\\d{1,2})/riding-with-eddy-merckx-the-goat",
+      "destination": "/blog/riding-with-eddy-merckx",
+      "permanent": true
+    },
+    {
+      "source": "/blog/why-you-should-wax-your-chain-with-silca",
+      "destination": "/blog/chain-wax-vs-chain-oil-silca-hot-melt-review",
+      "permanent": true
+    },
+    {
+      "source": "/blog/riding-with-eddy-merckx-the-goat",
+      "destination": "/blog/riding-with-eddy-merckx",
+      "permanent": true
+    },
+    {
       "source": "/blog/:year(\\d{4})/:month(\\d{1,2})/:day(\\d{1,2})/:slug",
       "destination": "/blog/:slug",
       "permanent": true
