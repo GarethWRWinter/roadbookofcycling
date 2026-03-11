@@ -1,0 +1,9 @@
+{
+  "redirects": [
+    {
+      "source": "/blog/:year(\\d{4})/:month(\\d{1,2})/:day(\\d{1,2})/:slug",
+      "destination": "/blog/:slug",
+      "permanent": true
+    }
+  ]
+}
